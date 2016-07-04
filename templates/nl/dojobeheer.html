@@ -1,0 +1,101 @@
+{% extends "nl/layout.html" %}
+{% block content %}
+<script src="{{ url_for('static', filename='scripts/dojobeheer.js') }}"></script>
+<div class="black-body-wrapper">
+    <div id="dojo-management-bar">
+        <div id="dojo-management-title-wrap">
+            <div id="dojo-management-title"><span class="h3">DOJOBEHEER</span></div>
+        </div>
+        <div id="dojo-management-menu-wrap">
+            <nav id="dojo-management-menu">
+                <ul class="clearfix">
+                    <li><a id="dojo-management-first-button" href="#"><span class="dojo-management-menu-text">LEDEN</span></a></li>
+                    <li><a id="dojo-management-second-button" href="#"><span class="dojo-management-menu-text">EVENEMENTEN</span></a></li>
+                    <li><a id="dojo-management-third-button" href="#"><span class="dojo-management-menu-text">TRAININGEN</span></a></li>
+                    <li><a id="dojo-management-fourth-button" href="#"><span class="dojo-management-menu-text">WEDSTRIJDEN</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <div class="content-wrapper">
+            <div id="members">
+                <div align="center" class="h5">leden</div><br /><br />
+                {% for i in range (0,4) %}
+                <div align="center" class="h6">{{ getAllRoles()[i] }}</div><br />
+                <div class="members-wrap">
+                    {% for lid in getAllUsersOfRole(i) %}
+                    <div class="member-entry">
+                        <div class="member-entry-name"><a href="#"><span class="member-entry-name-text">{{ lid.getName() }}</span></a></div>
+                        <div class="member-entry-info">
+                            <span class="member-entry-info-text">Graad: {{ lid.getRank() }}</span><br>
+                            <span class="member-entry-info-text">E-mail: {{ lid.getEmail() }}</span><br><br />
+                            <span class="member-entry-info-text"><a href="#">Volledig profiel</a></span><br />
+                            {% if current_user.is_authenticated and current_user.isThisRoleOrHigher('shihan') %}
+                            <form method="post" action="{{ url_for('deleteUser') }}">
+                                <input type="hidden" name="id" value="{{ lid.getID() }}">
+                                <span class="member-entry-info-text"><a href="javascript:void(0);" onclick="$(this).closest('form').submit();">Lid verwijderen</a></span><br />
+                            </form>
+                            {% endif %}
+                            <br />
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <br><br><br>
+                {% endfor %}
+                <div class="add-member-wrap">
+                    <span id="add-member-button" class="dojo-management"><a href="#">voeg lid toe</a></span>
+                    <br><br>
+                    <div id="add-member-form-wrap">
+                        <form method="post" action="{{ url_for('addUser') }}">
+                            <input type="text" name="name" value="" placeholder="Naam">
+                            <br><br>
+                            <input type="text" name="email" value="" placeholder="E-mail">
+                            <br><br>
+                            <input type="text" name="role" value="" placeholder="Rol">
+                            <br><br>
+                            <input type="text" name="rank" value="" placeholder="Graad">
+                            <br><br>
+                            <span class="submit">
+                                <input type="submit" name="commit" value="Toevoegen">
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="trainings">
+                <div align="center" class="h5">Trainingen</div><br /><br />
+                {% for i in getAllMonths() %}
+                <div align="center" class="h6">{{ getAllMonths()[i] }}</div><br />
+                <div class="members-wrap">
+                    {% for training in getAllTrainingsOfMonth(i) %}
+                    <div class="member-entry">
+                        <div class="member-entry-name"><a href="#"><span class="member-entry-name-text">{{ training.getDate() }}</span></a></div>
+                        <div class="member-entry-info">
+                            <span class="member-entry-info-text">Type: {{ training.getType() }}</span><br>
+                            <span class="member-entry-info-text">Hoofdlesgever: {{ training.getSensei().getName() }}</span><br><br />
+                            <span class="member-entry-info-text">Hulplesgever: {{ training.getSenpais()[0].getName()}}<br />
+                            {% if current_user.is_authenticated and current_user.isThisRoleOrHigher('shihan') %}
+                            <form method="post" action="{{ url_for('deleteTraining') }}">
+                                <input type="hidden" name="id" value="{{ training.getID() }}">
+                                <span class="member-entry-info-text"><a href="javascript:void(0);" onclick="$(this).closest('form').submit();">Training verwijderen</a></span><br />
+                            </form>
+                            {% endif %}
+                            <br />
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="events">
+                <div align="center" class="h5">Evenementen</div><br /><br />
+            </div>
+            <div id="competitions">
+                <div align="center" class="h5">Wedstrijden</div><br /><br />
+            </div>
+        </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</div>
+{% endblock %}

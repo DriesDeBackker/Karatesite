@@ -1,0 +1,1062 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*-----------Algemene Opmaak----------*/
+body {
+    margin:0;
+	padding:0;
+    height: 100%;
+	background:#CCC;
+}
+
+.clearfix {
+    padding:0px;
+	margin:0px;
+}
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+/*-----------Algemene Opmaak - Tekst----------*/
+
+.h1 {
+	color:#CCC;
+	font-size:55px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align:left;
+	width:800px;
+}
+
+.h1 a {
+	color:#CCC;
+	text-decoration:none;
+}
+
+.h2 {
+	color:#999;
+	font-size:25px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+
+.h3 {
+	color:#B2B2B2;
+	font-size:25px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+
+.h4 {
+	color:#CCC;
+	font-size:30px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+
+.h5 {
+	color:#666;
+	font-size:27px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	font-weight:bold;
+    text-transform:uppercase;
+}
+
+.h6 {
+	color:#666;
+	font-size:24px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+    text-transform:uppercase;
+}
+
+.h7 {
+	color:#666;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-weight:bold;
+}
+
+.h7-bis {
+	color:#666;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	font-weight:bold;
+}
+
+.bottomtext-title {
+	color:#FFF;
+	font-size:18px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+
+.bottomtext {
+	color:#999;
+	font-size:17px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+}
+
+.bottomtext a {
+	color:#999;
+	font-size:17px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
+
+.bottomtext a:hover {
+	color:#09F;
+	font-size:17px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	text-decoration:none
+}
+
+.p {
+	color:#666;
+	font-size:18px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:justify;
+}
+
+.p a {
+	color:#666;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:justify;
+	text-decoration:none;
+	transition:all linear 0.15s;
+	
+}
+
+.p a:hover {
+	color:#333;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:justify;
+	text-decoration:none;
+}
+
+/*-----------Algemene Opmaak - Layoutbalken ----------*/
+
+#first-bar {
+	height:40px;
+	background-color:#000;
+}
+
+#second-bar {
+	height:130px;
+	background:url(../layout/Banner.jpg);
+}
+
+#kanku {
+	background:url(../layout/kanku_transparant2.png);
+	background-size: 100%;
+	position:relative;
+	top:15%;
+	width:100px;
+	height:100px;
+	left:8px;
+	float:left;
+}
+
+#kyokushinkai-karate-vosselaar {
+	position:relative;
+	top:25%;
+	width:900px;
+	left:12px;
+	overflow:hidden;
+}
+
+#third-bar {
+    height:50px;
+	background-color:#333;
+}
+
+#oshi-shinobu-kanji-container {
+	position: relative;
+	float:left;
+	height:50px;
+	width:115px;
+}
+
+#oshi-shinobu-kanji {
+	background-image:url(../layout/osu3.png);
+	background-repeat: no-repeat;
+	position: relative;
+	left:12px;
+	top:3px;
+	height:45px;
+	width:110px;
+}
+
+#oshi-shinobu-text-container {
+	position: relative;
+	float:left;
+	width:285px;
+	height:50px;
+}
+
+#oshi-shinobu-text {
+	position:relative;
+	top:12px;
+}
+
+#fourth-bar {
+	background:#666;
+	height:40px;
+}
+
+/*----- Algemene Opmaak - Bovenmenu --------*/
+
+.upper-menu {
+	position: relative;
+	top: 0px;
+	margin: 0px auto;
+	height: 30px;
+}
+
+.upper-menu li {
+	margin: 0px;
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	position: relative;
+	right: 0px;
+}
+
+.upper-menu a {
+    transition:all linear 0.25s;
+    color:#919191;
+	height:35px;
+}
+
+.upper-menu-text {
+	position:relative;
+	top:7px;
+}
+
+.upper-menu-text-active {
+    position:relative;
+	top:7px;
+    color:white;
+}
+
+.upper-menu li:hover > a, .language-menu .current-item > a {
+    text-decoration:none;
+    color:white;
+}
+
+.upper-menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:15px;
+}
+
+.upper-menu > ul > li > a {
+    padding:5px 10px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	text-decoration:none;
+	vertical-align:middle;
+}
+ 
+.upper-menu > ul > li:hover > a, .language-menu > ul > .current-item > a {
+    background:#09F
+}
+
+/*----- Algemene Opmaak - Bovenmenu - Aanmeldmenu --------*/
+
+.upper-menu-wrap-left {
+	height:40px;
+	background:#000;
+	float:left;
+}
+
+#login-form {
+	position:relative;
+	width:440px;
+	height:30px;
+	top:10px;
+    left:10px;
+	float:left;
+	display:none;
+}
+
+#welkomstbericht {
+    top: 12px;
+    left: 8px;
+    position: relative;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: grey;
+}
+
+/*----- Algemene-opmaak - Bovenmenu - Taal ------------*/
+
+.upper-menu-wrap-right {
+	position:relative;
+	top:0px;
+	height:40px;
+	background:#000;
+	float:right;
+}
+
+/*----------- Algemene Opmaak - Mobiel Menu -----------*/
+
+#navicon-wrap {
+	position: relative;
+	float:right;
+	height:50px;
+	background:#373737;
+	width:50px;
+	text-align:center;
+	display:none;
+}
+
+#navicon {
+    font-size: 35px;;
+    text-decoration: none;
+	color:#919191;
+    position: relative;
+    z-index: 4;
+}
+
+#mobile-menu-wrap {
+	position: fixed;
+    height: 100%;
+    top: 0;
+    right: -260px;
+    background: #222;
+    max-width: 250px;
+    width: 100%;
+    z-index: 5;
+	display: flex;
+    flex-direction: column;
+	box-shadow: -5px 5px 20px #0C0C0C;
+    overflow-y:scroll;
+}
+	
+
+#mobile-menu {
+    text-align: center;
+}
+
+#mobile-menu li {
+	list-style:none;
+}
+
+#mobile-menu > li > a {
+    flex: 1;
+	border-bottom: 1px solid #555;
+    text-decoration: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40px;
+	height:8.6vh;
+}
+	
+#mobile-menu > li > a:hover, #mobile-menu > li > a.current {
+	background:#06F;
+	color:#FFF;
+}
+
+.sub-mobile-menu {
+	margin:0;
+	padding:0;
+    list-style-type: none;
+}
+
+.sub-mobile-menu li a {
+	flex: 1;
+    text-decoration: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#CCC;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+    min-height: 30px;
+	height: 8vh;
+}
+
+.sub-mobile-menu a:hover, .subnav a.current {
+	color:#FFF;
+	background:#666;
+}
+
+#fade {
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+/*-------- Algemene Opmaak - Menu---------*/
+
+.menu-wrap {
+	float:left;
+}
+ 
+.menu {
+    margin:0px auto;
+	height:0px;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:normal;
+	text-decoration:none;
+}
+ 
+.menu a {
+    transition:all linear 0.25s;
+    color:#919191;
+	height:30px;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#09F
+}
+ 
+.menu .arrow {
+	position:relative;
+    font-size:15px;
+    line-height:0%;
+	top:5px;
+}
+
+.menu-text {
+	position:relative;
+	top:5px;
+}
+ 
+/*-------- Algemene Opmaak - Menu - Top Level---------*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:18px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 18px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	text-decoration:none;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+
+/*-------- Algemene Opmaak - Menu - sub Level---------*/
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:262px;
+    padding:0px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.25s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+	text-align:left;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:17px;
+	text-decoration:none;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+	text-decoration:none;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+	text-decoration:none;
+}
+
+.submenu-text {
+	position:relative;
+	top:5px;
+}
+
+/*----------- Algemene Opmaak - Content -----------*/
+
+.content-wrapper {
+    position: relative;
+    left:115px;
+	width:80%;
+}
+
+.black-body-wrapper {
+    height:100%;
+    background-color: #272727;
+}
+
+/*----------- Algemene Opmaak - Footer -----------*/
+
+#first-bottom {
+	padding:5px;
+	background:#3E3436;
+}
+
+#first-bottom-text-wrapper {
+	width:1200px;
+	margin:auto;
+}
+
+.first-bottom-text-left {
+	padding:10px;
+	width:390px;
+	float:left;
+}
+
+.first-bottom-text-center {
+	padding:10px;
+	width:375px;
+	float:left;
+}
+
+.first-bottom-text-right {
+	padding:10px;
+	width:375px;
+	overflow:hidden;
+}
+
+#second-bottom {
+	padding:10px;
+	background:#000;
+	height:18px;
+	text-align:center;
+}
+
+#second-bottom-text {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#CCC;
+}
+
+.copyright {
+	margin:0 auto;
+	width:600px;
+	color:#CCC;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*----------- Opmaak Index ------------*/
+
+/*----- Opmaak Index - Nieuws Slideshow Layout -----*/
+
+@keyframes invoegen-header {
+	0% {top:80px; opacity:0;}
+	10% {top:80px; opacity:0;}
+	100% {top:35px; opacity:1;}
+}
+
+@keyframes invoegen-text {
+	0% {top:120px; opacity:0;}
+	30% {top:120px; opacity:0;}
+	100% {top:80px; opacity:1;}
+}
+
+#news-slideshow-heading1 {
+	background:url(../layout/banner-slideshow.png);
+	position: absolute; 
+	height: 30px; 
+	top: 35px; 
+	left: 30px; 
+	padding: 5px; 
+	text-align:left; 
+	line-height: 30px; 
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-size: 30px; 
+	color:#CCC;
+	animation-name:invoegen-header;
+	animation-duration:2.5s;
+	width: 380px; 
+}
+
+#news-slideshow-heading2 {
+	background:url(../layout/banner-slideshow.png);
+	position: absolute; 
+	height: 30px; 
+	top: 35px; 
+	left: 30px; 
+	padding: 5px; 
+	text-align:left; 
+	line-height: 30px; 
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-size: 30px; 
+	color:#CCC;
+	animation-name:invoegen-header;
+	animation-duration:2.5s;
+	width: 280px; 
+}
+
+#news-slideshow-heading3 {
+	background:url(../layout/banner-slideshow.png);
+	position: absolute; 
+	height: 30px; 
+	top: 35px; 
+	left: 30px; 
+	padding: 5px; 
+	text-align:left; 
+	line-height: 30px; 
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-size: 30px; 
+	color:#CCC;
+	animation-name:invoegen-header;
+	animation-duration:2.5s;
+	width: 290px; 
+}
+
+.news-slideshow-text {
+	background-color:#2E2728;
+	position: absolute;
+	width: 537px; 
+	height: 103px; 
+	top: 80px; 
+	left: 30px; 
+	padding: 8px; 
+	text-align: justify; 
+	line-height: 30px; 
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-size: 12px; color:#CCC;
+	animation-name:invoegen-text;
+	animation-duration:2.5s;
+}
+
+.jssorb21 {
+	position: absolute;
+}
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+	position: absolute;
+    /* size of bullet elment */
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px;
+    color: white;
+    font-size: 12px;
+    background: url(../slideshow/img/b21.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+ }
+.jssorb21 div {
+	background-position: -5px -5px; 
+}
+.jssorb21 div:hover, .jssorb21 .av:hover {
+	background-position: -35px -5px; 
+}
+.jssorb21 .av {
+	background-position: -65px -5px; 
+}
+.jssorb21 .dn, .jssorb21 .dn:hover {
+	background-position: -95px -5px; 
+}
+
+            /* jssor slider arrow navigator skin 21 css */
+            /*
+            .jssora21l                  (normal)
+            .jssora21r                  (normal)
+            .jssora21l:hover            (normal mouseover)
+            .jssora21r:hover            (normal mouseover)
+            .jssora21l.jssora21ldn      (mousedown)
+            .jssora21r.jssora21rdn      (mousedown)
+            */
+            .jssora21l, .jssora21r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(../slideshow/img/a21.png) center center no-repeat;
+                overflow: hidden;
+            }
+            .jssora21l { background-position: -3px -33px; }
+            .jssora21r { background-position: -63px -33px; }
+            .jssora21l:hover { background-position: -123px -33px; }
+            .jssora21r:hover { background-position: -183px -33px; }
+            .jssora21l.jssora21ldn { background-position: -243px -33px; }
+            .jssora21r.jssora21rdn { background-position: -303px -33px; }
+
+
+/*-------- Opmaak Index - Kalender-----------*/
+
+#kalender-bar {
+	background:#3E3436;
+	position:relative;
+	height:300px;
+}
+
+#first-picture-japan-container {
+	background:url(../layout/Layout_Saimyo_.jpg) no-repeat center;
+	position:relative;
+	width:30vw;
+	max-width:500px;
+	height:300px;
+	float:left;
+}
+
+#kalender-text-wrapper {
+	padding:10px;
+	float:left;
+}
+
+#kalender-kalender1 {
+	float:left;
+	width:265px;
+}
+
+#kalender-kalender2 {
+	float:left;
+	width:265px;
+}
+
+#kalender-uitleg {
+	overflow: hidden;
+	width: 22vw;
+	max-width:800px;
+}
+
+#kalender-title a {
+    text-decoration:none;
+	color:#CCC;
+	font-size:21px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.kalender-text{
+	color:#CCC;
+	font-size:15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.kalender-niet-relevante-data {
+	color:#666;
+	font-size:15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+table {
+	border-spacing:0;
+}
+
+.calendar caption {
+    text-transform: uppercase;
+	text-align:left;
+	height:22px;
+}
+
+.calendar {
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+
+.calendar td {
+	width:32px;
+	height:25px;
+	background-color:#999;
+	text-align:center;
+	line-height:25px;
+	border-top: 1px solid #666;
+  	border-left: 1px solid #666;
+}
+
+.calendar td a {
+	display: block;
+	text-decoration:none;
+	color:#CCC;
+	font-size:15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:32px;
+	height:25px;
+	transition:all linear 0.25s;
+}
+	
+.calendar a:hover {
+	background-color:#09F;
+	color:#FFF
+	
+}
+
+/*----------- Opmaak Index - Syllabus --------------*/
+
+#syllabus-bar {
+	background:#999;
+	position:relative;
+	height:300px;
+}
+
+#second-picture-japan-container {
+	background:url(../layout/Layout_Fuji_.jpg) no-repeat center;
+	position:relative;
+	width:30vw;
+	max-width:500px;
+	height:300px;
+	float:right;
+}
+
+#syllabus-text-wrapper {
+	padding:10px;
+	float:left;
+}
+
+#syllabus-title {
+	color:#333;
+	font-size:21px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#syllabus-text{
+	color:#333;
+	font-size:15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*----------- Opmaak Index - Wijsheden --------------*/
+
+#wijsheden-bar {
+	background:#3E3436;
+	position:relative;
+	height:300px;
+}
+
+#third-picture-japan-container {
+	background:url(../layout/Layout_shrine_.jpg) no-repeat center;
+	position:relative;
+	width:30vw;
+	max-width:500px;
+	height:300px;
+	float:left;
+}
+
+#wijsheden-text-wrapper {
+	padding:10px;
+	float:left;
+}
+
+#wijsheden-title {
+	color:#CCC;
+	font-size:21px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wijsheden-text{
+	color:#CCC;
+	font-size:15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*---------- Opmaak Dojobeheer------------*/
+
+.dojo-management a {
+	color:#666;
+	font-size:20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:justify;
+	text-decoration:none;
+	transition:all linear 0.15s;	
+}
+
+.dojo-management a:hover {
+	color:#999;
+	font-size:20px;
+	text-align:justify;
+	text-decoration:none;
+}
+
+#dojo-management-bar {
+	background-color:#727272;
+	height:50px;
+}
+
+#dojo-management-title-wrap {
+	float:left;
+	position:relative;
+	height:50px;
+	width:400px;
+}
+
+#dojo-management-title {
+	position:relative;
+	top:12px;
+	left:115px;
+}
+
+#dojo-management-menu-wrap {
+	float:left;
+	height:50px;
+}
+
+#dojo-management-menu {
+	float:left;
+	height:50px;
+}
+
+#dojo-management-menu li {
+	float:left;
+	list-style:none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:20px;
+}
+
+#dojo-management-menu li a {
+    display:inline-block;
+	padding:10px 19px;
+	text-decoration:none;
+	color:#B9B9B9;
+	height:30px;
+	transition:all linear 0.20s;
+}
+
+#dojo-management-menu li a:hover {
+	text-decoration:none;
+	color:#FFF;
+	background-color:#999;
+}
+
+.dojo-management-menu-text {
+	position:relative;
+	top:3px;
+	font-size:16px;
+}
+
+/*---------- Opmaak Dojobeheer - Leden ------------*/
+
+.members-wrap {
+	display:inline-block;
+	border-top: 1px solid #585858;
+	border-right: 1px solid #585858;
+	border-left: 1px solid #585858;
+}
+
+.member-entry {
+	width:500px;
+	background-color:#727272;
+}
+
+.member-entry-name {
+	height:40px;
+	border-bottom: 1px solid #585858;
+}
+
+.member-entry-name-text {
+	position:relative;
+	top:12px;
+	left:10px;
+	font-size:16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.member-entry-name a {
+	display:block;
+	height:40px;
+	width:500px;
+	color:#CCC;
+	font-size:16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration:none;
+	transition:all linear 0.20s;
+}
+
+.member-entry-name a:hover {
+	display:block;
+	height:40px;
+	width:500px;
+	background-color:#09F;
+	color:#DBDBDB;
+	font-size:16px;
+	text-decoration:none;
+}
+
+.member-entry-info {
+	border-bottom: 1px solid #585858;
+	display:none;
+}
+
+.member-entry-info-text {
+	color:#CCC;
+	position:relative;
+	top:12px;
+	left:10px;
+	font-size:16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.member-entry-info-text a {
+	color:#CCC;
+	font-size:16px;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
+
+.member-entry-info-text a:hover{
+	color:#E9E9E9;
+}
+
+#add-member-form-wrap {
+	padding:10px;
+	display:block;
+	background-color:#999;
+	width:500px;
+	display:none;
+}
+
+/*---------- Opmaak Nieuws ------------*/
+
+.news-article {
+	background-color:#CCC;
+}
+
+/*---------- Opmaak Links ------------*/
+
+.link-wrapper {
+    position:relative;
+	width:1200px;
+}
+
+.link-column-left {
+	width:600px;
+	float:left;
+}
+
+.link-column-right {
+	width:600px;
+	overflow:hidden;
+}
+

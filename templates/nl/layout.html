@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Karate Vosselaar</title>
+<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel='stylesheet' media='screen and (max-width: 799px)' href="{{ url_for('static', filename='styles/style_mobile.css') }}" />
+<link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1199px)' href="{{ url_for('static', filename='styles/style_middle.css') }}" />
+<link rel='stylesheet' media='screen and (min-width: 1200px)' href="{{ url_for('static', filename='styles/style_desktop.css') }}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+<script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
+<div id="first-bar">
+    <div class="upper-menu-wrap-right">
+      <nav class = "upper-menu">
+        <ul class="clearfix">
+          <li><a href="{{url_for(dutchPage(request.url,request.url_root))}}"><span class ="upper-menu-text-active">NEDERLANDS</span></a></li>
+          <li><a href="{{url_for(englishPage(request.url,request.url_root))}}"><span class ="upper-menu-text">ENGLISH</span></a></li>
+        </ul>
+      </nav>
+    </div>
+</div>
+<div id="second-bar">
+  <div id="kanku"></div>
+  	<span id="kyokushinkai-karate-vosselaar">
+    	<span class="h1"><a href="{{url_for('nlIndex')}}">KYOKUSHINKAI KARATE VOSSELAAR</a></span>
+</span></div>
+<div id="third-bar">
+  <div id="oshi-shinobu-kanji-container">
+    <div id="oshi-shinobu-kanji"></div>
+  </div>
+  <div id="oshi-shinobu-text-container">
+    <div id="oshi-shinobu-text">
+      <span class="h2">OSHI SHINOBU DOJO</span>
+  	</div>
+  </div>
+  <div class="menu-wrap">
+    <nav class="menu">
+      <ul class="clearfix">
+        <li><a href="{{url_for('nlNieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
+        <li> <a href="#"><span class="menu-text">DOJO</span> <span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="{{url_for('nlOshishinobu')}}"><span class="submenu-text">Oshi Shinobu</span></a></li>
+            <li><a href="{{url_for('nlInfo')}}"><span class="submenu-text">Info</span></a></li>
+            <li><a href="{{url_for('nlKalender')}}"><span class="submenu-text">Kalender</span></a></li>
+            <li><a href="{{url_for('nlFotoalbum')}}"><span class="submenu-text">Fotoalbum</span></a></li>
+            <li><a href="{{url_for('nlNieuwsbrief')}}""><span class="submenu-text">Nieuwsbrief September</span></a></li>
+            <li><a href="{{url_for('nlSyllabus')}}"><span class="submenu-text">Syllabus</span></a></li>
+          </ul>
+        </li>
+        <li> <a href="#"><span class="menu-text">KYOKUSHINKAI KARATE</span><span class="arrow">&#9660;</span></a>
+          <ul class="sub-menu">
+            <li><a href="{{url_for('nlGeschiedenis')}}"><span class="submenu-text">Geschiedenis</span></a></li>
+            <li><a href="{{url_for('nlSpirit')}}"><span class="submenu-text">Spirit</span></a></li>
+            <li><a href="{{url_for('nlOpwarming')}}"><span class="submenu-text">Opwarming</span></a></li>
+            <li><a href="{{url_for('nlKihon')}}"><span class="submenu-text">Kihon</span></a></li>
+            <li><a href="{{url_for('nlKata')}}"><span class="submenu-text">Kata</span></a></li>
+            <li><a href="{{url_for('nlKumite')}}"><span class="submenu-text">Kumite</span></a></li>
+          </ul>
+        </li>
+        <li><a href="http://www.kyokushin-kaikan.or.jp/"><span class="menu-text">KYOKUSHIN UNION</span></a></li>
+        <li><a href="{{url_for('nlLinks')}}"><span class="menu-text">LINKS</span></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="navicon-wrap"><a href="#" id="navicon"><span id="navicon-image"><img src="{{ url_for('static', filename='layout/menu-icon3.png') }}" width="35" height="35" alt=""/></span></a></div>
+</div>
+<script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
+<div id="mobile-menu-wrap">
+	<nav id="mobile-menu">
+        <li><a href="{{url_for('nlNieuws')}}">NIEUWS</a></li>
+        <li id="submenubutton1"> <a href="#">DOJO</a>
+          <ul class="sub-mobile-menu">
+            <li><a href="{{url_for('nlOshishinobu')}}">Oshi Shinobu</a></li>
+            <li><a href="{{url_for('nlInfo')}}">Info</a></li>
+            <li><a href="{{url_for('nlKalender')}}">Kalender</a></li>
+            <li><a href="{{url_for('nlFotoalbum')}}">Fotoalbum</a></li>
+            <li><a href="{{url_for('nlNieuwsbrief')}}">Nieuwsbrief September</a></li>
+            <li><a href="{{url_for('nlSyllabus')}}">Syllabus</a></li>
+          </ul>
+        </li>
+        <li id="submenubutton2">
+            <a href="#">KYOKUSHINKAI KARATE</a>
+            <ul class="sub-mobile-menu">
+                <li><a href="{{url_for('nlGeschiedenis')}}">Geschiedenis</a></li>
+                <li><a href="{{url_for('nlSpirit')}}">Spirit</a></li>
+                <li><a href="{{url_for('nlOpwarming')}}">Opwarming</a></li>
+                <li><a href="{{url_for('nlKihon')}}">Kihon</a></li>
+                <li><a href="{{url_for('nlKata')}}">Kata</a></li>
+                <li><a href="{{url_for('nlKumite')}}">Kumite</a></li>
+            </ul>
+        </li>
+        <li><a href="{{url_for('nlLinks')}}">LINKS</a></li>
+        <li><a href="http://www.kyokushin-kaikan.or.jp/">KYOKUSHIN UNION</a></li>
+        <li><a href="{{url_for(englishPage(request.url,request.url_root))}}">ENGLISH</a></li>
+      </ul>
+	</nav>
+</div>
+{% block content %}{% endblock %}
+<div id="first-bottom">
+  <div id="first-bottom-text-wrapper">
+    <div class="first-bottom-text-left">
+      <p class="bottomtext-title">Contact</p>
+      <p class="bottomtext">tel. 014616877</p>
+      <p class="bottomtext">koen.de.backker@pandora.com</p>
+      <p class="bottomtext">{{ englishPage(request.url,request.url_root) }}</p>
+    </div>
+    <div class="first-bottom-text-center">
+      <p class="bottomtext-title">Volg ons</p>
+      <p class="bottomtext"><a href="http://www.kyokushinkaikaratevosselaar.be/RSS%20feed.txt"><img src="{{ url_for('static', filename='layout/rss.jpg') }}" width="20" height="20"  alt=""/> RSS feed</a></p>
+      <p class="bottomtext"><a href="https://www.facebook.com/OshiShinobuDojoBelgium"><img src="{{ url_for('static', filename='layout/facebook.png') }}" width="20" height="20"  alt=""/> Facebook</a></p>
+    </div>
+    <div class="first-bottom-text-right">
+      <p class="bottomtext-title">Verbonden met</p>
+      <p class="bottomtext"><a href="http://www.kyokushin-kaikan.or.jp/">Kyokushin Union</a></p>
+      <p class="bottomtext"><a href="https://www.bloso.be/Pages/Home.aspx">BLOSO</a></p>
+      <p class="bottomtext"><a href="http://www.vva.be/">Vlaamse Vechtsport Associatie</a></p>
+      <p class="bottomtext"><a href="http://www.vosselaar.be/">Sportraad Vosselaar</a></p>
+    </div>
+  </div>
+</div>
+<div id="second-bottom"><span id="second-bottom-text">© 2015 Mas Oyama's Kyokushinkai Karate VZW. Alle rechten voorbehouden.</span>
+</div>
+<div id="fade"></div>
+</body>
+</html>
