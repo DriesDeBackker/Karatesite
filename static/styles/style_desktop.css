@@ -514,11 +514,30 @@ body {
 
 /*----------- Opmaak paginahoofdingen -------------*/
 
-#kata-header {
+.pageheaderbox{
+    position:relative;
+    height:80px;
+    background: rgba(0, 0, 0, 0.4);
+    top:90px;
+    margin:0 auto;
+}
+
+.pageheadertext {
+    color: #DBDBDB;
+    font-size:70px;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-weight:bold;
+}
+
+.pageheader {
     width: 100%;
     height: 250px;
-    background-image:url(../layout/kata_header.jpg);
     background-size: cover
+}
+
+#kata-header {
+    background-image:url(../layout/kata_header.jpg);
 }
 
 
