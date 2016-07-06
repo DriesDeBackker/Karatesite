@@ -1,6 +1,6 @@
 import calendar
 from datetime import *
-from app import app
+from flask_app import app
 
 #-------------------------------------------------
 

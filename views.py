@@ -1,4 +1,4 @@
-from app import app
+from flask_app import app
 from flask.templating import render_template
 
 # Routing voor de Nederlandstalige pagina's.
