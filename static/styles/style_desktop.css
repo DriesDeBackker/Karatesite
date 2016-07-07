@@ -517,28 +517,75 @@ body {
 .pageheaderbox{
     position:relative;
     height:80px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
     top:90px;
     margin:0 auto;
 }
 
 .pageheadertext {
     color: #DBDBDB;
-    font-size:70px;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:center;
-	font-weight:bold;
+    font-size:65px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+
 }
 
 .pageheader {
     width: 100%;
     height: 250px;
-    background-size: cover
+    background-size: cover;
+    background-position: center;
 }
 
 #kata-header {
-    background-image:url(../layout/kata_header.jpg);
+    background-image:url(../layout/kata-header.jpg);
 }
+
+#spirit-header {
+    background-image:url(../layout/spirit-header.jpg);
+}
+
+#spiritkanji {
+    background-image:url(../layout/spirit.png);
+}
+
+/*----------- Opmaak contenthouders -----------*/
+
+.content-box1 {
+    height:800px;
+    background-color: #E9E9E9;
+}
+
+.text-box1 {
+    height: 500px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.content-box2 {
+    height:800px;
+    background-color: #585858;
+}
+
+.text-box2 {
+    color: #ffffff;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.content-box3 {
+    height:800px;
+    background-color: deepskyblue;
+}
+
+.content-box4 {
+    height: 800px;
+    background-color: #ffffff;
+}
+
 
 
 /*----------- Algemene Opmaak - Content -----------*/

@@ -535,17 +535,22 @@ body {
     font-size:50px;
     font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:center;
-	font-weight:bold;
+    font-weight: lighter;
 }
 
 .pageheader {
     width: 100%;
     height: 200px;
-    background-size: cover
+    background-size: cover;
+    background-position: center;
 }
 
 #kata-header {
-    background-image:url(../layout/kata_header.jpg);
+    background-image:url(../layout/kata-header.jpg);
+}
+
+#spirit-header {
+    background-image:url(../layout/spirit-header.jpg);
 }
 
 /*----------- Algemene Opmaak - Content -----------*/
