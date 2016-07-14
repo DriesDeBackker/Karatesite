@@ -38,28 +38,31 @@ body {
 .h2 {
 	color:#999;
 	font-size:24px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .h3 {
 	color:#B2B2B2;
 	font-size:24px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .h4 {
 	color:#CCC;
 	font-size:30px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .h5 {
-	color:#666;
 	font-size:27px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	font-weight:bold;
     text-transform:uppercase;
@@ -68,7 +71,8 @@ body {
 .h6 {
 	color:#666;
 	font-size:24px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
     text-transform:uppercase;
 }
@@ -76,7 +80,8 @@ body {
 .h7 {
 	color:#666;
 	font-size:20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:center;
 	font-weight:bold;
 }
@@ -84,7 +89,8 @@ body {
 .h7-bis {
 	color:#666;
 	font-size:20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	font-weight:bold;
 }
@@ -92,21 +98,24 @@ body {
 .bottomtext-title {
 	color:#FFF;
 	font-size:18px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .bottomtext {
 	color:#999;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .bottomtext a {
 	color:#999;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -115,22 +124,24 @@ body {
 .bottomtext a:hover {
 	color:#09F;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	text-decoration:none
 }
 
 .p {
-	color:#666;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 }
 
 .p a {
 	color:#666;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -140,7 +151,8 @@ body {
 .p a:hover {
 	color:#333;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 	text-decoration:none;
 }
@@ -521,23 +533,37 @@ body {
 
 .pageheaderbox{
     position:relative;
-    height:60px;
-    background: rgba(0, 0, 0, 0.4);
-    top:75px;
+    height:100px;
+    background: rgba(0, 0, 0, 0.6);
+    top:230px;
     margin:0 auto;
 }
 
 .pageheadertext {
     color: #DBDBDB;
-    font-size:50px;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:center;
-    font-weight: 100;
+    font-size:75px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+
 }
 
 .pageheader {
     width: 100%;
-    height: 200px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tussenbanner {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.onderbanner {
+    width: 100%;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
@@ -546,8 +572,99 @@ body {
     background-image:url(../layout/kata-header.jpg);
 }
 
+#geschiedenis-header {
+    background-image:url(../layout/funakoshi-banner.jpg);
+}
+
 #spirit-header {
-    background-image:url(../layout/spirit-header.jpg);
+    background-image:url(../layout/sosai-banner.jpg);
+}
+
+#spirit-tussenbanner {
+    background-image:url(../layout/spirit-tussenbanner.jpg);
+}
+
+#spirit-onderbanner {
+    background-image:url(../layout/golven.jpg);
+}
+
+#spiritkanji {
+    background-image:url(../layout/spirit.png);
+}
+
+/*----------- Opmaak contenthouders -----------*/
+
+.content-box1 {
+    height:800px;
+    background-color: #E9E9E9;
+}
+
+.text-box1 {
+    color:#666;
+    height: 500px;
+    width:80%;
+    position: relative;
+    float:left;
+    top: 120px;
+    left: 100px;
+}
+
+.content-box2 {
+    height:800px;
+    background-color: #585858;
+}
+
+.text-box2 {
+    color: #82CAFF;
+    /*color: #0098CA;*/
+    width: 80%
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.content-box3 {
+    height:800px;
+    background-color: deepskyblue;
+}
+
+.text-box3 {
+    color: #E9E9E9;
+    /*color: #0098CA;*/
+    width: 80%
+    height: 500px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.content-box4 {
+    height: 800px;
+    background-color: #ffffff;
+}
+
+.text-box4 {
+    color: #82CAFF;
+    /*color: #0098CA;*/
+    width: 80%
+    height: 500px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.draak {
+    visibility: hidden;
+    height: 350px;
+    width:300px;
+    position:relative;
+    float:right;
+    top: 100px;
+    right:200px;
+    background-image:url(../layout/garyu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*----------- Algemene Opmaak - Content -----------*/
 
