@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/kyokushin/spirit.html" afterPath="$PROJECT_DIR$/templates/nl/kyokushin/spirit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html" afterPath="$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_desktop.css" afterPath="$PROJECT_DIR$/static/styles/style_desktop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_middle.css" afterPath="$PROJECT_DIR$/static/styles/style_middle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_mobile.css" afterPath="$PROJECT_DIR$/static/styles/style_mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,14 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geschiedenis.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="geschiedenis.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="68" max-vertical-offset="3298">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.93851715" vertical-offset="1436" max-vertical-offset="3400">
+              <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
               <folding>
-                <marker date="1468936654378" expanded="true" signature="253:20170" placeholder="..." />
-                <marker date="1468936654378" expanded="true" signature="360:383" placeholder="..." />
+                <marker date="1468941775734" expanded="true" signature="263:20816" placeholder="..." />
+                <marker date="1468941775734" expanded="true" signature="370:393" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -118,8 +115,8 @@
       <file leaf-file-name="style_desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9880" max-vertical-offset="19635">
-              <caret line="598" column="34" selection-start-line="598" selection-start-column="34" selection-end-line="598" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="9353" max-vertical-offset="19856">
+              <caret line="579" column="12" selection-start-line="579" selection-start-column="12" selection-end-line="579" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -135,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_mobile.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style_mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/styles/style_mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43074325" vertical-offset="10251" max-vertical-offset="20026">
+            <state vertical-scroll-proportion="0.0" vertical-offset="10251" max-vertical-offset="20026">
               <caret line="618" column="1" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
               <folding />
             </state>
@@ -158,11 +155,11 @@
         <option value="$PROJECT_DIR$/calendarfunctions.py" />
         <option value="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" />
         <option value="$PROJECT_DIR$/templates/nl/layout.html" />
-        <option value="$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html" />
         <option value="$PROJECT_DIR$/templates/nl/kyokushin/spirit.html" />
-        <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
         <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
         <option value="$PROJECT_DIR$/static/styles/style_mobile.css" />
+        <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
+        <option value="$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html" />
       </list>
     </option>
   </component>
@@ -564,7 +561,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -623,8 +620,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="3298">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
-            <marker date="1468936654378" expanded="true" signature="253:20170" placeholder="..." />
-            <marker date="1468936654378" expanded="true" signature="360:383" placeholder="..." />
+            <marker date="1468941775734" expanded="true" signature="263:20816" placeholder="..." />
+            <marker date="1468941775734" expanded="true" signature="370:393" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -708,8 +705,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1513">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
-            <marker date="1468936654378" expanded="true" signature="253:20170" placeholder="..." />
-            <marker date="1468936654378" expanded="true" signature="360:383" placeholder="..." />
+            <marker date="1468941775734" expanded="true" signature="263:20816" placeholder="..." />
+            <marker date="1468941775734" expanded="true" signature="370:393" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1002,14 +999,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
+    <entry file="file://$PROJECT_DIR$/static/styles/style_mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1513">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding>
-            <marker date="1468936654378" expanded="true" signature="253:20170" placeholder="..." />
-            <marker date="1468936654378" expanded="true" signature="360:383" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="10251" max-vertical-offset="20026">
+          <caret line="618" column="1" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,14 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="4522">
           <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9880" max-vertical-offset="19635">
-          <caret line="598" column="34" selection-start-line="598" selection-start-column="34" selection-end-line="598" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1037,11 +1023,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/styles/style_mobile.css">
+    <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43074325" vertical-offset="10251" max-vertical-offset="20026">
-          <caret line="618" column="1" selection-start-line="618" selection-start-column="1" selection-end-line="618" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="9353" max-vertical-offset="19856">
+          <caret line="579" column="12" selection-start-line="579" selection-start-column="12" selection-end-line="579" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93851715" vertical-offset="1436" max-vertical-offset="3400">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+          <folding>
+            <marker date="1468941775734" expanded="true" signature="263:20816" placeholder="..." />
+            <marker date="1468941775734" expanded="true" signature="370:393" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

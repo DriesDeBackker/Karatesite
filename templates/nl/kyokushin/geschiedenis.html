@@ -1,8 +1,8 @@
 {% extends "nl/layout.html" %}
 {% block content %}
-<div class = "pageheader" id="geschiedenis-header">
-    <div class = "pageheaderbox">
-        <div align="center" class="pageheadertext">Geschiedenis</div>
+<div class = "bovenbanner" id="geschiedenis-bovenbanner">
+    <div class = "bovenbanner-box">
+        <div align="center" class="bovenbanner-text">Geschiedenis</div>
     </div>
 </div>
 <div class="content-wrapper">
@@ -79,38 +79,44 @@
         <p align="center"><img src="{{ url_for('static',filename='layout/kanji.png')}}" width="200" height="450" alt="" /></p>
     </div>
 </div>
-<div class = "content-box1">
-    <div class = "text-box1">
-        <div class = h5>HET BEGIN - SHAOLIN KEMPO </div>
-        <br><br>
-        <div class="p">
-            Kara-te betekent letterlijk 'lege hand'.
-            Vrij vertaald betreft het de 'kunst van het vechten zonder wapens',
-            waarbij je gebruik maakt van delen van het lichaam die als wapen kunnen dienen,
-            zoals bv. vuist, elleboog, knie, been, voet enz...
-            De oorsprong van het ongewapend vechten in zuidoost Azië situeert zich voor onze tijdrekening in het huidige Indië.
-            De rondtrekkende zenboeddhistische priesters dienden zich tegen struikrovers te verdedigen en observeerden hiervoor de aanvals- en verdedigingsbewegingen van dieren.
-            Omstreeks 500 na Christus trekt de stichter van het zenboeddhisme, Bodhidarma, Daruma in het Japans, naar de provincie Henan in het huidige China.
-            Daar stelt hij in de shaolintempel zijn kennis ter beschikking van de monniken.
-            De gevechtskunst die eruit voortkwam is vandaag bekend onder de naam Kempo, of Kung Fu.
-            Van hieruit zou deze vechtstijl zich verspreiden over heel China en tevens naar Korea en Japan.
+<div class = "outer-content-box">
+    <div class = "content-box first-content-box">
+        <div class = "text-box first-text-box">
+            <div class = h5>HET BEGIN - SHAOLIN KEMPO </div>
+            <br><br>
+            <div class="p">
+                Kara-te betekent letterlijk 'lege hand'.
+                Vrij vertaald betreft het de 'kunst van het vechten zonder wapens',
+                waarbij je gebruik maakt van delen van het lichaam die als wapen kunnen dienen,
+                zoals bv. vuist, elleboog, knie, been, voet enz...
+                De oorsprong van het ongewapend vechten in zuidoost Azië situeert zich voor onze tijdrekening in het huidige Indië.
+                De rondtrekkende zenboeddhistische priesters dienden zich tegen struikrovers te verdedigen en observeerden hiervoor de aanvals- en verdedigingsbewegingen van dieren.
+                Omstreeks 500 na Christus trekt de stichter van het zenboeddhisme, Bodhidarma, Daruma in het Japans, naar de provincie Henan in het huidige China.
+                Daar stelt hij in de shaolintempel zijn kennis ter beschikking van de monniken.
+                De gevechtskunst die eruit voortkwam is vandaag bekend onder de naam Kempo, of Kung Fu.
+                Van hieruit zou deze vechtstijl zich verspreiden over heel China en tevens naar Korea en Japan.
+            </div>
+        </div>
+    </div>
+    <div class = "picture-box" id="geschiedenis-box1"></div>
+</div>
+<div class = "outer-content-box">
+    <div class = "picture-box" id="geschiedenis-box1"></div>
+    <div class = "content-box second-content-box">
+        <div class = "text-box second-text-box">
+            <div class = h5>KARATE</div>
+            <br><br>
+            <div class="p">
+                Het karate zoals wij dit nu kennen kwam op het Japanse eiland Okinawa tot stand eind 18e eeuw.
+                De uit China afkomstige technieken werden er gecombineerd met de lokale praktijken van ongewapend vechten.
+                De drie belangrijkste strekkingen waren Nahate, Tomarite en Shurite.
+                In het begin van de 20e eeuw catalogeerde men al deze stijlen onder de noemer Karate.
+            </div>
         </div>
     </div>
 </div>
-<div class = "content-box2">
-    <div class = "text-box2">
-         <div class = h5>KARATE</div>
-         <br><br>
-         <div class="p">
-            Het karate zoals wij dit nu kennen kwam op het Japanse eiland Okinawa tot stand eind 18e eeuw.
-            De uit China afkomstige technieken werden er gecombineerd met de lokale praktijken van ongewapend vechten.
-            De drie belangrijkste strekkingen waren Nahate, Tomarite en Shurite.
-            In het begin van de 20e eeuw catalogeerde men al deze stijlen onder de noemer Karate.
-         </div>
-    </div>
-</div>
-<div class = "content-box1">
-    <div class = "text-box1">
+<div class = "content-box first-content-box">
+    <div class = "text-box first-text-box">
         <div class = h5>WEGDRIJVEN  迷うことなかれ </div>
         <br><br>
         <div class = p>
@@ -118,8 +124,8 @@
         </div>
     </div>
 </div>
-<div class = "content-box3">
-    <div class = "text-box3">
+<div class = "content-box third-content-box">
+    <div class = "text-box third-text-box">
         <div class = h5>LOOP NIET WEG VAN PROBLEMEN  苦しみから逃げるな</div>
         <br><br>
         <div class = p>
@@ -127,8 +133,8 @@
         </div>
     </div>
 </div>
-<div class = "content-box1">
-    <div class = "text-box1">
+<div class = "content-box first-content-box">
+    <div class = "text-box first-text-box">
         <div class = h5>GARYU  臥竜</div>
         <br><br>
         <div class = p>
@@ -138,8 +144,8 @@
     <div class = "draak"></div>
 </div>
 <div class = "tussenbanner" id="geschiedenis-tussenbanner"></div>
-<div class = "content-box2">
-    <div class = "text-box2">
+<div class = "content-box second-content-box">
+    <div class = "text-box second-text-box">
          <div class = h5>GEEF NOOIT OP  ネバーギブアップ </div>
          <br><br>
          <div class="p">
@@ -147,8 +153,8 @@
          </div>
     </div>
 </div>
-<div class = "content-box1">
-    <div class = "text-box1">
+<div class = "content-box first-content-box">
+    <div class = "text-box first-text-box">
         <div class = h5>MOEDER  母親 </div>
         <br><br>
         <div class = p>
@@ -156,8 +162,8 @@
         </div>
     </div>
 </div>
-<div class = "content-box3">
-    <div class = "text-box3">
+<div class = "content-box third-content-box">
+    <div class = "text-box third-text-box">
         <div class = h5>KYOKUSHIN  極真は</div>
         <br><br>
         <div class = p>
@@ -165,8 +171,8 @@
         </div>
     </div>
 </div>
-<div class = "content-box1">
-    <div class = "text-box1">
+<div class = "content-box first-content-box">
+    <div class = "text-box first-text-box">
         <div class = h5>DE BETEKENIS VAN KYOKUSHIN SPIRIT  極真精神の意味</div>
         <br><br>
         <div class = p>
@@ -174,8 +180,8 @@
         </div>
     </div>
 </div>
-<div class = "content-box2">
-    <div class = "text-box4">
+<div class = "content-box fourth-content-box">
+    <div class = "text-box fourth-text-box">
          <div class = h5>VUIST  正拳 </div>
          <br><br>
          <div class="p">

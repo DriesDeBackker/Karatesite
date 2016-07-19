@@ -562,6 +562,8 @@ body {
 
 #geschiedenis-bovenbanner{background-image:url(../layout/funakoshi-banner.jpg);}
 
+#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
+
 #spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
 
 #spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
@@ -572,10 +574,19 @@ body {
 
 /*----------- Opmaak contenthouders -----------*/
 
+.outer-content-box {display:flex;}
+
+.picture-box {
+    width:45%;
+    background-size:cover;
+    background-position:center;
+}
+
 .content-box {
     padding-top:100px;
     padding-left:100px;
     padding-bottom:110px;
+    flex:1;
 }
 
 .first-content-box {background-color: #E9E9E9;}
@@ -585,6 +596,8 @@ body {
 .third-content-box {background-color: deepskyblue;}
 
 .fourth-content-box {background-color: #ffffff;}
+
+.inner-content-box {display:flex;}
 
 .text-box {
     width: 80%;
