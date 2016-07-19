@@ -521,7 +521,7 @@ body {
 
 /*----------- Opmaak paginahoofdingen -------------*/
 
-.pageheaderbox{
+.bovenbanner-box{
     position:relative;
     height:100px;
     background: rgba(0, 0, 0, 0.6);
@@ -529,7 +529,7 @@ body {
     margin:0 auto;
 }
 
-.pageheadertext {
+.bovenbanner-text {
     color: #DBDBDB;
     font-size:75px;
     font-weight: 300;
@@ -537,7 +537,7 @@ body {
 
 }
 
-.pageheader {
+.bovenbanner {
     width: 100%;
     height: 800px;
     background-size: cover;
@@ -553,109 +553,50 @@ body {
 
 .onderbanner {
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
 
-#kata-header {
-    background-image:url(../layout/kata-header.jpg);
-}
+#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
 
-#geschiedenis-header {
-    background-image:url(../layout/funakoshi-banner.jpg);
-}
+#geschiedenis-bovenbanner{background-image:url(../layout/funakoshi-banner.jpg);}
 
-#spirit-header {
-    background-image:url(../layout/sosai-banner.jpg);
-}
+#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
 
-#spirit-tussenbanner {
-    background-image:url(../layout/spirit-tussenbanner.jpg);
-}
+#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
 
-#spirit-onderbanner {
-    background-image:url(../layout/golven.jpg);
-}
+#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
 
-#spiritkanji {
-    background-image:url(../layout/spirit.png);
-}
+#spiritkanji {background-image:url(../layout/spirit.png);}
 
 /*----------- Opmaak contenthouders -----------*/
 
-.content-box1 {
-    height:800px;
-    background-color: #E9E9E9;
+.content-box {
+    padding-top:100px;
+    padding-left:100px;
+    padding-bottom:110px;
 }
 
-.text-box1 {
-    color:#666;
-    height: 500px;
+.first-content-box {background-color: #E9E9E9;}
+
+.second-content-box {background-color: #585858;}
+
+.third-content-box {background-color: deepskyblue;}
+
+.fourth-content-box {background-color: #ffffff;}
+
+.text-box {
     width: 80%;
-    position: relative;
-    float:left;
-    top: 120px;
-    left: 100px;
 }
 
-.content-box2 {
-    height:800px;
-    background-color: #585858;
-}
+.first-text-box {color:#666;}
 
-.text-box2 {
-    color: #82CAFF;
-    width: 80%
-    /*color: #0098CA;*/
-    height: 500px;
-    position: relative;
-    top: 150px;
-    left: 100px;
-}
+.second-text-box {color: #82CAFF;}
 
-.content-box3 {
-    height:800px;
-    background-color: deepskyblue;
-}
+.third-text-box {color: #E9E9E9;}
 
-.text-box3 {
-    color: #E9E9E9;
-    /*color: #0098CA;*/
-    width: 80%
-    height: 500px;
-    position: relative;
-    top: 120px;
-    left: 100px;
-}
-
-.content-box4 {
-    height: 800px;
-    background-color: #ffffff;
-}
-
-.text-box4 {
-    color: #82CAFF;
-    /*color: #0098CA;*/
-    width: 80%
-    height: 500px;
-    position: relative;
-    top: 70px;
-    left: 100px;
-}
-
-.draak {
-    height: 350px;
-    width:300px;
-    position:relative;
-    float:right;
-    top: 100px;
-    right:200px;
-    background-image:url(../layout/garyu.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+.fourth-text-box {color: #82CAFF;}
 
 
 /*----------- Algemene Opmaak - Content -----------*/
