@@ -563,10 +563,6 @@ body {
 .onderbanner {height: 400px;}
 
 
-#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
-
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
 
 #geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
@@ -590,6 +586,18 @@ body {
 #spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
 
 #spirit-onderbanner {background-image:url(../layout/golven.jpg);}
+
+#kihon-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+
+#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
+
+#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+
+#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
+
+#kumite-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+
+#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
 /*----------- Opmaak contenthouders -----------*/
 

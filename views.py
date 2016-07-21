@@ -74,13 +74,6 @@ def nlGeschiedenis():
 def nlSpirit():
     return render_template("nl/kyokushin/spirit.html")
 
-
-@app.route('/kyokushin/opwarming')
-@app.route('/nl/kyokushin/opwarming')
-def nlOpwarming():
-    return render_template("nl/kyokushin/opwarming.html")
-
-
 @app.route('/kyokushin/kihon')
 @app.route('/nl/kyokushin/kihon')
 def nlKihon():
@@ -174,11 +167,6 @@ def enHistory():
 @app.route('/en/kyokushin/spirit')
 def enSpirit():
     return render_template("en/kyokushin/spirit.html")
-
-
-@app.route('/en/kyokushin/warmingup')
-def enWarmingup():
-    return render_template("en/kyokushin/warmingup.html")
 
 
 @app.route('/en/kyokushin/kihon')
