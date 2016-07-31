@@ -48,40 +48,40 @@ body {
 	color:#999;
 	font-size:25px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
+/* De opmaak van de hoofdtitel in de banner op de indexpagina */
 .h3 {
-	color:#B2B2B2;
-	font-size:25px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
+	color: #DBDBDB;
+    font-size:100px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    text-align:center;
+    position: relative;
+    top: 25px;
 }
-
+/* De opmaak van de hoofd op alle andere pagina's */
 .h4 {
-	color:#CCC;
-	font-size:30px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
+	color: #DBDBDB;
+    font-size:75px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    text-align:center;
 }
-
+/* De opmaak van de ondertitel op alle pagina's met een ondertitel */
 .h5 {
-	/*color:#666;*/
+    color: #DBDBDB;
+    font-size:45px;
+    font-weight: 200;
+    font-family: "Lato", sans-serif;
+    text-align:center;
+}
+/* De opmaak van de paragraaftitels */
+.h6 {
 	font-size:27px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-weight:bold;
-    text-transform:uppercase;
-}
-
-.h6 {
-	color:#666;
-	font-size:24px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:left;
     text-transform:uppercase;
 }
 
@@ -101,6 +101,92 @@ body {
 	font-weight:bold;
 }
 
+/*----------- Opmaak paginahoofdingen -------------*/
+
+.h3-box{
+    position:relative;
+    height:175px;
+    background: rgba(0, 0, 0, 0.6);
+    top:275px;
+    margin:0 auto;
+}
+
+.h4-box{
+    position:relative;
+    height:100px;
+    background: rgba(0, 0, 0, 0.6);
+    top:340px;
+    margin:0 auto;
+}
+
+.h5-box{
+    position:relative;
+    height:65px;
+    background: rgba(0, 0, 0, 0.6);
+    top:370px;
+    margin:0 auto;
+}
+
+.h5-box2{
+    position:relative;
+    height:65px;
+    background: rgba(0, 0, 0, 0.6);
+    top:300px;
+    margin:0 auto;
+}
+
+.banner {
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bovenbanner {height: 800px;}
+
+.tussenbanner {height: 800px;}
+
+.onderbanner {height: 600px;}
+
+#index-bovenbanner{background-image:url(../layout/seiza.jpg);}
+
+#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
+
+#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
+
+#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
+
+#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
+
+#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
+
+#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
+
+#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
+
+#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
+
+#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
+
+#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
+
+#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
+
+#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
+
+#kihon-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+
+#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
+
+#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+
+#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
+
+#kumite-bovenbanner {background-image:url(../layout/kumite-banner.jpg);}
+
+#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
+
+/* ----------------- Opmaak onderkant pagina -------------------- */
 .bottomtext-title {
 	color:#FFF;
 	font-size:18px;
@@ -527,111 +613,6 @@ body {
 	top:5px;
 }
 
-/*----------- Opmaak paginahoofdingen -------------*/
-
-.bovenbanner-box{
-    position:relative;
-    height:100px;
-    background: rgba(0, 0, 0, 0.6);
-    top:340px;
-    margin:0 auto;
-}
-
-.bovenbanner-text {
-    color: #DBDBDB;
-    font-size:75px;
-    font-weight: 300;
-    font-family: "Lato", sans-serif;
-}
-
-.bovenbanner-box2{
-    position:relative;
-    height:65px;
-    background: rgba(0, 0, 0, 0.6);
-    top:370px;
-    margin:0 auto;
-}
-
-.bovenbanner-text2 {
-    color: #DBDBDB;
-    font-size:45px;
-    font-weight: 200;
-    font-family: "Lato", sans-serif;
-}
-
-.indexbanner-box{
-    position:relative;
-    height:175px;
-    background: rgba(0, 0, 0, 0.6);
-    top:275px;
-    margin:0 auto;
-}
-
-.indexbanner-text {
-    color: #DBDBDB;
-    font-size:120px;
-    font-weight: 300;
-    font-family: "Lato", sans-serif;
-}
-
-.indexbanner-box2{
-position:relative;
-    height:65px;
-    background: rgba(0, 0, 0, 0.6);
-    top:300px;
-    margin:0 auto;
-}
-
-.banner {
-    width:100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.bovenbanner {height: 800px;}
-
-.tussenbanner {height: 800px;}
-
-.onderbanner {height: 600px;}
-
-#index-bovenbanner{background-image:url(../layout/seiza.jpg);}
-
-#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
-
-#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
-
-#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
-
-#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
-
-#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
-
-#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
-
-#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
-
-#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
-
-#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
-
-#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
-
-#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
-
-#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
-
-#kihon-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
-
-#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
-
-#kumite-bovenbanner {background-image:url(../layout/kumite-banner.jpg);}
-
-#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
-
 /*----------- Opmaak contenthouders -----------*/
 
 .outer-content-box {display:flex;}
@@ -691,8 +672,12 @@ position:relative;
 }
 
 .rectangle {
-    width: 300px;
-    height: 300px;
+    width: 17vw;
+    max-width:300px;
+    min-width:250px;
+    height: 17vw;
+    max-height:300px;
+    min-height:250px;
     background-color: #3e3436;
     padding-left:20px;
     padding-right:20px;
@@ -734,8 +719,12 @@ position:relative;
 }
 
 .recticon {
-    height: 45px;
-    width: 45px;
+    height: 2vw;
+    max-height:40px;
+    min-height:27px;
+    width: 2vw;
+    max-width:40px;
+    min-width:27px;
     margin:auto;
     background-size:cover;
 }
@@ -791,7 +780,9 @@ position:relative;
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 220px;
+    width: 12vw;
+    max-width:300px;
+    min-width:120px;
 }
 
 .trainingsuren-uur {
@@ -805,12 +796,16 @@ position:relative;
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 400px;
+    width: 17vw;
+    max-width:400px;
+    min-width:360px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 400px;
+    width: 17vw;
+    max-width:400px;
+    min-width:360px;
 }
 
 .trainingsuren-geen-training {
