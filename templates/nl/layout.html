@@ -9,9 +9,13 @@
 <link rel='stylesheet' media='screen and (min-width: 1200px)' href="{{ url_for('static', filename='styles/style_desktop.css') }}" />
 <link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/animate.css') }}" />
+<script src="{{ url_for('static', filename='scripts/viewportchecker.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts/fadein.js') }}"></script>
 </head>
 <body>
-<script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
 <div id="first-bar">
     <div class="upper-menu-wrap-right">
       <nav class = "upper-menu">
@@ -66,7 +70,6 @@
   </div>
   <div id="navicon-wrap"><a href="#" id="navicon"><span id="navicon-image"><img src="{{ url_for('static', filename='layout/menu-icon3.png') }}" width="35" height="35" alt=""/></span></a></div>
 </div>
-<script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
 <div id="mobile-menu-wrap">
 	<nav id="mobile-menu">
         <li><a href="{{url_for('nlNieuws')}}">NIEUWS</a></li>

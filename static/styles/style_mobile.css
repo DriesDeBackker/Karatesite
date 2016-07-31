@@ -623,7 +623,10 @@ body {
 
 .fourth-content-box {background-color: #ffffff;}
 
-.text-box {width: 80%;}
+.text-box {
+    width: 80%;
+    line-height: 150%;
+}
 
 .first-text-box {color:#666;}
 

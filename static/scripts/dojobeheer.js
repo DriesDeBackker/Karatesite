@@ -44,4 +44,4 @@ $(document).ready(function () {
         event.preventDefault();
         $('#add-member-form-wrap').stop(true, true).slideToggle(400);
     });
-})
+});
