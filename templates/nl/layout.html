@@ -14,6 +14,7 @@
 <script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
 <script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
 <script src="{{ url_for('static', filename='scripts/fadein.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts/menustick.js') }}"></script>
 </head>
 <body>
 <div id="first-bar">
@@ -46,12 +47,9 @@
         <li><a href="{{url_for('nlNieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
         <li> <a href="#"><span class="menu-text">DOJO</span> <span class="arrow">&#9660;</span></a>
           <ul class="sub-menu">
-            <li><a href="{{url_for('nlOshishinobu')}}"><span class="submenu-text">Oshi Shinobu</span></a></li>
             <li><a href="{{url_for('nlInfo')}}"><span class="submenu-text">Info</span></a></li>
             <li><a href="{{url_for('nlKalender')}}"><span class="submenu-text">Kalender</span></a></li>
-            <li><a href="{{url_for('nlFotoalbum')}}"><span class="submenu-text">Fotoalbum</span></a></li>
             <li><a href="{{url_for('nlNieuwsbrief')}}""><span class="submenu-text">Nieuwsbrief September</span></a></li>
-            <li><a href="{{url_for('nlSyllabus')}}"><span class="submenu-text">Syllabus</span></a></li>
           </ul>
         </li>
         <li> <a href="#"><span class="menu-text">KYOKUSHINKAI KARATE</span><span class="arrow">&#9660;</span></a>
@@ -75,12 +73,9 @@
         <li><a href="{{url_for('nlNieuws')}}">NIEUWS</a></li>
         <li id="submenubutton1"> <a href="#">DOJO</a>
           <ul class="sub-mobile-menu">
-            <li><a href="{{url_for('nlOshishinobu')}}">Oshi Shinobu</a></li>
             <li><a href="{{url_for('nlInfo')}}">Info</a></li>
             <li><a href="{{url_for('nlKalender')}}">Kalender</a></li>
-            <li><a href="{{url_for('nlFotoalbum')}}">Fotoalbum</a></li>
             <li><a href="{{url_for('nlNieuwsbrief')}}">Nieuwsbrief September</a></li>
-            <li><a href="{{url_for('nlSyllabus')}}">Syllabus</a></li>
           </ul>
         </li>
         <li id="submenubutton2">

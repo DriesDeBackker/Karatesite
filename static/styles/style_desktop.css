@@ -93,14 +93,6 @@ body {
 	font-weight:bold;
 }
 
-.h7-bis {
-	color:#666;
-	font-size:20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:left;
-	font-weight:bold;
-}
-
 /*----------- Opmaak paginahoofdingen -------------*/
 
 .h3-box{
@@ -143,48 +135,36 @@ body {
 
 
 .bovenbanner {height: 800px;}
-
 .tussenbanner {height: 800px;}
-
 .onderbanner {height: 600px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
-
 #geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
-
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
-
 #geschiedenis-box2{background-image:url(../layout/karate.jpg);}
-
 #geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
-
 #geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
-
 #geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
-
 #geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
-
 #geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
 
 #spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
-
 #spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
-
 #spirit-onderbanner {background-image:url(../layout/golven.jpg);}
 
-#kihon-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
+#kihon-bovenbanner {background-image:url(../layout/kihon-header.jpg);}
 #kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
 
 #kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
 #kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
 
-#kumite-bovenbanner {background-image:url(../layout/kumite-banner.jpg);}
-
+#kumite-bovenbanner {background-image:url(../layout/kumite-banner2.jpg);}
+#kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
 #kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
+
+#links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
 
 /* ----------------- Opmaak onderkant pagina -------------------- */
 .bottomtext-title {
@@ -227,7 +207,7 @@ body {
 }
 
 .p a {
-	/*color:#666;*/
+	color:#666;
 	font-size:20px;
     font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -280,6 +260,13 @@ body {
 #third-bar {
     height:50px;
 	background-color:#333;
+}
+
+.third-bar-fixed {
+    top: 0;
+    position: fixed;
+    width:100%;
+    z-index: 99999;
 }
 
 #oshi-shinobu-kanji-container {
@@ -632,12 +619,10 @@ body {
 }
 
 .first-content-box {background-color: #E9E9E9;}
-
 .second-content-box {background-color: #585858;}
-
 .third-content-box {background-color: deepskyblue;}
-
 .fourth-content-box {background-color: #ffffff;}
+.fifth-content-box {background-color: black;}
 
 .inner-content-box {display:flex;}
 
@@ -647,11 +632,8 @@ body {
 }
 
 .first-text-box {color:#666;}
-
 .second-text-box {color: #82CAFF;}
-
 .third-text-box {color: #E9E9E9;}
-
 .fourth-text-box {color: #82CAFF;}
 
 .index-first-text-box {
@@ -678,7 +660,6 @@ body {
     height: 17vw;
     max-height:300px;
     min-height:250px;
-    background-color: #3e3436;
     padding-left:20px;
     padding-right:20px;
     padding-bottom:20px;
@@ -687,11 +668,25 @@ body {
     margin-left:12px;
     margin-top: 50px;
     margin-bottom:50px;
-    -webkit-transition: background-color 0.25s;
+    -webkit-transition: background-color 0.25s
 }
 
-.rectangle:hover {
+.grey-rectangle {
+    background-color: #3e3436;
+    color: #E9E9E9;
+}
+
+.grey-rectangle:hover {
     background-color: #585858;
+}
+
+.white-rectangle {
+    background-color: #E9E9E9;
+    color: #727272;
+}
+
+.white-rectangle:hover {
+    background-color: gainsboro;
 }
 
 .first-rectangle {order: 1;}
@@ -703,7 +698,6 @@ body {
 .fourth-rectangle {order: 4;}
 
 .recth {
-	color: #E9E9E9;
     text-transform: uppercase;
     text-align: center;
 	font-size:20px;
@@ -711,7 +705,6 @@ body {
 }
 
 .rectp {
-	color: #E9E9E9;
 	font-size:15px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
@@ -1081,17 +1074,22 @@ body {
 /*---------- Opmaak Links ------------*/
 
 .link-wrapper {
-    position:relative;
-	width:1200px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.link-column {
+    line-height:225%;
+    width:530px;
 }
 
 .link-column-left {
-	width:600px;
-	float:left;
+    order:1;
 }
 
 .link-column-right {
-	width:600px;
-	overflow:hidden;
+	order:2;
 }
 
