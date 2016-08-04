@@ -157,10 +157,12 @@ body {
 #kihon-bovenbanner {background-image:url(../layout/kihon-header.jpg);}
 #kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
 
-#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+#kata-bovenbanner {background-image:url(../layout/kata-banner4.jpg);}
+#kata-tussenbanner {background-image:url(../layout/kata-banner3.jpg);}
 #kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
 
 #kumite-bovenbanner {background-image:url(../layout/kumite-banner2.jpg);}
+#kumite-tussenbanner {background-image:url(../layout/kumite-banner4.jpg);}
 #kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
 #kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
