@@ -1,1 +1,1 @@
-web: gunicorn karatewebsite.wsgi
+web: python run.py
