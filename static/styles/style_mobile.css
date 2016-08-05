@@ -142,6 +142,12 @@ body {
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 
+#nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
+
+#info-bovenbanner{background-image:url(../layout/info-banner.jpg);}
+
+#kalender-bovenbanner{background-image:url(../layout/kalender-banner.jpg);}
+
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
 #geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
