@@ -7,13 +7,12 @@ body {
     margin:0;
 	padding:0;
     height: 100%;
-	/*background: #E9E9E9;*/
     background-color: #ffffff;
 }
 
 .clearfix {
-    padding:0px;
-	margin:0px;
+    padding:0;
+	margin:0;
 }
 
 .clearfix:after {
@@ -21,11 +20,20 @@ body {
     clear:both;
 }
 
+/*-----------Effecten bij het scrollen--------*/
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 /*-----------Algemene Opmaak - Tekst----------*/
 
 .h1 {
 	color:#CCC;
-	font-size:26px;
+	font-size:25px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	text-align:left;
 	width:800px;
@@ -40,41 +48,42 @@ body {
 	color:#999;
 	font-size:17px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
+/* De opmaak van de hoofdtitel in de banner op de indexpagina */
 .h3 {
-	color:#333;
-	font-size:25px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:center;
+	color: #DBDBDB;
+    font-size:50px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    text-align:center;
+    position: relative;
+    top: 25px;
 }
 
+/* De opmaak van de hoofd op alle andere pagina's */
 .h4 {
-	color:#CCC;
-	font-size:30px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
+	color: #DBDBDB;
+    font-size:50px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    text-align:center;
 }
-
+/* De opmaak van de ondertitel op alle pagina's met een ondertitel */
 .h5 {
-	font-size:24px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
-	font-weight:bold;
-    text-transform:uppercase;
+    color: #DBDBDB;
+    font-size:25px;
+    font-weight: 200;
+    font-family: "Lato", sans-serif;
+    text-align:center;
 }
 
+/* De opmaak van de paragraaftitels */
 .h6 {
-	color:#666;
-	font-size:20px;
+	font-size:23px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
+	font-weight:bold;
     text-transform:uppercase;
 }
 
@@ -87,36 +96,98 @@ body {
 	font-weight:bold;
 }
 
-.h7-bis {
-	color:#666;
-	font-size:20px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
-	font-weight:bold;
+/*----------- Opmaak paginahoofdingen -------------*/
+
+.h3-box{
+    position:relative;
+    height:150px;
+    background: rgba(0, 0, 0, 0.6);
+    top:200px;
+    margin:0 auto;
 }
+
+.h4-box{
+    position:relative;
+    height:75px;
+    background: rgba(0, 0, 0, 0.6);
+    top:275px;
+    margin:0 auto;
+}
+
+.h5-box{
+    position:relative;
+    height:45px;
+    background: rgba(0, 0, 0, 0.6);
+    top:300px;
+    margin:0 auto;
+}
+
+.h5-box2{
+    position:relative;
+    height:50px;
+    background: rgba(0, 0, 0, 0.6);
+    top:225px;
+    margin:0 auto;
+}
+
+.banner {
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.bovenbanner {height: 650px;}
+.tussenbanner {height: 600px;}
+.onderbanner {height: 450px;}
+
+#index-bovenbanner{background-image:url(../layout/seiza.jpg);}
+
+#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
+#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
+#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
+#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
+#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
+#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
+#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
+#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
+#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
+
+#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
+#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
+#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
+
+#kihon-bovenbanner {background-image:url(../layout/kihon-header.jpg);}
+#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
+
+#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
+#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
+
+#kumite-bovenbanner {background-image:url(../layout/kumite-banner2.jpg);}
+#kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
+#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
+
+#links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
+
+/* ---------------- Opmaak onderkant pagina -------------- */
 
 .bottomtext-title {
 	color:#FFF;
-	font-size:18px;
+	font-size:17px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .bottomtext {
 	color:#999;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .bottomtext a {
 	color:#999;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -124,15 +195,14 @@ body {
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 	text-decoration:none
 }
 
 .p {
-	font-size:17px;
+	font-size:134;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -140,9 +210,8 @@ body {
 
 .p a {
 	color:#666;
-	font-size:20px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -151,9 +220,8 @@ body {
 
 .p a:hover {
 	color:#333;
-	font-size:20px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 	text-decoration:none;
 }
@@ -161,7 +229,7 @@ body {
 /*-----------Algemene Opmaak - Layoutbalken ----------*/
 
 #first-bar {
-	height:40px;
+	height:30px;
 	background-color:#000;
     display:none;
 }
@@ -178,29 +246,29 @@ body {
 	width:60px;
 	height:60px;
 	top:20%;
-	left:8px;
+	left:4px;
 	float:left;
 }
 
 #kyokushinkai-karate-vosselaar {
 	position:relative;
 	width:600px;
-	top:25%;
-	left:12px;
+	top:35px;
+	left:8px;
 	overflow:hidden;
 	display:inline;
 }
 
 #third-bar {
-	height:50px;
+	height:40px;
 	background-color:#333;
 }
 
 #oshi-shinobu-kanji-container {
 	position: relative;
 	float:left;
-	height:50px;
-	width:77px;
+	height:40px;
+	width:67px;
 }
 
 #oshi-shinobu-kanji {
@@ -208,23 +276,22 @@ body {
 	background-repeat: no-repeat;
 	background-size:contain;
 	position: relative;
-	left:8px;
-	top:11px;
+	left:5px;
+	top:8px;
 	height:30px;
-	width:75px;
+	width:60px;
 }
-
 
 #oshi-shinobu-text-container {
 	position: relative;
 	float:left;
 	width:180px;
-	height:50px;
+	height:40px;
 }
 
 #oshi-shinobu-text {
 	position:relative;
-	top:16px;
+	top:10px;
 }
 
 #fourth-bar {
@@ -334,9 +401,9 @@ body {
 #navicon-wrap {
 	position: relative;
 	float:right;
-	height:50px;
+	height:40px;
 	background:#373737;
-	width:50px;
+	width:40px;
 	text-align:center;
 	display:inline;
 }
@@ -349,7 +416,7 @@ body {
 
 #navicon-image {
 	position: relative;
-	top:9px;
+	top:6px;
 }
 
 #mobile-menu-wrap {
@@ -378,9 +445,9 @@ body {
 
 #mobile-menu > li > a {
     flex: 1;
-	border-bottom: 1px solid #555;
+    border-top: 1px solid #555;
     text-decoration: none;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size:18px;
 	color:#CCC;
     display: flex;
@@ -403,15 +470,17 @@ body {
 
 .sub-mobile-menu li a {
 	flex: 1;
+    border-top: 1px solid #555;
     text-decoration: none;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size:18px;
 	color:#CCC;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
     min-height: 40px;
-	height: 8vh;
+    max-height:60px;
+    height: 8vh;
 }
 
 .sub-mobile-menu a:hover, .subnav a.current {
@@ -432,73 +501,74 @@ body {
 /*-------- Algemene Opmaak - Menu---------*/
 
 .menu-wrap {
-    width:795px;
-	height:50px;
-    text-align:left;
-    background:#373737;
 	float:left;
-	display:none;
+    display:none;
 }
- 
+
 .menu {
-    width:795px;
     margin:0px auto;
 	height:0px;
 }
- 
+
 .menu li {
     margin:0px;
     list-style:none;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", sans-serif;
 	font-style:normal;
 	text-decoration:none;
 }
- 
+
 .menu a {
     transition:all linear 0.25s;
     color:#919191;
-	height:30px;
+	height:20px;
 }
- 
+
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#09F
 }
- 
+
 .menu .arrow {
+	position:relative;
     font-size:15px;
     line-height:0%;
+    left:2px;
 }
- 
+
+.menu-text {
+	position:relative;
+}
+
 /*-------- Algemene Opmaak - Menu - Top Level---------*/
 
 .menu > ul > li {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:20px;
+    font-size:16px;
 }
- 
+
 .menu > ul > li > a {
-    padding:10px 25px;
+    padding:10px 11px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 	text-decoration:none;
 }
- 
+
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background:#2e2728;
 }
- 
+
 /*-------- Algemene Opmaak - Menu - sub Level---------*/
 
 .menu li:hover .sub-menu {
     z-index:1;
     opacity:1;
 }
- 
+
 .sub-menu {
-    width:300px;
+    width:220px;
     padding:0px 0px;
     position:absolute;
     top:100%;
@@ -510,19 +580,19 @@ body {
     background:#2e2728;
 	text-align:left;
 }
- 
+
 .sub-menu li {
     display:block;
-    font-size:20px;
+    font-size:15px;
 	text-decoration:none;
 }
- 
+
 .sub-menu li a {
     padding:10px 30px;
     display:block;
 	text-decoration:none;
 }
- 
+
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 	text-decoration:none;
@@ -530,112 +600,247 @@ body {
 
 .submenu-text {
 	position:relative;
-	top:5px;
+	top:2px;
 }
-
-/*----------- Opmaak paginahoofdingen -------------*/
-
-.bovenbanner-box{
-    position:relative;
-    height:75px;
-    background: rgba(0, 0, 0, 0.6);
-    top:180px;
-    margin:0 auto;
-}
-
-.bovenbanner-text {
-    color: #DBDBDB;
-    font-size:50px;
-    font-weight: 300;
-    font-family: "Lato", sans-serif;
-}
-
-.banner {
-    width:100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.bovenbanner {height: 500px;}
-
-.tussenbanner {height: 500px;}
-
-.onderbanner {height: 400px;}
-
-
-#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
-
-#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
-
-#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
-
-#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
-
-#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
-
-#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
-
-#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
-
-#geschiedenis-box6{background-image:url(../layout/kanji.jpg);}
-
-#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
-
-#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
-
-#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
-
-#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
-
-#kihon-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
-
-#kata-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
-
-#kumite-bovenbanner {background-image:url(../layout/kata-header.jpg);}
-
-#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
 /*----------- Opmaak contenthouders -----------*/
 
 .outer-content-box {}
 
 .picture-box {
-    height:500px;
+    width:40%;
     background-size:cover;
     background-position:center;
 }
 
 .content-box {
-    padding-left:30px;
-    padding-top:30px;
-    padding-bottom:40px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:45px;
+    padding-bottom:35px;
+    flex:1;
 }
 
 .first-content-box {background-color: #E9E9E9;}
-
 .second-content-box {background-color: #585858;}
-
 .third-content-box {background-color: deepskyblue;}
-
 .fourth-content-box {background-color: #ffffff;}
+.fifth-content-box {background-color: black;}
+
+.inner-content-box {display:flex;}
 
 .text-box {
-    width: 80%;
-    line-height: 150%;
+    text-align:left;
+    line-height: 180%;
 }
 
 .first-text-box {color:#666;}
-
 .second-text-box {color: #82CAFF}
-
 .third-text-box {color: #E9E9E9;}
-
 .fourth-text-box {color: #82CAFF;}
 
+.index-first-text-box {
+    color:#666;
+    text-align: center;
+}
+
+.index-second-text-box {
+    color: #82CAFF;
+    text-align: center;
+}
+
+.rectangle-wrap {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.rectangle {
+    width:22vw;
+    max-width: 240px;
+    min-width: 19px;
+    height:22vw;
+    max-height: 240px;
+    min-height: 190px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    -webkit-transition: background-color 0.25s;
+}
+
+.grey-rectangle {
+    background-color: #3e3436;
+    color: #E9E9E9;
+}
+.grey-rectangle:hover {background-color: #585858;}
+
+.white-rectangle {
+    background-color: #E9E9E9;
+    color: #727272;
+}
+.white-rectangle:hover {background-color: gainsboro;}
+
+.first-rectangle {order: 1;}
+.second-rectangle {order: 2;}
+.third-rectangle {order: 3;}
+.fourth-rectangle {order: 4;}
+
+.recth {
+    text-transform: uppercase;
+    text-align: center;
+	font-size:15px;
+    font-family: "Lato", sans-serif;
+}
+
+.rectp {
+	font-size:12px;
+    font-family: "Lato", sans-serif;
+	text-align:justify;
+    line-height:145%;
+}
+
+.rectbreak {
+    font-size:8px;
+}
+
+.recticon {
+    height:2.2vw;
+    max-height: 25px;
+    min-height:16px;
+    width:2.2vw;
+    max-width: 25px;
+    min-width:16px;
+    margin:auto;
+    background-size:cover;
+}
+
+#conditie-icoon{background-image:url(../layout/conditie.png);}
+#zelfverdediging-icoon{background-image:url(../layout/zelfverdediging.png);}
+#karakter-icoon{background-image:url(../layout/karakter.png);}
+#respect-icoon{background-image:url(../layout/respect.png);}
+#traditie-icoon{background-image:url(../layout/traditie.png);}
+#wilskracht-icoon{background-image:url(../layout/wilskracht.png);}
+#sociaal-icoon{background-image:url(../layout/sociaal.png);}
+#plezier-icoon{background-image:url(../layout/plezier.png);}
+#competitie-icoon{background-image:url(../layout/competitie.png);}
+
+#stoot-icoon{background-image:url(../layout/stoot.png);}
+#slag-icoon{background-image:url(../layout/slag.png);}
+#afweer-icoon{background-image:url(../layout/afweer.png);}
+#trap-icoon{background-image:url(../layout/trap.png);}
+
+
+/*-------------Opmaak trainingsuren index-------------*/
+
+.trainingsuren-wrap {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.trainingsuren-head {
+    color: lavender;
+    text-transform: uppercase;
+    text-align: center;
+	font-size:17px;
+    font-family: "Lato", sans-serif;
+    height:40px;
+    line-height:40px;
+}
+
+.trainingsuren-box {
+    background-color: #0099FF;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.trainingsuren-text-box {
+    position: relative;
+    top: 15%;
+}
+
+#trainingsuren-uren-box {
+    order:1;
+    background-color: #CCCCCC;
+    width: 23vw;
+    max-width:180px;
+    min-width:180px;
+}
+
+.trainingsuren-uur {
+    height:40px;
+    color: #222222;
+    text-align: center;
+	font-size:18px;
+    font-family: "Lato", sans-serif;
+    border-top: solid 1px #919191;
+}
+
+#trainingsuren-vrijdag-box {
+    order:2;
+    width: 26vw;
+    max-width:290px;
+    min-width:200px;
+}
+
+#trainingsuren-zaterdag-box {
+    order:3;
+    width: 26vw;
+    max-width:290px;
+    min-width:200px;
+}
+
+.trainingsuren-geen-training {
+    background-color: #E9E9E9;
+    border-top: solid 1px;
+}
+
+.trainingsuren-geen-training1 {height: 40px}
+.trainingsuren-geen-training2 {height: 20px}
+.trainingsuren-geen-training3 {height: 40px}
+.trainingsuren-geen-training3 {height: 320px}
+
+.trainingsuren-training {
+    color: #222222;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    border-top: solid 1px;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s;
+}
+.trainingsuren-training:hover {
+    opacity:1;
+}
+.trainingsuren-training-vrijdag1 {
+    height: 40px;
+    background-color: #ff3333;
+    line-height:15px;
+}
+.trainingsuren-training-vrijdag2 {
+    height: 60px;
+    background-color: forestgreen;
+    line-height:20px;
+}
+.trainingsuren-training-zaterdag1 {
+    height: 40px;
+    background-color: #ff3333;
+    line-height:15px;
+}
+.trainingsuren-training-zaterdag2 {
+    height: 60px;
+    background-color: forestgreen;
+    line-height:20px;
+}
 
 /*----------- Algemene Opmaak - Content -----------*/
 
@@ -698,312 +903,6 @@ body {
 	width:600px;
 	color:#CCC;
 	text-align:center;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/*----------- Opmaak Index ------------*/
-
-/*----- Opmaak Index - Nieuws Slideshow -----*/
-
-@keyframes invoegen-header {
-	0% {top:50px; opacity:0;}
-	30% {top:50px; opacity:0;}
-	100% {top:17px; opacity:1;}
-}
-
-@keyframes invoegen-text {
-	0% {top:140px; opacity:0;}
-	30% {top:140px; opacity:0;}
-	100% {top:105px; opacity:1;}
-}
-
-#news-slideshow-heading1 {
-	background:url(../layout/Banner.jpg);
-	position: absolute; 
-	width: 670px; 
-	height: 70px; 
-	top: 17px; 
-	left: 30px; 
-	padding: 5px; 
-	text-align:left; 
-	line-height: 60px; 
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	font-size: 55px; 
-	color:#CCC;
-	animation-name:invoegen-header;
-	animation-duration:2.5s;
-}
-
-#news-slideshow-heading2 {
-	background:url(../layout/Banner.jpg);
-	position: absolute; 
-	width: 450px; 
-	height: 70px; 
-	top: 17px; 
-	left: 30px; 
-	padding: 5px; 
-	text-align:left; 
-	line-height: 60px; 
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	font-size: 55px; 
-	color:#CCC;
-	animation-name:invoegen-header;
-	animation-duration:2.5s;
-}
-
-#news-slideshow-heading3 {
-	background:url(../layout/Banner.jpg);
-	position: absolute; 
-	width: 500px; 
-	height: 70px; 
-	top: 17px; 
-	left: 30px; 
-	padding: 5px; 
-	text-align:left; 
-	line-height: 60px; 
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	font-size: 55px; 
-	color:#CCC;
-	animation-name:invoegen-header;
-	animation-duration:2.5s;
-}
-
-.news-slideshow-text {
-	background-color:#2E2728;
-	position: absolute;
-	width: 800px; 
-	height: 140px; 
-	top: 105px; 
-	left: 30px; 
-	padding: 10px; 
-	text-align: justify; 
-	line-height: 30px; 
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	font-size: 30px; color:#CCC;
-	animation-name:invoegen-text;
-	animation-duration:2.5s;
-}
-
-.jssorb21 {
-	position: absolute;
-}
-.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-	position: absolute;
-    /* size of bullet elment */
-    width: 19px;
-    height: 19px;
-    text-align: center;
-    line-height: 19px;
-    color: white;
-    font-size: 12px;
-    background: url(slideshow/img/b21.png) no-repeat;
-    overflow: hidden;
-    cursor: pointer;
- }
-.jssorb21 div {
-	background-position: -5px -5px; 
-}
-.jssorb21 div:hover, .jssorb21 .av:hover {
-	background-position: -35px -5px; 
-}
-.jssorb21 .av {
-	background-position: -65px -5px; 
-}
-.jssorb21 .dn, .jssorb21 .dn:hover {
-	background-position: -95px -5px; 
-}
-
-            /* jssor slider arrow navigator skin 21 css */
-            /*
-            .jssora21l                  (normal)
-            .jssora21r                  (normal)
-            .jssora21l:hover            (normal mouseover)
-            .jssora21r:hover            (normal mouseover)
-            .jssora21l.jssora21ldn      (mousedown)
-            .jssora21r.jssora21rdn      (mousedown)
-            */
-            .jssora21l, .jssora21r {
-                display: block;
-                position: absolute;
-                /* size of arrow element */
-                width: 55px;
-                height: 55px;
-                cursor: pointer;
-                background: url(slideshow/img/a21.png) center center no-repeat;
-                overflow: hidden;
-            }
-            .jssora21l { background-position: -3px -33px; }
-            .jssora21r { background-position: -63px -33px; }
-            .jssora21l:hover { background-position: -123px -33px; }
-            .jssora21r:hover { background-position: -183px -33px; }
-            .jssora21l.jssora21ldn { background-position: -243px -33px; }
-            .jssora21r.jssora21rdn { background-position: -303px -33px; }
-
-/*-------- Opmaak Index - Kalender-----------*/
-
-#kalender-bar {
-	background:#3E3436;
-}
-
-#first-picture-japan-container {
-	background:url(layout/Layout_Saimyo_.jpg) no-repeat center;
-	position:relative;
-	width:500px;
-	height:300px;
-	float:left;
-	display:none;
-}
-
-#kalender-text-wrapper {
-	padding:10px;
-}
-
-#kalender-kalender1 {
-	float:left;
-	width:270px;
-	height:250px;
-}
-
-#kalender-kalender2 {
-	float:left;
-	width:270px;
-	height:250px;
-	display:none;
-}
-
-#kalender-uitleg {
-
-	overflow:hidden;
-	width: 230px;
-	height:200px;
-}
-
-#kalender-title a {
-    text-decoration:none;
-	color:#CCC;
-	font-size:21px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.kalender-text{
-	color:#CCC;
-	font-size:15px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.kalender-niet-relevante-data {
-	color:#666;
-	font-size:15px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-table {
-	border-spacing:0;
-}
-
-.calendar caption {
-    text-transform: uppercase;
-	text-align:left;
-	height:22px;
-}
-
-.calendar {
-	border-right: 1px solid #666;
-	border-bottom: 1px solid #666;
-}
-
-.calendar td {
-	width:32px;
-	height:25px;
-	background-color:#999;
-	text-align:center;
-	line-height:25px;
-	border-top: 1px solid #666;
-  	border-left: 1px solid #666;
-}
-
-.calendar td a {
-	display: block;
-	text-decoration:none;
-	color:#CCC;
-	font-size:15px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width:32px;
-	height:25px;
-	transition:all linear 0.25s;
-}
-	
-.calendar a:hover {
-	background-color:#09F;
-	color:#FFF
-	
-}
-
-/*----------- Opmaak Index - Syllabus --------------*/
-
-#syllabus-bar {
-	background:#999;
-	position:relative;
-	height:300px;
-}
-
-#second-picture-japan-container {
-	background:url(../layout/Layout_Fuji_.jpg) no-repeat center;
-	position:relative;
-	width:500px;
-	height:300px;
-	float:right;
-	display:none;
-}
-
-#syllabus-text-wrapper {
-	padding:10px;
-	float:left;
-}
-
-#syllabus-title {
-	color:#333;
-	font-size:21px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#syllabus-text{
-	color:#333;
-	font-size:15px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#wijsheden-bar {
-	background:#3E3436;
-	position:relative;
-	height:300px;
-}
-
-#third-picture-japan-container {
-	background:url(layout/Layout_shrine_.jpg) no-repeat center;
-	position:relative;
-	width:500px;
-	height:300px;
-	float:left;
-	display:none;
-}
-
-/*----------- Opmaak Index - Wijsheden --------------*/
-
-#wijsheden-text-wrapper {
-	padding:10px;
-	float:left;
-}
-
-#wijsheden-title {
-	color:#CCC;
-	font-size:21px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-#wijsheden-text{
-	color:#CCC;
-	font-size:15px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
