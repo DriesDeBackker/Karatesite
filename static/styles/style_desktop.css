@@ -171,21 +171,21 @@ body {
 .bottomtext-title {
 	color:#FFF;
 	font-size:17px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	text-align:left;
 }
 
 .bottomtext {
 	color:#999;
-	font-size:16px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-family: "Lato", sans-serif;
 	text-align:left;
 }
 
 .bottomtext a {
 	color:#999;
-	font-size:16px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-family: "Lato", sans-serif;
 	text-align:left;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -193,8 +193,8 @@ body {
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:16px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	font-family: "Lato", sans-serif;
 	text-align:left;
 	text-decoration:none
 }
@@ -656,12 +656,12 @@ body {
 }
 
 .rectangle {
-    width: 15vw;
-    max-width:250px;
-    min-width:200px;
-    height: 15vw;
-    max-height:250px;
-    min-height:200px;
+    width: 18vw;
+    max-width:275px;
+    min-width:230px;
+    height: 18vw;
+    max-height:275px;
+    min-height:230px;
     padding-left:15px;
     padding-right:15px;
     padding-bottom:15px;
@@ -699,7 +699,7 @@ body {
 .recth {
     text-transform: uppercase;
     text-align: center;
-	font-size:18px;
+	font-size:16px;
     font-family: "Lato", sans-serif;
 }
 
@@ -707,16 +707,20 @@ body {
 	font-size:13px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
-    line-height:165%;
+    line-height:155%;
+}
+
+.rectbreak {
+    font-size:12px;
 }
 
 .recticon {
     height: 1.75vw;
     max-height:40px;
-    min-height:27px;
+    min-height:22px;
     width: 1.75vw;
     max-width:40px;
-    min-width:27px;
+    min-width:22px;
     margin:auto;
     background-size:cover;
 }
@@ -772,9 +776,9 @@ body {
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 11vw;
+    width: 13vw;
     max-width:260px;
-    min-width:100px;
+    min-width:120px;
 }
 
 .trainingsuren-uur {
@@ -788,15 +792,15 @@ body {
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 16vw;
-    max-width:325px;
+    width: 24.5vw;
+    max-width:350px;
     min-width:250px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 16vw;
-    max-width:325px;
+    width: 24.5vw;
+    max-width:350px;
     min-width:250px;
 }
 

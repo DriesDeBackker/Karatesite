@@ -54,7 +54,7 @@ body {
 /* De opmaak van de hoofdtitel in de banner op de indexpagina */
 .h3 {
 	color: #DBDBDB;
-    font-size:100px;
+    font-size:75px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
     text-align:center;
@@ -64,7 +64,7 @@ body {
 /* De opmaak van de hoofd op alle andere pagina's */
 .h4 {
 	color: #DBDBDB;
-    font-size:75px;
+    font-size:50px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
     text-align:center;
@@ -72,14 +72,14 @@ body {
 /* De opmaak van de ondertitel op alle pagina's met een ondertitel */
 .h5 {
     color: #DBDBDB;
-    font-size:45px;
+    font-size:32px;
     font-weight: 200;
     font-family: "Lato", sans-serif;
     text-align:center;
 }
 /* De opmaak van de paragraaftitels */
 .h6 {
-	font-size:27px;
+	font-size:23px;
 	font-family: "Lato", sans-serif;
 	font-weight:bold;
     text-transform:uppercase;
@@ -93,45 +93,37 @@ body {
 	font-weight:bold;
 }
 
-.h7-bis {
-	color:#666;
-	font-size:20px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
-	font-weight:bold;
-}
-
 /*----------- Opmaak paginahoofdingen -------------*/
 
 .h3-box{
     position:relative;
-    height:175px;
+    height:150px;
     background: rgba(0, 0, 0, 0.6);
-    top:275px;
+    top:200px;
     margin:0 auto;
 }
 
 .h4-box{
     position:relative;
-    height:100px;
+    height:75px;
     background: rgba(0, 0, 0, 0.6);
-    top:340px;
+    top:275px;
     margin:0 auto;
 }
 
 .h5-box{
     position:relative;
-    height:65px;
+    height:45px;
     background: rgba(0, 0, 0, 0.6);
-    top:370px;
+    top:300px;
     margin:0 auto;
 }
 
 .h5-box2{
     position:relative;
-    height:65px;
+    height:50px;
     background: rgba(0, 0, 0, 0.6);
-    top:300px;
+    top:225px;
     margin:0 auto;
 }
 
@@ -141,10 +133,9 @@ body {
     background-position: center;
 }
 
-
-.bovenbanner {height: 800px;}
-.tussenbanner {height: 800px;}
-.onderbanner {height: 600px;}
+.bovenbanner {height: 650px;}
+.tussenbanner {height: 600px;}
+.onderbanner {height: 450px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 
@@ -178,15 +169,14 @@ body {
 /* ---------------- Opmaak onderkant pagina -------------- */
 .bottomtext-title {
 	color:#FFF;
-	font-size:18px;
+	font-size:17px;
 	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
 }
 
 .bottomtext {
 	color:#999;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
@@ -194,7 +184,7 @@ body {
 
 .bottomtext a {
 	color:#999;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
@@ -204,7 +194,7 @@ body {
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:17px;
+	font-size:14px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:left;
@@ -212,7 +202,7 @@ body {
 }
 
 .p {
-	font-size:17px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -220,7 +210,7 @@ body {
 
 .p a {
 	color:#666;
-	font-size:17px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -231,7 +221,7 @@ body {
 
 .p a:hover {
 	color:#333;
-	font-size:17px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -241,7 +231,7 @@ body {
 /*-----------Algemene Opmaak - Layoutbalken ----------*/
 
 #first-bar {
-	height:40px;
+	height:35px;
 	background-color:#000;
 }
 
@@ -270,14 +260,14 @@ body {
 }
 
 #third-bar {
-	height:50px;
+	height:40px;
 	background-color:#333;
 }
 
 #oshi-shinobu-kanji-container {
 	position: relative;
 	float:left;
-	height:50px;
+	height:40px;
 	width:78px;
 }
 
@@ -287,7 +277,7 @@ body {
     background-size:contain;
 	position: relative;
 	left:12px;
-	top:11px;
+	top:7px;
 	height:45px;
 	width:65px;
 }
@@ -332,17 +322,17 @@ body {
 .upper-menu a {
     transition:all linear 0.25s;
     color:#919191;
-	height:35px;
+	height:25px;
 }
 
 .upper-menu-text {
 	position:relative;
-	top:7px;
+	top:4px;
 }
 
 .upper-menu-text-active {
 	position:relative;
-	top:7px;
+	top:4px;
     color:white;
 }
 
@@ -355,7 +345,7 @@ body {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:15px;
+    font-size:14px;
 }
 
 .upper-menu > ul > li > a {
@@ -373,7 +363,7 @@ body {
 /*----- Algemene Opmaak - Bovenmenu - Aanmeldmenu --------*/
 
 .upper-menu-wrap-left {
-	height:40px;
+	height:35px;
 	background:#000;
 	float:left;
 }
@@ -402,7 +392,7 @@ body {
 .upper-menu-wrap-right {
 	position:relative;
 	top:0px;
-	height:40px;
+	height:35px;
 	background:#000;
 	float:right;
 }
@@ -507,7 +497,6 @@ body {
 /*-------- Algemene Opmaak - Menu---------*/
 
 .menu-wrap {
-	height:50px;
 	float:left;
 }
  
@@ -519,7 +508,7 @@ body {
 .menu li {
     margin:0px;
     list-style:none;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", sans-serif;
 	font-style:normal;
 	text-decoration:none;
 }
@@ -527,7 +516,7 @@ body {
 .menu a {
     transition:all linear 0.25s;
     color:#919191;
-	height:30px;
+	height:20px;
 }
  
 .menu li:hover > a, .menu .current-item > a {
@@ -539,12 +528,11 @@ body {
 	position:relative;
     font-size:15px;
     line-height:0%;
-	top:5px;
+    left:2px;
 }
 
 .menu-text {
 	position:relative;
-	top:5px;
 }
 
 /*-------- Algemene Opmaak - Menu - Top Level---------*/
@@ -553,7 +541,7 @@ body {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:18px;
+    font-size:16px;
 }
  
 .menu > ul > li > a {
@@ -575,7 +563,7 @@ body {
 }
  
 .sub-menu {
-    width:249px;
+    width:220px;
     padding:0px 0px;
     position:absolute;
     top:100%;
@@ -590,7 +578,7 @@ body {
  
 .sub-menu li {
     display:block;
-    font-size:17px;
+    font-size:15px;
 	text-decoration:none;
 }
  
@@ -607,7 +595,7 @@ body {
 
 .submenu-text {
 	position:relative;
-	top:5px;
+	top:2px;
 }
 
 /*----------- Opmaak contenthouders -----------*/
@@ -621,10 +609,10 @@ body {
 }
 
 .content-box {
-    padding-left:7%;
-    padding-right:7%;
-    padding-top:80px;
-    padding-bottom:90px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:60px;
+    padding-bottom:50px;
     flex:1;
 }
 
@@ -632,12 +620,13 @@ body {
 .second-content-box {background-color: #585858;}
 .third-content-box {background-color: deepskyblue;}
 .fourth-content-box {background-color: #ffffff;}
+.fifth-content-box {background-color: black;}
 
 .inner-content-box {display:flex;}
 
 .text-box {
     text-align:left;
-    line-height: 200%;
+    line-height: 180%;
 }
 
 .first-text-box {color:#666;}
@@ -663,20 +652,20 @@ body {
 }
 
 .rectangle {
-    width:10vw;
-    max-width: 250px;
-    min-width: 220px;
-    height:10vw;
-    max-height: 250px;
-    min-height: 220px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    padding-top:20px;
+    width:22vw;
+    max-width: 240px;
+    min-width: 19px;
+    height:22vw;
+    max-height: 240px;
+    min-height: 190px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-top:10px;
     margin-right:10px;
     margin-left:10px;
-    margin-top: 50px;
-    margin-bottom:50px;
+    margin-top: 30px;
+    margin-bottom:20px;
     -webkit-transition: background-color 0.25s;
 }
 
@@ -700,24 +689,28 @@ body {
 .recth {
     text-transform: uppercase;
     text-align: center;
-	font-size:18px;
+	font-size:15px;
     font-family: "Lato", sans-serif;
 }
 
 .rectp {
-	font-size:14px;
+	font-size:12px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
-    line-height:165%;
+    line-height:145%;
+}
+
+.rectbreak {
+    font-size:8px;
 }
 
 .recticon {
-    height:1.75vw;
-    max-height: 30px;
-    min-height:20px;
-    width:1.75vw;
-    max-width: 30px;
-    min-width:20px;
+    height:2.2vw;
+    max-height: 25px;
+    min-height:16px;
+    width:2.2vw;
+    max-width: 25px;
+    min-width:16px;
     margin:auto;
     background-size:cover;
 }
@@ -751,10 +744,10 @@ body {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:22px;
+	font-size:17px;
     font-family: "Lato", sans-serif;
-    height:50px;
-    line-height:45px;
+    height:40px;
+    line-height:40px;
 }
 
 .trainingsuren-box {
@@ -773,13 +766,13 @@ body {
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 18vw;
-    max-width:300px;
-    min-width:200px;
+    width: 23vw;
+    max-width:180px;
+    min-width:180px;
 }
 
 .trainingsuren-uur {
-    height:50px;
+    height:40px;
     color: #222222;
     text-align: center;
 	font-size:18px;
@@ -789,16 +782,16 @@ body {
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 23vw;
-    max-width:350px;
-    min-width:205px;
+    width: 26vw;
+    max-width:290px;
+    min-width:200px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 23vw;
-    max-width:350px;
-    min-width:205px;
+    width: 26vw;
+    max-width:290px;
+    min-width:200px;
 }
 
 .trainingsuren-geen-training {
@@ -806,15 +799,15 @@ body {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 50px}
-.trainingsuren-geen-training2 {height: 25px}
-.trainingsuren-geen-training3 {height: 50px}
-.trainingsuren-geen-training3 {height: 400px}
+.trainingsuren-geen-training1 {height: 40px}
+.trainingsuren-geen-training2 {height: 20px}
+.trainingsuren-geen-training3 {height: 40px}
+.trainingsuren-geen-training3 {height: 320px}
 
 .trainingsuren-training {
     color: #222222;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px;
     opacity: 0.8;
@@ -824,22 +817,22 @@ body {
     opacity:1;
 }
 .trainingsuren-training-vrijdag1 {
-    height: 50px;
+    height: 40px;
     background-color: #ff3333;
-    line-height:20px;
+    line-height:15px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 75px;
+    height: 60px;
     background-color: forestgreen;
     line-height:20px;
 }
 .trainingsuren-training-zaterdag1 {
-    height: 50px;
+    height: 40px;
     background-color: #ff3333;
-    line-height:20px;
+    line-height:15px;
 }
 .trainingsuren-training-zaterdag2 {
-    height: 75px;
+    height: 60px;
     background-color: forestgreen;
     line-height:20px;
 }
