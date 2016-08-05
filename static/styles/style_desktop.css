@@ -33,7 +33,7 @@ body {
 
 .h1 {
 	color:#CCC;
-	font-size:55px;
+	font-size:50px;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	text-align:left;
 	width:800px;
@@ -46,7 +46,7 @@ body {
 
 .h2 {
 	color:#999;
-	font-size:25px;
+	font-size:21px;
 	font-family: "Lato", sans-serif;
 	text-align:left;
 }
@@ -54,7 +54,7 @@ body {
 /* De opmaak van de hoofdtitel in de banner op de indexpagina */
 .h3 {
 	color: #DBDBDB;
-    font-size:100px;
+    font-size:85px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
     text-align:center;
@@ -64,7 +64,7 @@ body {
 /* De opmaak van de hoofd op alle andere pagina's */
 .h4 {
 	color: #DBDBDB;
-    font-size:75px;
+    font-size:60px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
     text-align:center;
@@ -72,14 +72,14 @@ body {
 /* De opmaak van de ondertitel op alle pagina's met een ondertitel */
 .h5 {
     color: #DBDBDB;
-    font-size:45px;
+    font-size:40px;
     font-weight: 200;
     font-family: "Lato", sans-serif;
     text-align:center;
 }
 /* De opmaak van de paragraaftitels */
 .h6 {
-	font-size:27px;
+	font-size:24px;
 	font-family: "Lato", sans-serif;
 	font-weight:bold;
     text-transform:uppercase;
@@ -88,7 +88,7 @@ body {
 .h7 {
 	color:#666;
 	font-size:20px;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	text-align:center;
 	font-weight:bold;
 }
@@ -97,7 +97,7 @@ body {
 
 .h3-box{
     position:relative;
-    height:175px;
+    height:160px;
     background: rgba(0, 0, 0, 0.6);
     top:275px;
     margin:0 auto;
@@ -105,25 +105,25 @@ body {
 
 .h4-box{
     position:relative;
-    height:100px;
+    height:80px;
     background: rgba(0, 0, 0, 0.6);
-    top:340px;
+    top:300px;
     margin:0 auto;
 }
 
 .h5-box{
     position:relative;
-    height:65px;
+    height:55px;
     background: rgba(0, 0, 0, 0.6);
-    top:370px;
+    top:325px;
     margin:0 auto;
 }
 
 .h5-box2{
     position:relative;
-    height:65px;
+    height:55px;
     background: rgba(0, 0, 0, 0.6);
-    top:300px;
+    top:290px;
     margin:0 auto;
 }
 
@@ -133,10 +133,9 @@ body {
     background-position: center;
 }
 
-
-.bovenbanner {height: 800px;}
-.tussenbanner {height: 800px;}
-.onderbanner {height: 600px;}
+.bovenbanner {height: 750px;}
+.tussenbanner {height: 700px;}
+.onderbanner {height: 500px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 
@@ -171,21 +170,21 @@ body {
 /* ----------------- Opmaak onderkant pagina -------------------- */
 .bottomtext-title {
 	color:#FFF;
-	font-size:18px;
+	font-size:17px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
 }
 
 .bottomtext {
 	color:#999;
-	font-size:17px;
+	font-size:16px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
 }
 
 .bottomtext a {
 	color:#999;
-	font-size:17px;
+	font-size:16px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
 	text-decoration:none;
@@ -194,7 +193,7 @@ body {
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:17px;
+	font-size:16px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
 	text-decoration:none
@@ -202,7 +201,7 @@ body {
 
 .p {
 	/* color:#666;*/
-	font-size:18px;
+	font-size:15px;
     font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -210,9 +209,8 @@ body {
 
 .p a {
 	color:#666;
-	font-size:20px;
+    font-size:15px;
     font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
 	text-decoration:none;
 	transition:all linear 0.15s;
@@ -221,7 +219,7 @@ body {
 
 .p a:hover {
 	color:#333;
-	font-size:20px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
@@ -231,12 +229,12 @@ body {
 /*-----------Algemene Opmaak - Layoutbalken ----------*/
 
 #first-bar {
-	height:40px;
+	height:35px;
 	background-color:#000;
 }
 
 #second-bar {
-	height:130px;
+	height:120px;
 	background:url(../layout/Banner.jpg);
 }
 
@@ -245,8 +243,8 @@ body {
 	background-size: 100%;
 	position:relative;
 	top:15%;
-	width:100px;
-	height:100px;
+	width:85px;
+	height:85px;
 	left:8px;
 	float:left;
 }
@@ -260,7 +258,7 @@ body {
 }
 
 #third-bar {
-    height:50px;
+    height:40px;
 	background-color:#333;
 }
 
@@ -274,30 +272,31 @@ body {
 #oshi-shinobu-kanji-container {
 	position: relative;
 	float:left;
-	height:50px;
-	width:115px;
+	height:35px;
+	width:100px;
 }
 
 #oshi-shinobu-kanji {
 	background-image:url(../layout/osu3.png);
 	background-repeat: no-repeat;
+    background-size: cover;
 	position: relative;
 	left:12px;
 	top:3px;
-	height:45px;
-	width:110px;
+	height:35px;
+	width:78px;
 }
 
 #oshi-shinobu-text-container {
 	position: relative;
 	float:left;
 	width:285px;
-	height:50px;
+	height:40px;
 }
 
 #oshi-shinobu-text {
 	position:relative;
-	top:12px;
+	top:7px;
 }
 
 #fourth-bar {
@@ -311,13 +310,13 @@ body {
 	position: relative;
 	top: 0px;
 	margin: 0px auto;
-	height: 30px;
+	height: 35px;
 }
 
 .upper-menu li {
 	margin: 0px;
 	list-style: none;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-style: normal;
 	text-decoration: none;
 	position: relative;
@@ -327,17 +326,17 @@ body {
 .upper-menu a {
     transition:all linear 0.25s;
     color:#919191;
-	height:35px;
+	height:25px;
 }
 
 .upper-menu-text {
 	position:relative;
-	top:7px;
+	top:4px;
 }
 
 .upper-menu-text-active {
     position:relative;
-	top:7px;
+	top:4px;
     color:white;
 }
 
@@ -350,7 +349,7 @@ body {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:15px;
+    font-size:14px;
 }
 
 .upper-menu > ul > li > a {
@@ -368,7 +367,7 @@ body {
 /*----- Algemene Opmaak - Bovenmenu - Aanmeldmenu --------*/
 
 .upper-menu-wrap-left {
-	height:40px;
+	height:35px;
 	background:#000;
 	float:left;
 }
@@ -396,7 +395,7 @@ body {
 .upper-menu-wrap-right {
 	position:relative;
 	top:0px;
-	height:40px;
+	height:35px;
 	background:#000;
 	float:right;
 }
@@ -473,7 +472,7 @@ body {
 .sub-mobile-menu li a {
 	flex: 1;
     text-decoration: none;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size:18px;
 	color:#CCC;
 	display: flex;
@@ -512,7 +511,7 @@ body {
 .menu li {
     margin:0px;
     list-style:none;
-    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", sans-serif;
 	font-style:normal;
 	text-decoration:none;
 }
@@ -520,7 +519,7 @@ body {
 .menu a {
     transition:all linear 0.25s;
     color:#919191;
-	height:30px;
+	height:26px;
 }
  
 .menu li:hover > a, .menu .current-item > a {
@@ -530,14 +529,15 @@ body {
  
 .menu .arrow {
 	position:relative;
-    font-size:15px;
+    font-size:12px;
     line-height:0%;
-	top:5px;
+	top:3px;
+    left:2px;
 }
 
 .menu-text {
 	position:relative;
-	top:5px;
+	top:3px;
 }
  
 /*-------- Algemene Opmaak - Menu - Top Level---------*/
@@ -545,11 +545,11 @@ body {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:18px;
+    font-size:16px;
 }
  
 .menu > ul > li > a {
-    padding:10px 18px;
+    padding:7px 18px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 	text-decoration:none;
@@ -567,7 +567,7 @@ body {
 }
  
 .sub-menu {
-    width:262px;
+    width:235px;
     padding:0px 0px;
     position:absolute;
     top:100%;
@@ -582,7 +582,7 @@ body {
  
 .sub-menu li {
     display:block;
-    font-size:17px;
+    font-size:15px;
 	text-decoration:none;
 }
  
@@ -599,7 +599,7 @@ body {
 
 .submenu-text {
 	position:relative;
-	top:5px;
+	top:4px;
 }
 
 /*----------- Opmaak contenthouders -----------*/
@@ -613,10 +613,10 @@ body {
 }
 
 .content-box {
-    padding-top:100px;
-    padding-left:10%;
-    padding-right:10%;
-    padding-bottom:110px;
+    padding-top:75px;
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom:75px;
     flex:1;
 }
 
@@ -629,7 +629,7 @@ body {
 .inner-content-box {display:flex;}
 
 .text-box {
-    line-height: 250%;
+    line-height: 220%;
     text-align:left;
 }
 
@@ -656,20 +656,20 @@ body {
 }
 
 .rectangle {
-    width: 17vw;
-    max-width:300px;
-    min-width:250px;
-    height: 17vw;
-    max-height:300px;
-    min-height:250px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-bottom:20px;
-    padding-top:20px;
-    margin-right:12px;
-    margin-left:12px;
-    margin-top: 50px;
-    margin-bottom:50px;
+    width: 15vw;
+    max-width:250px;
+    min-width:200px;
+    height: 15vw;
+    max-height:250px;
+    min-height:200px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    padding-top:15px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top: 30px;
+    margin-bottom:30px;
     -webkit-transition: background-color 0.25s
 }
 
@@ -692,32 +692,29 @@ body {
 }
 
 .first-rectangle {order: 1;}
-
 .second-rectangle {order: 2;}
-
 .third-rectangle {order: 3;}
-
 .fourth-rectangle {order: 4;}
 
 .recth {
     text-transform: uppercase;
     text-align: center;
-	font-size:20px;
+	font-size:18px;
     font-family: "Lato", sans-serif;
 }
 
 .rectp {
-	font-size:15px;
+	font-size:13px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
     line-height:165%;
 }
 
 .recticon {
-    height: 2vw;
+    height: 1.75vw;
     max-height:40px;
     min-height:27px;
-    width: 2vw;
+    width: 1.75vw;
     max-width:40px;
     min-width:27px;
     margin:auto;
@@ -753,18 +750,18 @@ body {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:22px;
+	font-size:18px;
     font-family: "Lato", sans-serif;
-    height:50px;
-    line-height:45px;
+    height:40px;
+    line-height:40px;
 }
 
 .trainingsuren-box {
     background-color: #0099FF;
-    margin-right:12px;
-    margin-left:12px;
-    margin-top: 10px;
-    margin-bottom:10px;
+    margin-right:13px;
+    margin-left:13px;
+    margin-top: 8px;
+    margin-bottom:8px;
 }
 
 .trainingsuren-text-box {
@@ -775,13 +772,13 @@ body {
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 12vw;
-    max-width:300px;
-    min-width:120px;
+    width: 11vw;
+    max-width:260px;
+    min-width:100px;
 }
 
 .trainingsuren-uur {
-    height:50px;
+    height:40px;
     color: #222222;
     text-align: center;
 	font-size:18px;
@@ -791,16 +788,16 @@ body {
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 17vw;
-    max-width:400px;
-    min-width:360px;
+    width: 16vw;
+    max-width:325px;
+    min-width:250px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 17vw;
-    max-width:400px;
-    min-width:360px;
+    width: 16vw;
+    max-width:325px;
+    min-width:250px;
 }
 
 .trainingsuren-geen-training {
@@ -808,15 +805,15 @@ body {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 50px}
-.trainingsuren-geen-training2 {height: 25px}
-.trainingsuren-geen-training3 {height: 50px}
-.trainingsuren-geen-training3 {height: 400px}
+.trainingsuren-geen-training1 {height: 40px}
+.trainingsuren-geen-training2 {height: 20px}
+.trainingsuren-geen-training3 {height: 40px}
+.trainingsuren-geen-training3 {height: 320px}
 
 .trainingsuren-training {
     color: #222222;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px;
     opacity: 0.8;
@@ -826,24 +823,24 @@ body {
     opacity:1;
 }
 .trainingsuren-training-vrijdag1 {
-    height: 50px;
+    height: 40px;
     background-color: #ff3333;
-    line-height:20px;
+    line-height:14px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 75px;
+    height: 60px;
     background-color: forestgreen;
-    line-height:20px;
+    line-height:18px;
 }
 .trainingsuren-training-zaterdag1 {
-    height: 50px;
+    height: 40px;
     background-color: #ff3333;
-    line-height:20px;
+    line-height:14px;
 }
 .trainingsuren-training-zaterdag2 {
-    height: 75px;
+    height: 60px;
     background-color: forestgreen;
-    line-height:20px;
+    line-height:18px;
 }
 
 
@@ -899,7 +896,7 @@ body {
 }
 
 #second-bottom-text {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 	font-size:12px;
 	color:#CCC;
 }
@@ -909,7 +906,7 @@ body {
 	width:600px;
 	color:#CCC;
 	text-align:center;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 /*---------- Opmaak Dojobeheer------------*/
