@@ -26,12 +26,10 @@ def nlInstellingen():
 def nlNieuws():
     return render_template("nl/nieuws.html")
 
-
-@app.route('/dojo/oshishinobu')
-@app.route('/nl/dojo/oshishinobu')
-def nlOshishinobu():
-    return render_template("nl/dojo/oshishinobu.html")
-
+@app.route('/nieuws/<nb>')
+@app.route('/nl/nieuws/<nb>')
+def nlNieuwsitem(nb):
+    return render_template("nl/nieuws/nieuwsitem" + nb + ".html")
 
 @app.route('/dojo/info')
 @app.route('/nl/dojo/info')

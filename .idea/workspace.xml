@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/dojo/info.html" afterPath="$PROJECT_DIR$/templates/nl/dojo/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/dojo/kalender.html" afterPath="$PROJECT_DIR$/templates/nl/dojo/kalender.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nl/nieuws/nieuwsitem1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/layout.html" afterPath="$PROJECT_DIR$/templates/nl/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/nieuws.html" afterPath="$PROJECT_DIR$/templates/nl/nieuws.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_desktop.css" afterPath="$PROJECT_DIR$/static/styles/style_desktop.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_middle.css" afterPath="$PROJECT_DIR$/static/styles/style_middle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_mobile.css" afterPath="$PROJECT_DIR$/static/styles/style_mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +23,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1470420796272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1470477962566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/nl/index.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3502">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state vertical-scroll-proportion="-13.6" vertical-offset="102" max-vertical-offset="4301">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,8 +66,8 @@
       <file leaf-file-name="geschiedenis.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="4947">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="4947">
+              <caret line="24" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,8 +76,28 @@
       <file leaf-file-name="nieuws.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nl/nieuws.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1207">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+            <state vertical-scroll-proportion="-15.923077" vertical-offset="3275" max-vertical-offset="3859">
+              <caret line="217" column="14" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kata.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.9615384" vertical-offset="153" max-vertical-offset="3842">
+              <caret line="6" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nieuwsitem1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/nl/nieuws/nieuwsitem1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="765">
+              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -84,28 +106,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nl/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.846154" vertical-offset="822" max-vertical-offset="2210">
-              <caret line="68" column="165" selection-start-line="68" selection-start-column="165" selection-end-line="68" selection-end-column="165" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/nl/dojo/info.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="476">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kalender.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/nl/dojo/kalender.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="850" max-vertical-offset="2023">
+              <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -114,8 +116,8 @@
       <file leaf-file-name="style_desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.172414" vertical-offset="2107" max-vertical-offset="18955">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="67" />
+            <state vertical-scroll-proportion="-11.137931" vertical-offset="14348" max-vertical-offset="20298">
+              <caret line="863" column="0" selection-start-line="863" selection-start-column="0" selection-end-line="939" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -124,8 +126,8 @@
       <file leaf-file-name="style_middle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/styles/style_middle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.172414" vertical-offset="2107" max-vertical-offset="18802">
-              <caret line="143" column="67" selection-start-line="143" selection-start-column="67" selection-end-line="143" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15166" max-vertical-offset="20128">
+              <caret line="925" column="1" selection-start-line="925" selection-start-column="1" selection-end-line="925" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -134,8 +136,8 @@
       <file leaf-file-name="style_mobile.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/styles/style_mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6648936" vertical-offset="2107" max-vertical-offset="18734">
-              <caret line="146" column="67" selection-start-line="146" selection-start-column="67" selection-end-line="146" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.93971634" vertical-offset="15212" max-vertical-offset="20060">
+              <caret line="926" column="1" selection-start-line="926" selection-start-column="1" selection-end-line="926" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -151,7 +153,6 @@
       <list>
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/calendarfunctions.py" />
-        <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/templates/en/layout.html" />
         <option value="$PROJECT_DIR$/templates/nl/fadein.js" />
         <option value="$PROJECT_DIR$/static/scripts/dojobeheer.js" />
@@ -164,11 +165,13 @@
         <option value="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" />
         <option value="$PROJECT_DIR$/templates/nl/kyokushin/kumite.html" />
         <option value="$PROJECT_DIR$/templates/nl/index.html" />
-        <option value="$PROJECT_DIR$/templates/nl/layout.html" />
-        <option value="$PROJECT_DIR$/templates/nl/nieuws.html" />
         <option value="$PROJECT_DIR$/templates/nl/dojo/kalender.html" />
         <option value="$PROJECT_DIR$/templates/nl/dojo/info.html" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/templates/nl/layout.html" />
+        <option value="$PROJECT_DIR$/templates/nl/nieuws/nieuwsitem1.html" />
         <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
+        <option value="$PROJECT_DIR$/templates/nl/nieuws.html" />
         <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
         <option value="$PROJECT_DIR$/static/styles/style_mobile.css" />
       </list>
@@ -206,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +264,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dojo" />
+              <option name="myItemId" value="nieuws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Karatesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Karatesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kyokushin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,7 +338,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,6 +348,7 @@
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -589,7 +615,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +626,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.123667374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18869936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -635,14 +661,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="4556">
@@ -821,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="4352">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/en/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6181818" vertical-offset="1798" max-vertical-offset="3196">
@@ -912,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="799" max-vertical-offset="3842">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kumite.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4678899" vertical-offset="340" max-vertical-offset="1190">
@@ -934,25 +938,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.846154" vertical-offset="822" max-vertical-offset="2210">
-          <caret line="68" column="165" selection-start-line="68" selection-start-column="165" selection-end-line="68" selection-end-column="165" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="4947">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3502">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="3502">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
@@ -960,8 +948,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nl/dojo/kalender.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="340">
           <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/dojo/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="476">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/geschiedenis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="4947">
+          <caret line="24" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -974,42 +978,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/nieuws.html">
+    <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="-13.6" vertical-offset="102" max-vertical-offset="4301">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/dojo/info.html">
+    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="476">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state vertical-scroll-proportion="1.9615384" vertical-offset="153" max-vertical-offset="3842">
+          <caret line="6" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/nieuws/nieuwsitem1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="765">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="850" max-vertical-offset="2023">
+          <caret line="82" column="81" selection-start-line="82" selection-start-column="81" selection-end-line="82" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/nieuws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.923077" vertical-offset="3275" max-vertical-offset="3859">
+          <caret line="217" column="14" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.172414" vertical-offset="2107" max-vertical-offset="18955">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="67" />
+        <state vertical-scroll-proportion="-11.137931" vertical-offset="14348" max-vertical-offset="20298">
+          <caret line="863" column="0" selection-start-line="863" selection-start-column="0" selection-end-line="939" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_middle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.172414" vertical-offset="2107" max-vertical-offset="18802">
-          <caret line="143" column="67" selection-start-line="143" selection-start-column="67" selection-end-line="143" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15166" max-vertical-offset="20128">
+          <caret line="925" column="1" selection-start-line="925" selection-start-column="1" selection-end-line="925" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6648936" vertical-offset="2107" max-vertical-offset="18734">
-          <caret line="146" column="67" selection-start-line="146" selection-start-column="67" selection-end-line="146" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.93971634" vertical-offset="15212" max-vertical-offset="20060">
+          <caret line="926" column="1" selection-start-line="926" selection-start-column="1" selection-end-line="926" selection-end-column="1" />
           <folding />
         </state>
       </provider>

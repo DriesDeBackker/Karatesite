@@ -17,16 +17,7 @@
 <script src="{{ url_for('static', filename='scripts/menustick.js') }}"></script>
 </head>
 <body>
-<div id="first-bar">
-    <div class="upper-menu-wrap-right">
-      <nav class = "upper-menu">
-        <ul class="clearfix">
-          <li><a href="{{url_for(dutchPage(request.url,request.url_root))}}"><span class ="upper-menu-text-active">NEDERLANDS</span></a></li>
-          <li><a href="{{url_for(englishPage(request.url,request.url_root))}}"><span class ="upper-menu-text">ENGLISH</span></a></li>
-        </ul>
-      </nav>
-    </div>
-</div>
+<div id="first-bar"></div>
 <div id="second-bar">
   <div id="kanku"></div>
   	<span id="kyokushinkai-karate-vosselaar">
@@ -90,7 +81,6 @@
         </li>
         <li><a href="{{url_for('nlLinks')}}">LINKS</a></li>
         <li><a href="http://www.kyokushin-kaikan.or.jp/">KYOKUSHIN UNION</a></li>
-        <li><a href="{{url_for(englishPage(request.url,request.url_root))}}">ENGLISH</a></li>
       </ul>
 	</nav>
 </div>
@@ -101,7 +91,6 @@
       <p class="bottomtext-title">Contact</p>
       <p class="bottomtext">tel. 014616877</p>
       <p class="bottomtext">koen.de.backker@pandora.com</p>
-      <p class="bottomtext">{{ englishPage(request.url,request.url_root) }}</p>
     </div>
     <div class="first-bottom-text-center">
       <p class="bottomtext-title">Volg ons</p>
