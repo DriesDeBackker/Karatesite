@@ -145,6 +145,21 @@ body {
 
 #kalender-bovenbanner{background-image:url(../layout/kalender-banner.jpg);}
 
+.kalender-banner {height:350px;}
+
+.kalender-banner-box{
+    position:relative;
+    height:60px;
+    background: rgba(0, 0, 0, 0.6);
+    top:150px;
+    margin:0 auto;
+}
+
+#september-banner{background-image:url(../layout/trainingskalender/september-banner.jpg);}
+#oktober-banner{background-image:url(../layout/trainingskalender/oktober-banner.jpg);}
+#november-banner{background-image:url(../layout/trainingskalender/november-banner.jpg);}
+#december-banner{background-image:url(../layout/trainingskalender/december-banner.jpg);}
+
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
 #geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
