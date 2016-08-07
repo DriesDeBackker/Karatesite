@@ -1005,10 +1005,41 @@ body {
     margin: 35px;
 }
 
-.leraarp {
-    text-align: center;
+.leraartext {
+    padding: 20px;
+    width:650px;
+}
+
+.leraarh1 {
+    color: #82CAFF;
+    text-align: left;
     font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    font-size:20px;
+}
+
+.leraarh2 {
+    color: #919191;
+    text-align: left;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-size:16px;
+}
+
+.leraarp {
+    font-family: "lato", sans-serif;
+}
+
+.leraarp-index {
     color: #E9E9E9;
+    text-align: center;
+}
+.leraarp-info {
+    color: #82CAFF;
+    text-align: left;
+    line-height: 150%;
 }
 
 #shihan-koen {background-image:url(../layout/shihan_koen2.jpg);}

@@ -957,37 +957,70 @@ body {
 /*---------------- Leraars ------------------*/
 
 .leraar-item {
-    width:185px;
-    height:300px;
+    width:230px;
+    height:350px;
 }
 
 .leraar-bol {
-    width:125px;
-    height:125px;
+    width:150px;
+    height:150px;
     border-radius: 75px;
+    opacity:0.8;
     background-color: #919191;
     background-size:cover;
     background-position: center;
-    margin:30px;
+    cursor: pointer;
+    margin:40px;
     transition: all linear 0.15s;
 
 }
 
 .leraar-bol:hover {
-    width:140px;
-    height:140px;
+    width:160px;
+    height:160px;
+    opacity:1;
     border-radius: 75px;
     background-color: #919191;
     background-size:cover;
     background-position: center;
-    cursor: pointer;
-    margin: 25px;
+    margin: 35px;
+}
+
+.leraartext {
+    padding: 20px;
+    width:650px;
+}
+
+.leraarh1 {
+    color: #82CAFF;
+    text-align: left;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    font-size:20px;
+}
+
+.leraarh2 {
+    color: #919191;
+    text-align: left;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-size:16px;
 }
 
 .leraarp {
-    text-align: center;
     font-family: "lato", sans-serif;
+}
+
+.leraarp-index {
     color: #E9E9E9;
+    text-align: center;
+}
+.leraarp-info {
+    color: #82CAFF;
+    text-align: left;
+    line-height: 150%;
 }
 
 #shihan-koen {background-image:url(../layout/shihan_koen2.jpg);}
