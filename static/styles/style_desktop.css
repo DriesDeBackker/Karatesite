@@ -141,7 +141,7 @@ body {
 .onderbanner {height: 500px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
-#index-onderbanner{background-image:url(../layout/index_onderbanner.jpg);}
+#index-onderbanner{background-image:url(../layout/index_onderbanner3.JPG);}
 
 #nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
 
@@ -1001,19 +1001,6 @@ body {
 #senpai-jolein {background-image:url(../layout/senpai_jolein.jpg);}
 #senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
 #senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
-
-/*----------- Algemene Opmaak - Content -----------*/
-
-.content-wrapper {
-    position: relative;
-    left:115px;
-	width:80%;
-}
-
-.black-body-wrapper {
-    height:100%;
-    background-color: #272727;
-}
 
 /*----------- Algemene Opmaak - Footer -----------*/
 
