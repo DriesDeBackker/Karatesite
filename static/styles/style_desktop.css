@@ -34,7 +34,9 @@ body {
 .h1 {
 	color:#CCC;
 	font-size:50px;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	/*font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
+    font-family: "Lato", sans-serif;
+    font-weight:300;
 	text-align:left;
 	width:800px;
 }
