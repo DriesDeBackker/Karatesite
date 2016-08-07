@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class = "content-box first-content-box post1">
-    <div class = "index-first-text-box">
+    <div class = "first-text-box centered-text-box">
          <div class = "h6 post2">WAT WIJ TE BIEDEN HEBBEN</div>
          <br><br><br>
          <div class = "rectangle-wrap">
@@ -120,13 +120,13 @@
     </div>
 </div>
 <div class = "content-box fifth-content-box post1">
-    <div class = "index-second-text-box">
+    <div class = "second-text-box centered-text-box">
         <div class = "h6 post2">Eerste maand van elk semester gratis trainen ter kennismaking!</div>
     </div>
 </div>
 </div>
 <div class = "content-box second-content-box post1">
-    <div class = "index-second-text-box">
+    <div class = "second-text-box centered-text-box">
          <div class = "h6 post2">trainingsuren</div>
          <br><br><br>
          <div class="trainingsuren-wrap post2">
@@ -197,4 +197,59 @@
          </div>
     </div>
 </div>
+<div class = "content-box first-content-box post1">
+    <div class = "text-box first-text-box centered-text-box">
+        <div class = "h6 post2">Laatste nieuws</div>
+    </div>
+    <br><br>
+    <div class = "rectangle-wrap">
+        <div class = "nieuws-item post2">
+            <div class = "nieuws-foto"><a href="{{url_for('nlNieuwsitem', nb='1')}}"><img src="{{ url_for('static', filename='nieuws/foto1.jpg') }}" width="475" height="290" alt=""/></a></div>
+            <div class = "nieuwsbr1"><br></div>
+            <div class = "nieuwsd">AUGUSTUS 08</div>
+            <div class = "nieuwsbr2"><br></div>
+            <div class = "nieuwsh"><a href="{{url_for('nlNieuwsitem', nb='1')}}">Nieuwsitem 1</a></div>
+            <br>
+            <div class = "nieuwsp">Dit is een nieuwsbericht op deze website.
+            Als je op een van de titels of op de foto klikt, dan ga je naar de pagina  waar je het hele artikel kan lezen.</div>
+            <div class = "nieuwsm"><a href="{{url_for('nlNieuwsitem', nb='1')}}">Lees verder</a></div>
+        </div>
+        <div class = "nieuws-item post2">
+            <div class = "nieuws-foto"><a href="{{url_for('nlNieuwsitem', nb='1')}}"><img src="{{ url_for('static', filename='nieuws/foto1.jpg') }}" width="475" height="290" alt=""/></a></div>
+            <div class = "nieuwsbr1"><br></div>
+            <div class = "nieuwsd">AUGUSTUS 08</div>
+            <div class = "nieuwsbr2"><br></div>
+            <div class = "nieuwsh"><a href="{{url_for('nlNieuwsitem', nb='1')}}">Nieuwsitem 1</a></div>
+            <br>
+            <div class = "nieuwsp">Dit is een nieuwsbericht op deze website.
+            Als je op een van de titels of op de foto klikt, dan ga je naar de pagina  waar je het hele artikel kan lezen.</div>
+            <div class = "nieuwsm"><a href="{{url_for('nlNieuwsitem', nb='1')}}">Lees verder</a></div>
+        </div>
+    </div>
+</div>
+<div class = "content-box third-content-box post1">
+    <div class = "text-box third-text-box centered-text-box">
+        <div class = "h6 post2">Leraars</div>
+    </div>
+    <br>
+    <div class = "rectangle-wrap post2">
+        <div class = "leraar-item">
+            <div class = "leraar-bol" id="shihan-koen"></div>
+            <div class = "leraarp">Shihan Koen<br>Vijfde Dan</div>
+        </div>
+        <div class = "leraar-item">
+            <div class = "leraar-bol" id="senpai-jolein"></div>
+            <div class = "leraarp">Senpai Jolein<br>Eerste Dan</div>
+        </div>
+        <div class = "leraar-item">
+            <div class = "leraar-bol" id="senpai-dries"></div>
+            <div class = "leraarp">Senpai Dries<br>Eerste Dan</div>
+        </div>
+        <div class = "leraar-item">
+            <div class = "leraar-bol" id="senpai-anne"></div>
+            <div class = "leraarp">Senpai Anne<br>Eerste Dan</div>
+        </div>
+    </div>
+</div>
+<div class = "banner onderbanner post1" id="index-onderbanner"></div>
 {% endblock %}

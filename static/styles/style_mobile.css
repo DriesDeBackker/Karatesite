@@ -285,6 +285,13 @@ body {
 	background-color:#333;
 }
 
+.third-bar-fixed {
+    top: 0;
+    position: fixed;
+    width:100%;
+    z-index: 99999;
+}
+
 #oshi-shinobu-kanji-container {
 	position: relative;
 	float:left;
@@ -537,6 +544,7 @@ body {
     font-family: "Lato", sans-serif;
 	font-style:normal;
 	text-decoration:none;
+    overflow:hidden;
 }
 
 .menu a {
@@ -548,6 +556,15 @@ body {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#09F
+}
+
+.menu li:hover {
+    margin:0px;
+    list-style:none;
+    font-family: "Lato", sans-serif;
+	font-style:normal;
+	text-decoration:none;
+    overflow: visible;
 }
 
 .menu .arrow {
@@ -656,19 +673,11 @@ body {
 }
 
 .first-text-box {color:#666;}
-.second-text-box {color: #82CAFF}
+.second-text-box {color: #82CAFF;}
 .third-text-box {color: #E9E9E9;}
 .fourth-text-box {color: #82CAFF;}
 
-.index-first-text-box {
-    color:#666;
-    text-align: center;
-}
-
-.index-second-text-box {
-    color: #82CAFF;
-    text-align: center;
-}
+.centered-text-box {text-align: center;}
 
 .rectangle-wrap {
     display: flex;
@@ -693,6 +702,7 @@ body {
     margin-top: 30px;
     margin-bottom:20px;
     -webkit-transition: background-color 0.25s;
+    cursor: pointer;
 }
 
 .grey-rectangle {
@@ -940,6 +950,47 @@ body {
     color: red;
     text-decoration: none;
 }
+
+/*---------------- Leraars ------------------*/
+
+.leraar-item {
+    width:230px;
+    height:350px;
+}
+
+.leraar-bol {
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    background-color: #919191;
+    background-size:cover;
+    background-position: center;
+    cursor: pointer;
+    margin:40px;
+    transition: all linear 0.15s;
+
+}
+
+.leraar-bol:hover {
+    width:160px;
+    height:160px;
+    border-radius: 75px;
+    background-color: #919191;
+    background-size:cover;
+    background-position: center;
+    margin: 35px;
+}
+
+.leraarp {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    color: #E9E9E9;
+}
+
+#shihan-koen {background-image:url(../layout/shihan_koen2.jpg);}
+#senpai-jolein {background-image:url(../layout/senpai_jolein.jpg);}
+#senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
+#senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
 
 /*----------- Algemene Opmaak - Content -----------*/
 

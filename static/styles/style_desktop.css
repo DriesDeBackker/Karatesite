@@ -141,6 +141,7 @@ body {
 .onderbanner {height: 500px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
+#index-onderbanner{background-image:url(../layout/index_onderbanner.jpg);}
 
 #nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
 
@@ -543,6 +544,7 @@ body {
     font-family: "Lato", sans-serif;
 	font-style:normal;
 	text-decoration:none;
+    overflow:hidden;
 }
  
 .menu a {
@@ -554,6 +556,15 @@ body {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#09F
+}
+
+.menu li:hover {
+    margin:0px;
+    list-style:none;
+    font-family: "Lato", sans-serif;
+	font-style:normal;
+	text-decoration:none;
+    overflow: visible;
 }
  
 .menu .arrow {
@@ -667,15 +678,7 @@ body {
 .third-text-box {color: #E9E9E9;}
 .fourth-text-box {color: #82CAFF;}
 
-.index-first-text-box {
-    color:#666;
-    text-align: center;
-}
-
-.index-second-text-box {
-    color: #82CAFF;
-    text-align: center;
-}
+.centered-text-box {text-align: center;}
 
 .rectangle-wrap {
     display: flex;
@@ -699,12 +702,13 @@ body {
     margin-left:10px;
     margin-top: 30px;
     margin-bottom:30px;
-    -webkit-transition: background-color 0.25s
+    cursor: pointer;
 }
 
 .grey-rectangle {
     background-color: #3e3436;
     color: #E9E9E9;
+    transition: all linear 0.20s;
 }
 
 .grey-rectangle:hover {
@@ -714,6 +718,7 @@ body {
 .white-rectangle {
     background-color: #E9E9E9;
     color: #727272;
+    transition: all linear 0.20s;
 }
 
 .white-rectangle:hover {
@@ -879,7 +884,7 @@ body {
 /*----------- Opmaak nieuws -----------*/
 
 .nieuws-item {
-    width:500px;
+    width:475px;
     height:450px;
     margin-left:10px;
     margin-right:10px;
@@ -953,6 +958,50 @@ body {
     color: red;
     text-decoration: none;
 }
+
+/*---------------- Leraars ------------------*/
+
+.leraar-item {
+    width:230px;
+    height:350px;
+}
+
+.leraar-bol {
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    opacity:0.8;
+    background-color: #919191;
+    background-size:cover;
+    background-position: center;
+    cursor: pointer;
+    margin:40px;
+    transition: all linear 0.15s;
+
+}
+
+.leraar-bol:hover {
+    width:160px;
+    height:160px;
+    opacity:1;
+    border-radius: 75px;
+    background-color: #919191;
+    background-size:cover;
+    background-position: center;
+    margin: 35px;
+}
+
+.leraarp {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    color: #E9E9E9;
+}
+
+#shihan-koen {background-image:url(../layout/shihan_koen2.jpg);}
+#senpai-jolein {background-image:url(../layout/senpai_jolein.jpg);}
+#senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
+#senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
+
 /*----------- Algemene Opmaak - Content -----------*/
 
 .content-wrapper {
