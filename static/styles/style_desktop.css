@@ -684,6 +684,9 @@ body {
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
+}
+
+.centered-wrap {
     justify-content: center;
 }
 
