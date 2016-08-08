@@ -202,9 +202,11 @@ body {
 
 .bottomtext-title {
 	color:#FFF;
-	font-size:17px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	text-align:left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .bottomtext {
@@ -212,22 +214,17 @@ body {
 	font-size:14px;
 	font-family: "Lato", sans-serif;
 	text-align:left;
+    letter-spacing: 1px;
 }
 
 .bottomtext a {
 	color:#999;
-	font-size:14px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
 	text-decoration:none;
 	transition:all linear 0.15s;
 }
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:14px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
 	text-decoration:none
 }
 
@@ -790,7 +787,7 @@ body {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:17px;
+	font-size:14px;
     font-family: "Lato", sans-serif;
     height:40px;
     line-height:40px;
@@ -798,13 +795,14 @@ body {
 
 .trainingsuren-box {
     background-color: #0099FF;
-    margin-right:10px;
-    margin-left:10px;
+    margin-right:0.8vw;
+    margin-left:0.8vw;
     margin-top: 10px;
     margin-bottom:10px;
 }
 
 .trainingsuren-text-box {
+    font-size:12px;
     position: relative;
     top: 15%;
 }
@@ -812,32 +810,32 @@ body {
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 23vw;
+    width: 14vw;
     max-width:180px;
-    min-width:180px;
+    min-width:15px;
 }
 
 .trainingsuren-uur {
     height:40px;
     color: #222222;
     text-align: center;
-	font-size:18px;
+	font-size:14px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px #919191;
 }
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 26vw;
-    max-width:290px;
-    min-width:200px;
+    width: 19vw;
+    max-width:250px;
+    min-width:72px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 26vw;
-    max-width:290px;
-    min-width:200px;
+    width: 19vw;
+    max-width:250px;
+    min-width:72px;
 }
 
 .trainingsuren-geen-training {
@@ -857,10 +855,11 @@ body {
     font-family: "Lato", sans-serif;
     border-top: solid 1px;
     opacity: 0.8;
-    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
 }
 .trainingsuren-training:hover {
     opacity:1;
+    cursor:pointer;
 }
 .trainingsuren-training-vrijdag1 {
     height: 40px;
@@ -1068,26 +1067,26 @@ body {
 }
 
 #first-bottom-text-wrapper {
-	position:relative;
 	margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:30px;
+    padding-right:20px;
 }
 
 .first-bottom-text-left {
 	padding:10px;
 	width:250px;
-	float:left;
 }
 
 .first-bottom-text-center {
 	padding:10px;
-	width:200px;
-	float:left;
+	width:180px;
 }
 
 .first-bottom-text-right {
 	padding:10px;
-	width:240px;
-	overflow:hidden;
+	width:220px;
 }
 
 #second-bottom {
@@ -1279,18 +1278,23 @@ body {
 /*---------- Opmaak Links ------------*/
 
 .link-wrapper {
-	width:1200px;
-	float:left;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
-.link-column-left {
-	width:600px;
-	float:left;
+.link-adjuster {
+    width:20px;
 }
 
-.link-column-right {
-	width:600px;
-	overflow:hidden;
+.link-container {
+    width:280px;
 }
 
+.link-column {
+    line-height:225%;
+    width:300px;
+    margin-right:40px;
+}
 

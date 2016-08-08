@@ -199,9 +199,11 @@ body {
 /* ---------------- Opmaak onderkant pagina -------------- */
 .bottomtext-title {
 	color:#FFF;
-	font-size:17px;
+	font-size:15px;
 	font-family: "Lato", sans-serif;
 	text-align:left;
+    text-transform: uppercase;
+    letter-spacing:2px;
 }
 
 .bottomtext {
@@ -209,23 +211,17 @@ body {
 	font-size:14px;
 	font-family: "Lato", sans-serif;
 	text-align:left;
+    letter-spacing:1px;
 }
 
 .bottomtext a {
 	color:#999;
-	font-size:14px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
 	text-decoration:none;
 	transition:all linear 0.15s;
 }
 
 .bottomtext a:hover {
 	color:#09F;
-	font-size:14px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:left;
 	text-decoration:none
 }
 
@@ -858,10 +854,11 @@ body {
     font-family: "Lato", sans-serif;
     border-top: solid 1px;
     opacity: 0.8;
-    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
 }
 .trainingsuren-training:hover {
     opacity:1;
+    cursor:pointer;
 }
 .trainingsuren-training-vrijdag1 {
     height: 40px;
@@ -1069,26 +1066,27 @@ body {
 }
 
 #first-bottom-text-wrapper {
-	width:800px;
+    display:flex;
+    justify-content: center;
 	margin:auto;
 }
 
 .first-bottom-text-left {
 	padding:10px;
-	width:250px;
-	float:left;
+	width:275px;
+    order:1;
 }
 
 .first-bottom-text-center {
 	padding:10px;
 	width:200px;
-	float:left;
+	order:2;
 }
 
 .first-bottom-text-right {
 	padding:10px;
-	width:240px;
-	overflow:hidden;
+	width:225px;
+	order:3;
 }
 
 #second-bottom {
@@ -1280,23 +1278,19 @@ body {
 
 .link-wrapper {
     display:flex;
-    flex-direction:row;
     flex-wrap:wrap;
     justify-content: center;
 }
 
+.link-box {display: flex;}
+
+.link-adjuster1 {width:5px;}
+.link-adjuster2 {width:250px;}
+.link-container{}
+
 .link-column {
     line-height:225%;
-    width:300px;
-    margin-right:40px;
-}
-
-.link-column-left {
-    order:1;
-}
-
-.link-column-right {
-	order:2;
+    width:340px;
 }
 
 
