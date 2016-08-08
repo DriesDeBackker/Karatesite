@@ -239,6 +239,7 @@ body {
     font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
+    letter-spacing:1px;
 }
 
 .p a {
@@ -689,7 +690,9 @@ body {
 .third-text-box {color: #E9E9E9;}
 .fourth-text-box {color: #82CAFF;}
 
-.centered-text-box {text-align: center;}
+.centered-text-box {
+    text-align: center;
+}
 
 .rectangle-wrap {
     display: flex;
@@ -1046,6 +1049,31 @@ body {
 #senpai-jolein {background-image:url(../layout/senpai_jolein.jpg);}
 #senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
 #senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
+
+/*--------------- Opmaak trainingskalender -------------*/
+
+.kalender-tabel-wrap {
+    display: flex;
+    justify-content: center;
+}
+.kalender-rij {
+    height:60px;
+    vertical-align: top;
+}
+.kalender-cel1 {
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.kalender-cel2 {
+    width:150px;
+    letter-spacing:2px;
+}
+.kalender-cel3 {
+    width:200px;
+    letter-spacing:2px;
+}
+.kalender-cel4 {width:350px;}
 
 /*----------- Algemene Opmaak - Footer -----------*/
 

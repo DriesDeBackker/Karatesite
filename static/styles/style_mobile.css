@@ -54,6 +54,11 @@ body {
 	text-align:left;
 }
 
+.h2 a {
+    color:#999;
+	text-decoration:none;
+}
+
 /* De opmaak van de hoofdtitel in de banner op de indexpagina */
 .h3 {
 	color: #DBDBDB;
@@ -231,6 +236,7 @@ body {
 	font-family: "Lato", sans-serif;
 	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	text-align:justify;
+    letter-spacing:1px;
 }
 
 .p a {
@@ -1029,17 +1035,30 @@ body {
 #senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
 #senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
 
-/*----------- Algemene Opmaak - Content -----------*/
+/*--------------- Opmaak trainingskalender -------------*/
 
-.content-wrapper {
-	position:relative;
-    left:10px;
-	width:95%;
+.kalender-tabel-wrap {
+    display: flex;
+    justify-content: center;
+}
+.kalender-rij {
+    height:60px;
+    vertical-align: top;
 }
 
-.black-body-wrapper {
-    height:100%;
-    background-color: #272727;
+.kalender-cel1 {
+    width: 125px;
+    text-transform: uppercase;
+}
+.kalender-cel2 {
+    width:125px;
+}
+.kalender-cel3 {
+    width:125px;
+}
+.kalender-cel4 {
+    width:350px;
+    display:none;
 }
 
 /*----------- Algemene Opmaak - Footer -----------*/
