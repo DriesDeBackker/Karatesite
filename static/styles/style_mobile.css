@@ -935,6 +935,8 @@ body {
 }
 
 .leraar-item {
+        width:170px;
+        height:225px;
 }
 
 .leraar-bol {
@@ -942,8 +944,9 @@ body {
     height:125px;
     border-radius: 75px;
     opacity:0.8;
+    background-color: #919191;
     background-size:cover;
-    background: #919191 center;
+    background-position: center;
     cursor: pointer;
     margin:20px;
     transition: all linear 0.15s;
@@ -955,8 +958,9 @@ body {
     height:135px;
     opacity:1;
     border-radius: 75px;
+    background-color: #919191;
     background-size:cover;
-    background: #919191 center;
+    background-position: center;
     margin: 15px;
 }
 
