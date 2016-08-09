@@ -692,18 +692,12 @@ body {
 
 .white-rectangle {
     background-color: #E9E9E9;
-    color: #727272;
+    color: #555555;
 }
-.white-rectangle:hover {background-color: gainsboro;}
 
 .blue-rectangle {
-    background-color: #62CAFF;
-    color: #ffffff;
-    transition: all linear 0.20s;
-}
-
-.blue-rectangle:hover {
     background-color: deepskyblue;
+    color: #ffffff;
 }
 
 .recth {
