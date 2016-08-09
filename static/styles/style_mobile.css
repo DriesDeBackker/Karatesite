@@ -934,38 +934,25 @@ body {
     flex-wrap:wrap;
 }
 
-.leraar-item {
-        width:170px;
-        height:225px;
+.leraar-item1 {
+        width:200px;
+        height:220px;
 }
 
+.leraar-item2 {}
+
 .leraar-bol {
-    width:125px;
-    height:125px;
+    width:120px;
+    height:120px;
     border-radius: 75px;
     opacity:0.8;
     background-color: #919191;
     background-size:cover;
     background-position: center;
-    cursor: pointer;
-    margin:20px;
-    transition: all linear 0.15s;
-
-}
-
-.leraar-bol:hover {
-    width:135px;
-    height:135px;
-    opacity:1;
-    border-radius: 75px;
-    background-color: #919191;
-    background-size:cover;
-    background-position: center;
-    margin: 15px;
+    margin:auto;
 }
 
 .leraartext {
-    padding-left:27px;
     padding-bottom:40px;
 }
 
@@ -989,6 +976,7 @@ body {
 
 .leraarp {
     font-family: "lato", sans-serif;
+    letter-spacing:1px;
 }
 
 .leraarp-index {

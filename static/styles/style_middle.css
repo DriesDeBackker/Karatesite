@@ -941,8 +941,13 @@ body {
     flex-wrap:wrap;
 }
 
-.leraar-item {
-        width:190px;
+.leraar-item1{
+        width:170px;
+        height:225px;
+}
+
+.leraar-item2 {
+        width:170px;
         height:225px;
 }
 
@@ -955,7 +960,7 @@ body {
     background-size:cover;
     background-position: center;
     cursor: pointer;
-    margin:25px;
+    margin:15px;
     transition: all linear 0.15s;
 
 }
@@ -968,7 +973,7 @@ body {
     background-color: #919191;
     background-size:cover;
     background-position: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .leraartext {
@@ -1044,6 +1049,8 @@ body {
 
 #first-bottom {
 	background:#3E3436;
+    padding-top:15px;
+    padding-bottom:25px;
 }
 
 #first-bottom-text-wrapper {

@@ -655,7 +655,7 @@ body {
 
 .narrow-content-box {
     padding: 75px 16.5%;
-    flex: 1;
+    display:flex;
 }
 
 .content-box {
@@ -967,7 +967,12 @@ body {
     flex-wrap:wrap;
 }
 
-.leraar-item {
+.leraar-item1 {
+        width:205px;
+        height:250px;
+}
+
+.leraar-item2 {
         width:205px;
         height:250px;
 }
@@ -1071,6 +1076,8 @@ body {
 
 #first-bottom {
 	background:#3E3436;
+    padding-top:20px;
+    padding-bottom:30px;
 }
 
 #first-bottom-text-wrapper {
