@@ -11,8 +11,8 @@ body {
 }
 
 .clearfix {
-    padding:0px;
-	margin:0px;
+    padding:0;
+	margin:0;
 }
 
 .clearfix:after {
@@ -39,7 +39,6 @@ body {
     font-family: "Lato", sans-serif;
     font-weight:300;
 	text-align:left;
-	width:800px;
 }
 
 .h1 a {
@@ -68,7 +67,6 @@ body {
     font-family: "Lato", sans-serif;
     text-align:center;
     position: relative;
-    top: 25px;
 }
 /* De opmaak van de hoofd op alle andere pagina's */
 .h4 {
@@ -93,170 +91,6 @@ body {
 	font-weight:bold;
     text-transform:uppercase;
     letter-spacing:1px;
-}
-
-.h7 {
-	color:#666;
-	font-size:20px;
-	font-family: "Lato", sans-serif;
-	text-align:center;
-	font-weight:bold;
-}
-
-/*----------- Opmaak paginahoofdingen -------------*/
-
-.h3-box{
-    position:relative;
-    height:160px;
-    background: rgba(0, 0, 0, 0.6);
-    top:275px;
-    margin:0 auto;
-}
-
-.h4-box{
-    position:relative;
-    height:80px;
-    background: rgba(0, 0, 0, 0.6);
-    top:300px;
-    margin:0 auto;
-}
-
-.h5-box{
-    position:relative;
-    height:58px;
-    background: rgba(0, 0, 0, 0.6);
-    top:325px;
-    margin:0 auto;
-}
-
-.h5-box2{
-    position:relative;
-    height:58px;
-    background: rgba(0, 0, 0, 0.6);
-    top:290px;
-    margin:0 auto;
-}
-
-.banner {
-    width:100%;
-    background-size: cover;
-    background-position: center;
-}
-
-.bovenbanner {
-    height: 750px;
-    overflow: hidden;
-}
-.tussenbanner {height: 700px;}
-.onderbanner {height: 500px;}
-
-#index-bovenbanner{background-image:url(../layout/seiza.jpg);}
-#index-onderbanner{background-image:url(../layout/index_onderbanner3.JPG);}
-
-#nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
-
-#info-bovenbanner{background-image:url(../layout/info-banner.jpg);}
-
-#kalender-bovenbanner{background-image:url(../layout/kalender-banner.jpg);}
-
-.kalender-banner {height:350px;}
-
-.kalender-banner-box{
-    position:relative;
-    height:60px;
-    background: rgba(0, 0, 0, 0.6);
-    top:150px;
-    margin:0 auto;
-}
-
-#september-banner{background-image:url(../layout/trainingskalender/september-banner.jpg);}
-#oktober-banner{background-image:url(../layout/trainingskalender/oktober-banner.jpg);}
-#november-banner{background-image:url(../layout/trainingskalender/november-banner.jpg);}
-#december-banner{background-image:url(../layout/trainingskalender/december-banner.jpg);}
-
-#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
-#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
-#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
-#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
-#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
-#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
-#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
-#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
-#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
-
-#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
-#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
-#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
-
-#kihon-bovenbanner {background-image:url(../layout/kihon-header.jpg);}
-#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
-
-#kata-bovenbanner {background-image:url(../layout/kata-banner4.jpg);}
-#kata-tussenbanner {background-image:url(../layout/kata-banner3.jpg);}
-#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
-
-#kumite-bovenbanner {background-image:url(../layout/kumite-banner2.jpg);}
-#kumite-tussenbanner {background-image:url(../layout/kumite-banner4.jpg);}
-#kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
-#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
-
-#links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
-
-/* ----------------- Opmaak onderkant pagina -------------------- */
-.bottomtext-title {
-	color:#FFF;
-	font-size:16px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
-    text-transform: uppercase;
-    letter-spacing:2px;
-}
-
-.bottomtext {
-	color:#999;
-	font-size:15px;
-	font-family: "Lato", sans-serif;
-	text-align:left;
-    letter-spacing:1px;
-}
-
-.bottomtext a {
-	color:#999;
-	text-decoration:none;
-	transition:all linear 0.15s;
-}
-
-.bottomtext a:hover {
-	color:#09F;
-	text-decoration:none
-}
-
-.p {
-	/* color:#666;*/
-	font-size:15px;
-    font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:justify;
-    letter-spacing:1px;
-}
-
-.p a {
-	color:#666;
-    font-size:15px;
-    font-family: "Lato", sans-serif;
-	text-align:justify;
-	text-decoration:none;
-	transition:all linear 0.15s;
-	
-}
-
-.p a:hover {
-	color:#333;
-	font-size:15px;
-	font-family: "Lato", sans-serif;
-	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	text-align:justify;
-	text-decoration:none;
 }
 
 /*-----------Algemene Opmaak - Layoutbalken ----------*/
@@ -339,23 +173,180 @@ body {
 	height:40px;
 }
 
+
+/*----------- Opmaak paginahoofdingen -------------*/
+
+.h3-box{
+    padding:15px 10px 25px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.6);
+    top:275px;
+    margin:0 auto;
+}
+
+.h4-box{
+    padding:5px 10px 15px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.6);
+    top:300px;
+    margin:0 auto;
+}
+
+.h5-box{
+    padding:2px 10px 6px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.6);
+    top:325px;
+    margin:0 auto;
+}
+
+.h5-box2{
+    padding:2px 10px 6px;
+    position:relative;
+    background: rgba(0, 0, 0, 0.6);
+    top:290px;
+    margin:0 auto;
+}
+
+.banner {
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.bovenbanner {
+    height: 750px;
+    overflow: hidden;
+}
+.tussenbanner {height: 700px;}
+.onderbanner {height: 500px;}
+
+#index-bovenbanner{background-image:url(../layout/seiza.jpg);}
+#index-onderbanner{background-image:url(../layout/index_onderbanner3.JPG);}
+
+#nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
+
+#info-bovenbanner{background-image:url(../layout/info-banner.jpg);}
+
+#kalender-bovenbanner{background-image:url(../layout/kalender-banner.jpg);}
+
+.kalender-banner {height:350px;}
+
+.kalender-banner-box{
+    position:relative;
+    height:60px;
+    background: rgba(0, 0, 0, 0.6);
+    top:150px;
+    margin:0 auto;
+}
+
+#september-banner{background-image:url(../layout/trainingskalender/september-banner.jpg);}
+#oktober-banner{background-image:url(../layout/trainingskalender/oktober-banner.jpg);}
+#november-banner{background-image:url(../layout/trainingskalender/november-banner.jpg);}
+#december-banner{background-image:url(../layout/trainingskalender/december-banner.jpg);}
+
+#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
+#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
+#geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
+#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
+#geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
+#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
+#geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
+#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
+#geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
+
+#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
+#spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
+#spirit-onderbanner {background-image:url(../layout/golven.jpg);}
+
+#kihon-bovenbanner {background-image:url(../layout/kihon-header.jpg);}
+#kihon-onderbanner {background-image:url(../layout/hokusai_koi.jpg);}
+
+#kata-bovenbanner {background-image:url(../layout/kata-banner4.jpg);}
+#kata-tussenbanner {background-image:url(../layout/kata-banner3.jpg);}
+#kata-onderbanner {background-image:url(../layout/hokusai_fuji2.jpg);}
+
+#kumite-bovenbanner {background-image:url(../layout/kumite-banner5.jpg);}
+#kumite-tussenbanner {background-image:url(../layout/kumite-banner4.jpg);}
+#kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
+#kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
+
+#links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
+
+/* ----------------- Opmaak onderkant pagina -------------------- */
+.bottomtext-title {
+	color:#FFF;
+	font-size:16px;
+	font-family: "Lato", sans-serif;
+	text-align:left;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+
+.bottomtext {
+	color:#999;
+	font-size:15px;
+	font-family: "Lato", sans-serif;
+	text-align:left;
+    letter-spacing:1px;
+}
+
+.bottomtext a {
+	color:#999;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
+
+.bottomtext a:hover {
+	color:#09F;
+	text-decoration:none
+}
+
+.p {
+	/* color:#666;*/
+	font-size:15px;
+    font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	text-align:justify;
+    letter-spacing:1px;
+}
+
+.p a {
+	color:#666;
+    font-size:15px;
+    font-family: "Lato", sans-serif;
+	text-align:justify;
+	text-decoration:none;
+	transition:all linear 0.15s;
+	
+}
+
+.p a:hover {
+	color:#333;
+	font-size:15px;
+	font-family: "Lato", sans-serif;
+	/*font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	text-align:justify;
+	text-decoration:none;
+}
+
 /*----- Algemene Opmaak - Bovenmenu --------*/
 
 .upper-menu {
 	position: relative;
-	top: 0px;
-	margin: 0px auto;
+	top: 0;
+	margin: 0 auto;
 	height: 35px;
 }
 
 .upper-menu li {
-	margin: 0px;
+	margin: 0;
 	list-style: none;
 	font-family: "Lato", sans-serif;
 	font-style: normal;
 	text-decoration: none;
 	position: relative;
-	right: 0px;
+	right: 0;
 }
 
 .upper-menu a {
@@ -390,7 +381,7 @@ body {
 .upper-menu > ul > li > a {
     padding:5px 10px;
     display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
 	text-decoration:none;
 	vertical-align:middle;
 }
@@ -429,7 +420,7 @@ body {
 
 .upper-menu-wrap-right {
 	position:relative;
-	top:0px;
+	top:0;
 	height:35px;
 	background:#000;
 	float:right;
@@ -544,12 +535,12 @@ body {
 }
  
 .menu {
-    margin:0px auto;
-	height:0px;
+    margin:0 auto;
+	height:0;
 }
  
 .menu li {
-    margin:0px;
+    margin:0;
     list-style:none;
     font-family: "Lato", sans-serif;
 	font-style:normal;
@@ -569,7 +560,7 @@ body {
 }
 
 .menu li:hover {
-    margin:0px;
+    margin:0;
     list-style:none;
     font-family: "Lato", sans-serif;
 	font-style:normal;
@@ -601,7 +592,7 @@ body {
 .menu > ul > li > a {
     padding:7px 18px;
     display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
 	text-decoration:none;
 }
  
@@ -618,14 +609,14 @@ body {
  
 .sub-menu {
     width:235px;
-    padding:0px 0px;
+    padding:0 0;
     position:absolute;
     top:100%;
-    left:0px;
+    left:0;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.25s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    box-shadow:0 2px 3px rgba(0,0,0,0.2);
     background:#2e2728;
 	text-align:left;
 }
@@ -662,11 +653,13 @@ body {
     background-position:center;
 }
 
+.narrow-content-box {
+    padding: 75px 16.5%;
+    flex: 1;
+}
+
 .content-box {
-    padding-top:75px;
-    padding-left:8%;
-    padding-right:8%;
-    padding-bottom:75px;
+    padding: 75px 8%;
     flex:1;
 }
 
@@ -698,9 +691,12 @@ body {
     flex-wrap:wrap;
 }
 
-.centered-wrap {
-    justify-content: center;
+.narrow-wrap {
+    width:85%;
+    max-width:1000px;
 }
+
+.centered-wrap {justify-content: center;}
 
 .rectangle {
     width: 18vw;
@@ -709,14 +705,8 @@ body {
     height: 18vw;
     max-height:275px;
     min-height:230px;
-    padding-left:15px;
-    padding-right:15px;
-    padding-bottom:15px;
-    padding-top:15px;
-    margin-right:10px;
-    margin-left:10px;
-    margin-top: 30px;
-    margin-bottom:30px;
+    padding: 15px;
+    margin: 25px 10px 20px;
     cursor: pointer;
 }
 
@@ -740,10 +730,15 @@ body {
     background-color: gainsboro;
 }
 
-.first-rectangle {order: 1;}
-.second-rectangle {order: 2;}
-.third-rectangle {order: 3;}
-.fourth-rectangle {order: 4;}
+.blue-rectangle {
+    background-color: #62CAFF;
+    color: #ffffff;
+    transition: all linear 0.20s;
+}
+
+.blue-rectangle:hover {
+    background-color: deepskyblue;
+}
 
 .recth {
     text-transform: uppercase;
@@ -765,12 +760,8 @@ body {
 }
 
 .recticon {
-    height: 1.75vw;
-    max-height:40px;
-    min-height:22px;
-    width: 1.75vw;
-    max-width:40px;
-    min-width:22px;
+    height: 35px;
+    width: 35px;
     margin:auto;
     background-size:cover;
 }
@@ -812,10 +803,7 @@ body {
 
 .trainingsuren-box {
     background-color: #0099FF;
-    margin-right:13px;
-    margin-left:13px;
-    margin-top: 8px;
-    margin-bottom:8px;
+    margin: 8px 13px;
 }
 
 .trainingsuren-text-box {
@@ -903,10 +891,7 @@ body {
 .nieuws-item {
     width:475px;
     height:450px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin: 10px;
     border-bottom: solid 1px #727272;
 }
 
@@ -976,9 +961,13 @@ body {
 
 /*---------------- Leraars ------------------*/
 
+.leraar-info-wrap {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
 .leraar-item {
-    width:230px;
-    height:350px;
 }
 
 .leraar-bol {
@@ -986,11 +975,11 @@ body {
     height:150px;
     border-radius: 75px;
     opacity:0.8;
-    background-color: #919191;
     background-size:cover;
+    background-color: #919191;
     background-position: center;
     cursor: pointer;
-    margin:40px;
+    margin:30px;
     transition: all linear 0.15s;
 
 }
@@ -1000,15 +989,17 @@ body {
     height:160px;
     opacity:1;
     border-radius: 75px;
-    background-color: #919191;
     background-size:cover;
+    background: #919191
     background-position: center;
-    margin: 35px;
+    margin: 25px;
 }
 
 .leraartext {
     padding: 20px;
-    width:650px;
+    min-width:650px;
+    max-width:1000px;
+    width:50vw;
 }
 
 .leraarh1 {
@@ -1032,7 +1023,6 @@ body {
 .leraarp {
     font-family: "lato", sans-serif;
     letter-spacing:2px;
-    text-transform:uppercase;
 }
 
 .leraarp-index {
@@ -1078,7 +1068,6 @@ body {
 /*----------- Algemene Opmaak - Footer -----------*/
 
 #first-bottom {
-	padding:5px;
 	background:#3E3436;
 }
 
@@ -1088,30 +1077,13 @@ body {
 	margin:auto;
 }
 
-.first-bottom-text-left {
-	padding:10px;
-	width:350px;
-	float:left;
-    order:1
-}
-
-.first-bottom-text-center {
-	padding:10px;
-	width:250px;
-    order:2
-}
-
-.first-bottom-text-right {
-	padding:10px;
-	width:275px;
-	overflow:hidden;
-    order:3
-}
+.first-bottom-text-left {width:360px;}
+.first-bottom-text-center {	width:260px;}
+.first-bottom-text-right {width:280px;}
 
 #second-bottom {
-	padding:10px;
 	background:#000;
-	height:18px;
+	padding:5px 30px 12px;
 	text-align:center;
 }
 
@@ -1120,14 +1092,6 @@ body {
 	font-size:11px;
 	color:#CCC;
     letter-spacing:2px;
-}
-
-.copyright {
-	margin:0 auto;
-	width:600px;
-	color:#CCC;
-	text-align:center;
-	font-family: "Lato", sans-serif;
 }
 
 /*---------- Opmaak Dojobeheer------------*/
@@ -1300,15 +1264,18 @@ body {
     justify-content: center;
 }
 
-.link-box {
-    display: flex;
+.link-box {display: flex;}
+
+.link-adjuster {width:170px;}
+
+.link-container{width:280px;}
+
+.link-column1 {
+    line-height:225%;
+    width:450px;
 }
 
-.link-adjuster1 {width:30px;}
-.link-adjuster2 {width:240px;}
-.link-container{}
-
-.link-column {
+.link-column2 {
     line-height:225%;
-    width:490px;
+    width:450px;
 }
