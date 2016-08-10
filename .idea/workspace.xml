@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/kyokushin/kihon.html" afterPath="$PROJECT_DIR$/templates/nl/kyokushin/kihon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" afterPath="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,21 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kihon.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kihon.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kihon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6831229" vertical-offset="425" max-vertical-offset="1649">
+            <state vertical-scroll-proportion="-22.884615" vertical-offset="425" max-vertical-offset="1649">
               <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kata.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kata.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="3825">
-              <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.33293125" vertical-offset="1560" max-vertical-offset="3825">
+              <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -163,11 +162,11 @@
         <option value="$PROJECT_DIR$/templates/nl/dojo/kalender.html" />
         <option value="$PROJECT_DIR$/templates/nl/index.html" />
         <option value="$PROJECT_DIR$/templates/nl/dojo/info.html" />
-        <option value="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" />
         <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
         <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
         <option value="$PROJECT_DIR$/static/styles/style_mobile.css" />
         <option value="$PROJECT_DIR$/templates/nl/kyokushin/kihon.html" />
+        <option value="$PROJECT_DIR$/templates/nl/kyokushin/kata.html" />
       </list>
     </option>
   </component>
@@ -649,7 +648,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1030,14 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="3825">
-          <caret line="92" column="30" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="12069" max-vertical-offset="22015">
@@ -1064,8 +1055,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kihon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6831229" vertical-offset="425" max-vertical-offset="1649">
+        <state vertical-scroll-proportion="-22.884615" vertical-offset="425" max-vertical-offset="1649">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nl/kyokushin/kata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33293125" vertical-offset="1560" max-vertical-offset="3825">
+          <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
           <folding />
         </state>
       </provider>
