@@ -1058,19 +1058,19 @@ body {
     vertical-align: top;
 }
 .kalender-cel1 {
-    width: 150px;
+    width: 190px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 .kalender-cel2 {
-    width:150px;
+    width:160px;
     letter-spacing:2px;
 }
 .kalender-cel3 {
-    width:200px;
+    width:260px;
     letter-spacing:2px;
 }
-.kalender-cel4 {width:350px;}
+.kalender-cel4 {width:290px;}
 
 /*----------- Algemene Opmaak - Footer -----------*/
 
