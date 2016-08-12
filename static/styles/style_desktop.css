@@ -752,16 +752,16 @@ body {
 	font-size:13px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
-    line-height:155%;
+    line-height:135%;
 }
 
 .rectbreak {
-    font-size:12px;
+    font-size:9px;
 }
 
 .recticon {
-    height: 35px;
-    width: 35px;
+    height: 31px;
+    width: 31px;
     margin:auto;
     background-size:cover;
 }
