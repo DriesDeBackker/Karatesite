@@ -217,9 +217,13 @@ body {
 .bovenbanner {
     height: 750px;
     overflow: hidden;
+    background-attachment: fixed;
 }
 .tussenbanner {height: 700px;}
-.onderbanner {height: 500px;}
+.onderbanner {
+    background-attachment: fixed;
+    height: 500px;
+}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 #index-onderbanner{background-image:url(../layout/index_onderbanner3.JPG);}
