@@ -1114,6 +1114,25 @@ body {
     color: white;
 }
 
+/* ------------ Praktische info table --------------*/
+
+.praktische-info-tabel-wrap {
+    display: flex;
+}
+.praktische-info-rij {
+    height:40px;
+    vertical-align: top;
+}
+.praktische-info-cel1 {
+    width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.praktische-info-cel2 {
+    width:500px;
+    letter-spacing:2px;
+}
+
 /*--------------- Opmaak trainingskalender -------------*/
 
 .kalender-tabel-wrap {
