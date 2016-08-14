@@ -684,6 +684,27 @@ body {
     cursor: pointer;
 }
 
+.small-rectangle {
+    width: 130px;
+    height: 130px;
+    margin: 15px 10px 15px;
+    background-size:cover;
+    opacity:0.6;
+    cursor: pointer;
+    transition: all linear 0.18s;
+}
+
+.small-rectangle:hover {
+    opacity: 1;
+    width: 140px;
+    height: 140px;
+    margin: 10px 5px 10px;
+}
+
+#VVA {background-image:url(../layout/vva_logo.jpg);}
+#kyokushin-union {background-image:url(../layout/kyokushin_union.jpg);}
+#vosselaar{background-image:url(../layout/vosselaar.jpg);}
+
 .grey-rectangle {
     background-color: #3e3436;
     color: #E9E9E9;
