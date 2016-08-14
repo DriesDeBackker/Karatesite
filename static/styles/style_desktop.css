@@ -681,7 +681,7 @@ body {
 }
 
 .first-text-box {color:#666;}
-.second-text-box {color: #82CAFF;}
+.second-text-box {color: deepskyblue;}
 .third-text-box {color: #E9E9E9;}
 .fourth-text-box {color: #82CAFF;}
 
@@ -756,13 +756,13 @@ body {
 }
 
 .blue-rectangle {
-    background-color: #62CAFF;
+    background-color: deepskyblue;
     color: #ffffff;
     transition: all linear 0.20s;
 }
 
 .blue-rectangle:hover {
-    background-color: deepskyblue;
+    background-color: #00CFFF
 }
 
 .recth {
@@ -827,7 +827,7 @@ body {
 }
 
 .trainingsuren-box {
-    background-color: #0099FF;
+    background-color: deepskyblue;
     margin: 8px 13px;
 }
 
