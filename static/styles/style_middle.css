@@ -78,7 +78,7 @@ body {
 .h5 {
     color: #DBDBDB;
     font-size:35px;
-    font-weight: 200;
+    font-weight: 300;
     font-family: "Lato", sans-serif;
     text-align:center;
 }
@@ -179,7 +179,7 @@ body {
     position:relative;
     padding: 5px 10px 15px;
     background: rgba(0, 0, 0, 0.6);
-    top:275px;
+    top:230px;
     margin:0 auto;
 }
 
@@ -187,7 +187,7 @@ body {
     position:relative;
     padding: 4px 10px 12px;
     background: rgba(0, 0, 0, 0.6);
-    top:300px;
+    top:250px;
     margin:0 auto;
 }
 
@@ -239,7 +239,7 @@ body {
 #november-banner{background-image:url(../layout/trainingskalender/november-banner.jpg);}
 #december-banner{background-image:url(../layout/trainingskalender/december-banner.jpg);}
 
-#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
+#geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji2.jpg);}
 #geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
 #geschiedenis-box2{background-image:url(../layout/karate.jpg);}
@@ -780,8 +780,8 @@ body {
     text-align: center;
 	font-size:17px;
     font-family: "Lato", sans-serif;
-    height:40px;
-    line-height:40px;
+    height:30px;
+    line-height:30px;
 }
 
 .trainingsuren-box {
@@ -803,7 +803,7 @@ body {
 }
 
 .trainingsuren-uur {
-    height:40px;
+    height:30px;
     color: #222222;
     text-align: center;
 	font-size:18px;
@@ -830,10 +830,10 @@ body {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 40px}
-.trainingsuren-geen-training2 {height: 20px}
-.trainingsuren-geen-training3 {height: 40px}
-.trainingsuren-geen-training3 {height: 320px}
+.trainingsuren-geen-training1 {height: 30px}
+.trainingsuren-geen-training2 {height: 15px}
+.trainingsuren-geen-training3 {height: 30px}
+.trainingsuren-geen-training3 {height: 240px}
 
 .trainingsuren-training {
     color: #222222;
@@ -849,24 +849,24 @@ body {
     cursor:pointer;
 }
 .trainingsuren-training-vrijdag1 {
-    height: 40px;
+    height: 30px;
     background-color: #ff3333;
-    line-height:15px;
+    line-height:12px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 60px;
+    height: 45px;
     background-color: forestgreen;
-    line-height:20px;
+    line-height:16px;
 }
 .trainingsuren-training-zaterdag1 {
-    height: 40px;
+    height: 30px;
     background-color: #ff3333;
-    line-height:15px;
+    line-height:12px;
 }
 .trainingsuren-training-zaterdag2 {
-    height: 60px;
+    height: 45px;
     background-color: forestgreen;
-    line-height:20px;
+    line-height:16px;
 }
 
 /*----------- Opmaak nieuws -----------*/
@@ -1041,19 +1041,19 @@ body {
 }
 
 .kalender-cel1 {
-    width: 130px;
+    width: 160px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 .kalender-cel2 {
-    width:90px;
+    width:115px;
     letter-spacing:2px;
 }
 .kalender-cel3 {
-    width:130px;
+    width:180px;
     letter-spacing:2px;
 }
-.kalender-cel4 {width:350px;}
+.kalender-cel4 {width:235px;}
 
 /*----------- Algemene Opmaak - Footer -----------*/
 

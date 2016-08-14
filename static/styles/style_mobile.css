@@ -179,7 +179,7 @@ body {
     position:relative;
     padding: 10px 15px 20px;
     background: rgba(0, 0, 0, 0.6);
-    top:120px;
+    top:150px;
     margin:0 auto;
 }
 
@@ -187,7 +187,7 @@ body {
     position:relative;
     padding:5px 0 8px;
     background: rgba(0, 0, 0, 0.6);
-    top:200px;
+    top:160px;
     margin:0 auto;
 }
 
@@ -243,7 +243,7 @@ body {
 #geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
 #geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
 
-#spirit-bovenbanner {background-image:url(../layout/sosai-banner.jpg);}
+#spirit-bovenbanner {background-image:url(../layout/sosai-banner2.jpg);}
 #spirit-tussenbanner {background-image:url(../layout/spirit-tussenbanner.jpg);}
 #spirit-onderbanner {background-image:url(../layout/golven.jpg);}
 
@@ -756,8 +756,8 @@ body {
     text-align: center;
 	font-size:14px;
     font-family: "Lato", sans-serif;
-    height:40px;
-    line-height:40px;
+    height:30px;
+    line-height:30px;
 }
 
 .trainingsuren-box {
@@ -780,7 +780,7 @@ body {
 }
 
 .trainingsuren-uur {
-    height:40px;
+    height:30px;
     color: #222222;
     text-align: center;
 	font-size:14px;
@@ -807,10 +807,10 @@ body {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 40px}
-.trainingsuren-geen-training2 {height: 20px}
-.trainingsuren-geen-training3 {height: 40px}
-.trainingsuren-geen-training3 {height: 320px}
+.trainingsuren-geen-training1 {height: 30px}
+.trainingsuren-geen-training2 {height: 15px}
+.trainingsuren-geen-training3 {height: 30px}
+.trainingsuren-geen-training3 {height: 240px}
 
 .trainingsuren-training {
     color: #222222;
@@ -826,24 +826,24 @@ body {
     cursor:pointer;
 }
 .trainingsuren-training-vrijdag1 {
-    height: 40px;
+    height: 30px;
     background-color: #ff3333;
-    line-height:15px;
+    line-height:11px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 60px;
+    height: 45px;
     background-color: forestgreen;
-    line-height:20px;
-}
-.trainingsuren-training-zaterdag1 {
-    height: 40px;
-    background-color: #ff3333;
     line-height:15px;
 }
+.trainingsuren-training-zaterdag1 {
+    height: 30px;
+    background-color: #ff3333;
+    line-height:11px;
+}
 .trainingsuren-training-zaterdag2 {
-    height: 60px;
+    height: 45px;
     background-color: forestgreen;
-    line-height:20px;
+    line-height:15px;
 }
 
 /*----------- Opmaak nieuws -----------*/
