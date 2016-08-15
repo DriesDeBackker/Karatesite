@@ -12,9 +12,9 @@ def index():
 def nieuws():
     return render_template("nieuws.html")
 
-@app.route('/nieuws/<nb>')
-def nieuwsitem(nb):
-    return render_template("nieuws/nieuwsitem" + nb + ".html")
+@app.route('/nieuws/<item>')
+def nieuwsitem(item):
+    return render_template("nieuws/" + item + ".html")
 
 @app.route('/dojo/info')
 def info():
