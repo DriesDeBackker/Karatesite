@@ -234,7 +234,8 @@ body {
 #december-banner{background-image:url(../layout/trainingskalender/december-banner.jpg);}
 
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
-#geschiedenis-tussenbanner{background-image:url(../layout/oyama_sosai2.jpg);}
+#geschiedenis-tussenbanner1{background-image:url(../layout/samurai-banner.jpg);}
+#geschiedenis-tussenbanner2{background-image:url(../layout/oyama_sosai2.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
 #geschiedenis-box2{background-image:url(../layout/karate.jpg);}
 #geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
@@ -626,7 +627,7 @@ body {
 .outer-content-box {}
 
 .picture-box {
-    width:40%;
+    height:300px;
     background-size:cover;
     background-position:center;
 }
@@ -655,7 +656,7 @@ body {
 }
 
 .first-text-box {color:#666;}
-.second-text-box {color: #82CAFF;}
+.second-text-box {color: deepskyblue;}
 .third-text-box {color: #E9E9E9;}
 .fourth-text-box {color: #82CAFF;}
 
