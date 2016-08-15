@@ -206,7 +206,7 @@ body {
 }
 
 .bovenbanner {height: 400px;}
-.tussenbanner {height: 400px;}
+.tussenbanner {height: 350px;}
 .onderbanner {height: 350px;}
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
@@ -236,12 +236,28 @@ body {
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji.jpg);}
 #geschiedenis-tussenbanner1{background-image:url(../layout/samurai-banner.jpg);}
 #geschiedenis-tussenbanner2{background-image:url(../layout/oyama_sosai2.jpg);}
+
+ol li {
+    padding: 8px;
+    margin-left: 0px;
+}
+
+#geschiedenis-tussenbanner3{background-image:url(../layout/dojo_kun.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
-#geschiedenis-box2{background-image:url(../layout/karate.jpg);}
+#geschiedenis-box2{
+    background-image:url(../layout/karate.jpg);
+    order:2;
+}
 #geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
-#geschiedenis-box4{background-image:url(../layout/chojun_miyagi.jpg);}
+#geschiedenis-box4{
+    background-image:url(../layout/chojun_miyagi.jpg);
+    order:2;
+}
 #geschiedenis-box5{background-image:url(../layout/kanku-image.jpg);}
-#geschiedenis-box6{background-image:url(../layout/kanji2.jpg);}
+#geschiedenis-box6{
+    background-image:url(../layout/kanji2.jpg);
+    order:2;
+}
 #geschiedenis-onderbanner{background-image:url(../layout/hokusai_hanging_bridge.jpg);}
 
 #spirit-bovenbanner {background-image:url(../layout/sosai-banner2.jpg);}
@@ -624,10 +640,14 @@ body {
 
 /*----------- Opmaak contenthouders -----------*/
 
-.outer-content-box {}
+.outer-content-box {
+    display:flex;
+    flex-wrap:wrap;
+}
 
 .picture-box {
-    height:300px;
+    width:100%;
+    height:350px;
     background-size:cover;
     background-position:center;
 }
@@ -638,6 +658,8 @@ body {
 }
 
 .content-box {
+    min-width:320px;
+    min-height:300px;
     padding: 45px 40px 35px;
     flex:1;
 }

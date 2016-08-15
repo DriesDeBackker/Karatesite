@@ -21,7 +21,7 @@
 <div id="second-bar">
   <div id="kanku"></div>
   	<span id="kyokushinkai-karate-vosselaar">
-    	<span class="h1"><a href="{{url_for('nlIndex')}}">KYOKUSHINKAI KARATE VOSSELAAR</a></span>
+    	<span class="h1"><a href="{{url_for('index')}}">KYOKUSHINKAI KARATE VOSSELAAR</a></span>
 </span></div>
 <div id="third-bar">
   <div id="oshi-shinobu-kanji-container">
@@ -29,31 +29,31 @@
   </div>
   <div id="oshi-shinobu-text-container">
     <div id="oshi-shinobu-text">
-      <span class="h2"><a href="{{url_for('nlIndex')}}">OSHI SHINOBU DOJO</a></span>
+      <span class="h2"><a href="{{url_for('index')}}">OSHI SHINOBU DOJO</a></span>
   	</div>
   </div>
   <div class="menu-wrap">
     <nav class="menu">
       <ul class="clearfix">
-        <li><a href="{{url_for('nlNieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
+        <li><a href="{{url_for('nieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
         <li> <a href="#"><span class="menu-text">DOJO</span> <span class="arrow">&#9660;</span></a>
           <ul class="sub-menu">
-            <li><a href="{{url_for('nlInfo')}}"><span class="submenu-text">Info</span></a></li>
-            <li><a href="{{url_for('nlKalender')}}"><span class="submenu-text">Kalender</span></a></li>
-            <li><a href="{{url_for('nlNieuwsbrief')}}""><span class="submenu-text">Nieuwsbrief September</span></a></li>
+            <li><a href="{{url_for('info')}}"><span class="submenu-text">Info</span></a></li>
+            <li><a href="{{url_for('kalender')}}"><span class="submenu-text">Kalender</span></a></li>
+            <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}"><span class="submenu-text">Nieuwsbrief Augustus</span></a></li>
           </ul>
         </li>
         <li> <a href="#"><span class="menu-text">KYOKUSHINKAI KARATE</span><span class="arrow">&#9660;</span></a>
           <ul class="sub-menu">
-            <li><a href="{{url_for('nlGeschiedenis')}}"><span class="submenu-text">Geschiedenis</span></a></li>
-            <li><a href="{{url_for('nlSpirit')}}"><span class="submenu-text">Spirit</span></a></li>
-            <li><a href="{{url_for('nlKihon')}}"><span class="submenu-text">Kihon</span></a></li>
-            <li><a href="{{url_for('nlKata')}}"><span class="submenu-text">Kata</span></a></li>
-            <li><a href="{{url_for('nlKumite')}}"><span class="submenu-text">Kumite</span></a></li>
+            <li><a href="{{url_for('geschiedenis')}}"><span class="submenu-text">Geschiedenis</span></a></li>
+            <li><a href="{{url_for('spirit')}}"><span class="submenu-text">Spirit</span></a></li>
+            <li><a href="{{url_for('kihon')}}"><span class="submenu-text">Kihon</span></a></li>
+            <li><a href="{{url_for('kata')}}"><span class="submenu-text">Kata</span></a></li>
+            <li><a href="{{url_for('kumite')}}"><span class="submenu-text">Kumite</span></a></li>
           </ul>
         </li>
         <li><a href="http://www.kyokushin-kaikan.or.jp/"><span class="menu-text">KYOKUSHIN UNION</span></a></li>
-        <li><a href="{{url_for('nlLinks')}}"><span class="menu-text">LINKS</span></a></li>
+        <li><a href="{{url_for('links')}}"><span class="menu-text">LINKS</span></a></li>
       </ul>
     </nav>
   </div>
@@ -61,25 +61,25 @@
 </div>
 <div id="mobile-menu-wrap">
 	<nav id="mobile-menu">
-        <li><a href="{{url_for('nlNieuws')}}">NIEUWS</a></li>
+        <li><a href="{{url_for('nieuws')}}">NIEUWS</a></li>
         <li id="submenubutton1"> <a href="#">DOJO</a>
           <ul class="sub-mobile-menu">
-            <li><a href="{{url_for('nlInfo')}}">Info</a></li>
-            <li><a href="{{url_for('nlKalender')}}">Kalender</a></li>
-            <li><a href="{{url_for('nlNieuwsbrief')}}">Nieuwsbrief September</a></li>
+            <li><a href="{{url_for('info')}}">Info</a></li>
+            <li><a href="{{url_for('kalender')}}">Kalender</a></li>
+            <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}">Nieuwsbrief Augustus</a></li>
           </ul>
         </li>
         <li id="submenubutton2">
             <a href="#">KYOKUSHINKAI KARATE</a>
             <ul class="sub-mobile-menu">
-                <li><a href="{{url_for('nlGeschiedenis')}}">Geschiedenis</a></li>
-                <li><a href="{{url_for('nlSpirit')}}">Spirit</a></li>
-                <li><a href="{{url_for('nlKihon')}}">Kihon</a></li>
-                <li><a href="{{url_for('nlKata')}}">Kata</a></li>
-                <li><a href="{{url_for('nlKumite')}}">Kumite</a></li>
+                <li><a href="{{url_for('geschiedenis')}}">Geschiedenis</a></li>
+                <li><a href="{{url_for('spirit')}}">Spirit</a></li>
+                <li><a href="{{url_for('kihon')}}">Kihon</a></li>
+                <li><a href="{{url_for('kata')}}">Kata</a></li>
+                <li><a href="{{url_for('kumite')}}">Kumite</a></li>
             </ul>
         </li>
-        <li><a href="{{url_for('nlLinks')}}">LINKS</a></li>
+        <li><a href="{{url_for('links')}}">LINKS</a></li>
         <li><a href="http://www.kyokushin-kaikan.or.jp/">KYOKUSHIN UNION</a></li>
       </ul>
 	</nav>

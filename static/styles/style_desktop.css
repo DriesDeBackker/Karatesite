@@ -219,7 +219,10 @@ body {
     overflow: hidden;
     background-attachment: fixed;
 }
-.tussenbanner {height: 700px;}
+.tussenbanner {
+    height: 700px;
+    background-attachment: fixed;
+}
 .onderbanner {
     background-attachment: fixed;
     height: 500px;
@@ -252,6 +255,13 @@ body {
 #geschiedenis-bovenbanner{background-image:url(../layout/karatedo_kanji2.jpg);}
 #geschiedenis-tussenbanner1{background-image:url(../layout/samurai-banner.jpg);}
 #geschiedenis-tussenbanner2{background-image:url(../layout/oyama_sosai2.jpg);}
+
+ol li {
+    padding: 8px;
+    margin-left: 0px;
+}
+
+#geschiedenis-tussenbanner3{background-image:url(../layout/dojo_kun.jpg);}
 #geschiedenis-box1{background-image:url(../layout/bodhi-01.jpg);}
 #geschiedenis-box2{background-image:url(../layout/karate.jpg);}
 #geschiedenis-box3{background-image:url(../layout/funakoshi-banner.jpg);}
