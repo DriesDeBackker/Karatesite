@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kyokushin/geschiedenis.html" afterPath="$PROJECT_DIR$/templates/kyokushin/geschiedenis.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/kyokushin/kata.html" afterPath="$PROJECT_DIR$/templates/kyokushin/kata.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_desktop.css" afterPath="$PROJECT_DIR$/static/styles/style_desktop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_middle.css" afterPath="$PROJECT_DIR$/static/styles/style_middle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_mobile.css" afterPath="$PROJECT_DIR$/static/styles/style_mobile.css" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +91,8 @@
       <file leaf-file-name="kata.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/kyokushin/kata.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6214575" vertical-offset="3620" max-vertical-offset="4386">
-              <caret line="231" column="97" selection-start-line="231" selection-start-column="97" selection-end-line="231" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.8967611" vertical-offset="2906" max-vertical-offset="4556">
+              <caret line="197" column="77" selection-start-line="197" selection-start-column="77" selection-end-line="197" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -1060,8 +1056,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/kyokushin/kata.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6214575" vertical-offset="3620" max-vertical-offset="4386">
-          <caret line="231" column="97" selection-start-line="231" selection-start-column="97" selection-end-line="231" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.8967611" vertical-offset="2906" max-vertical-offset="4556">
+          <caret line="197" column="77" selection-start-line="197" selection-start-column="77" selection-end-line="197" selection-end-column="77" />
           <folding />
         </state>
       </provider>
