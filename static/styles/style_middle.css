@@ -764,11 +764,26 @@ ol li {
     letter-spacing:1px;
 }
 
+.recth2 {
+    text-transform: uppercase;
+    text-align: center;
+	font-size:14px;
+    font-family: "Lato", sans-serif;
+    letter-spacing:1px;
+}
+
 .rectp {
 	font-size:12px;
     font-family: "Lato", sans-serif;
 	text-align:justify;
     line-height:125%;
+}
+
+.blue-text {color: deepskyblue;}
+.white-text {color: white;}
+
+.blue-text {
+    color: deepskyblue;
 }
 
 .rectbreak {
@@ -780,6 +795,14 @@ ol li {
     width:27px;
     margin:auto;
     background-size:cover;
+}
+
+.kanji-icon {
+    height: 60px;
+    width: 60px;
+    margin:auto;
+    background-size:cover;
+    transition: all linear 0.25s;
 }
 
 #conditie-icoon{background-image:url(../layout/conditie.png);}
@@ -796,6 +819,14 @@ ol li {
 #slag-icoon{background-image:url(../layout/slag.png);}
 #afweer-icoon{background-image:url(../layout/afweer.png);}
 #trap-icoon{background-image:url(../layout/trap.png);}
+
+#gi-icoon{background-image:url(../layout/gi.png);}
+#rei-icoon{background-image:url(../layout/rei.png);}
+#yu-icoon{background-image:url(../layout/yu.png);}
+#meiyo-icoon{background-image:url(../layout/meiyo.png);}
+#jin-icoon{background-image:url(../layout/jin.png);}
+#makoto-icoon{background-image:url(../layout/makoto.png);}
+#chu-icoon{background-image:url(../layout/chu.png);}
 
 
 /*-------------Opmaak trainingsuren index-------------*/
