@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dojo/info.html" afterPath="$PROJECT_DIR$/templates/dojo/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_desktop.css" afterPath="$PROJECT_DIR$/static/styles/style_desktop.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style_middle.css" afterPath="$PROJECT_DIR$/static/styles/style_middle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1471377565184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1471378156015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -79,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1394928" vertical-offset="714" max-vertical-offset="5525">
-              <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state vertical-scroll-proportion="17.653847" vertical-offset="2907" max-vertical-offset="5831">
+              <caret line="144" column="76" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -112,18 +110,18 @@
       <file leaf-file-name="style_desktop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="12053" max-vertical-offset="24582">
-              <caret line="729" column="32" selection-start-line="729" selection-start-column="32" selection-end-line="729" selection-end-column="32" />
+            <state vertical-scroll-proportion="-6.448276" vertical-offset="12886" max-vertical-offset="24582">
+              <caret line="769" column="0" selection-start-line="769" selection-start-column="0" selection-end-line="778" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_middle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style_middle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/styles/style_middle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.655172" vertical-offset="11883" max-vertical-offset="24089">
-              <caret line="724" column="32" selection-start-line="724" selection-start-column="32" selection-end-line="724" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.81672597" vertical-offset="12767" max-vertical-offset="24089">
+              <caret line="778" column="0" selection-start-line="778" selection-start-column="0" selection-end-line="778" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,8 +185,8 @@
         <option value="$PROJECT_DIR$/templates/kyokushin/geschiedenis.html" />
         <option value="$PROJECT_DIR$/templates/kyokushin/spirit.html" />
         <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
-        <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
         <option value="$PROJECT_DIR$/templates/dojo/info.html" />
+        <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
       </list>
     </option>
   </component>
@@ -1045,26 +1043,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.653847" vertical-offset="2907" max-vertical-offset="5831">
+          <caret line="144" column="76" selection-start-line="144" selection-start-column="76" selection-end-line="144" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12053" max-vertical-offset="24582">
-          <caret line="729" column="32" selection-start-line="729" selection-start-column="32" selection-end-line="729" selection-end-column="32" />
+        <state vertical-scroll-proportion="-6.448276" vertical-offset="12886" max-vertical-offset="24582">
+          <caret line="769" column="0" selection-start-line="769" selection-start-column="0" selection-end-line="778" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_middle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.655172" vertical-offset="11883" max-vertical-offset="24089">
-          <caret line="724" column="32" selection-start-line="724" selection-start-column="32" selection-end-line="724" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1394928" vertical-offset="714" max-vertical-offset="5525">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.81672597" vertical-offset="12767" max-vertical-offset="24089">
+          <caret line="778" column="0" selection-start-line="778" selection-start-column="0" selection-end-line="778" selection-end-column="0" />
           <folding />
         </state>
       </provider>

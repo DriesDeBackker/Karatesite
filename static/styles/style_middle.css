@@ -749,9 +749,13 @@ ol li {
 
 .blue-rectangle {
     cursor: pointer;
-    background-color: #62CAFF;
+    background-color: deepskyblue;
     color: #ffffff;
     transition: all linear 0.20s;
+}
+
+.blue-rectangle:hover {
+    background-color: #00CFFF
 }
 
 .transparant-rectangle1 {
@@ -771,10 +775,6 @@ ol li {
 .transparant-rectangle2:hover {
     border: solid 1px lightgrey;
     background-color: #606666;
-}
-
-.blue-rectangle:hover {
-    background-color: deepskyblue;
 }
 
 .recth {
