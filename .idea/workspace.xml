@@ -71,8 +71,8 @@
       <file leaf-file-name="geschiedenis.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/kyokushin/geschiedenis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5379976" vertical-offset="3872" max-vertical-offset="6783">
-              <caret line="254" column="60" selection-start-line="254" selection-start-column="60" selection-end-line="254" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.35343787" vertical-offset="1798" max-vertical-offset="6783">
+              <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -1046,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/kyokushin/geschiedenis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5379976" vertical-offset="3872" max-vertical-offset="6783">
-          <caret line="254" column="60" selection-start-line="254" selection-start-column="60" selection-end-line="254" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.35343787" vertical-offset="1798" max-vertical-offset="6783">
+          <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
           <folding />
         </state>
       </provider>
