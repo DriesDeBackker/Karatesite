@@ -706,7 +706,6 @@ ol li {
     padding: 10px;
     margin: 20px 10px 15px;
     transition: background-color 0.25s;
-    cursor: pointer;
 }
 
 .small-rectangle {
@@ -731,12 +730,14 @@ ol li {
 #vosselaar{background-image:url(../layout/vosselaar.jpg);}
 
 .grey-rectangle {
+    cursor: pointer;
     background-color: #3e3436;
     color: #E9E9E9;
 }
 .grey-rectangle:hover {background-color: #585858;}
 
 .white-rectangle {
+    cursor: pointer;
     background-color: #CCCCCC;
     color: #3e3436;
     transition: all linear 0.20s;
@@ -747,9 +748,29 @@ ol li {
 }
 
 .blue-rectangle {
+    cursor: pointer;
     background-color: #62CAFF;
     color: #ffffff;
     transition: all linear 0.20s;
+}
+
+.transparant-rectangle1 {
+    cursor: pointer;
+    border: solid 1px deepskyblue;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle1:hover {
+    background-color: #222222;
+}
+
+.transparant-rectangle2 {
+    cursor: pointer;
+    border: solid 1px white;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle2:hover {
+    border: solid 1px lightgrey;
+    background-color: #606666;
 }
 
 .blue-rectangle:hover {

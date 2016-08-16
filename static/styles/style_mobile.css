@@ -745,6 +745,25 @@ ol li {
     color: #ffffff;
 }
 
+.transparant-rectangle1 {
+    cursor: pointer;
+    border: solid 1px deepskyblue;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle1:hover {
+    background-color: #222222;
+}
+
+.transparant-rectangle2 {
+    cursor: pointer;
+    border: solid 1px white;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle2:hover {
+    border: solid 1px lightgrey;
+    background-color: #606666;
+}
+
 .recth {
     text-transform: uppercase;
     text-align: center;

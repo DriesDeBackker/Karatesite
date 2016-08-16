@@ -722,7 +722,6 @@ ol li {
     min-height:230px;
     padding: 15px;
     margin: 25px 10px 20px;
-    cursor: pointer;
 }
 
 .small-rectangle {
@@ -747,6 +746,7 @@ ol li {
 #vosselaar{background-image:url(../layout/vosselaar.jpg);}
 
 .grey-rectangle {
+    cursor: pointer;
     background-color: #3e3436;
     color: #E9E9E9;
     transition: all linear 0.20s;
@@ -757,6 +757,7 @@ ol li {
 }
 
 .white-rectangle {
+    cursor: pointer;
     background-color: #CCCCCC;
     color: #3e3436;
     transition: all linear 0.20s;
@@ -767,6 +768,7 @@ ol li {
 }
 
 .blue-rectangle {
+    cursor: pointer;
     background-color: deepskyblue;
     color: #ffffff;
     transition: all linear 0.20s;
@@ -776,10 +778,29 @@ ol li {
     background-color: #00CFFF
 }
 
+.transparant-rectangle1 {
+    cursor: pointer;
+    border: solid 1px deepskyblue;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle1:hover {
+    background-color: #222222;
+}
+
+.transparant-rectangle2 {
+    cursor: pointer;
+    border: solid 1px white;
+    transition: all linear 0.20s;
+}
+.transparant-rectangle2:hover {
+    border: solid 1px lightgrey;
+    background-color: #606666;
+}
+
 .recth {
     text-transform: uppercase;
     text-align: center;
-	font-size:16px;
+	font-size:17px;
     font-family: "Lato", sans-serif;
     letter-spacing:1px;
 }
