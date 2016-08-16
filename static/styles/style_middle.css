@@ -711,7 +711,7 @@ ol li {
 .small-rectangle {
     width: 140px;
     height: 140px;
-    margin: 25px 15px 20px;
+    margin: 25px 15px 20px 15px;
     background-size:cover;
     opacity:0.6;
     cursor: pointer;
@@ -722,7 +722,7 @@ ol li {
     opacity: 1;
     width: 150px;
     height: 150px;
-    margin: 20px 10px 15px;
+    margin: 20px 10px 15px 10px;
 }
 
 #VVA {background-image:url(../layout/vva_logo.jpg);}
