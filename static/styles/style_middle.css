@@ -697,12 +697,12 @@ ol li {
 .centered-wrap {justify-content: center;}
 
 .rectangle {
-    width:22vw;
-    max-width: 240px;
-    min-width: 220px;
-    height:22vw;
-    max-height: 240px;
-    min-height: 220px;
+    width:23vw;
+    max-width: 260px;
+    min-width: 230px;
+    height:23vw;
+    max-height: 260px;
+    min-height: 230px;
     padding: 10px;
     margin: 20px 10px 15px;
     transition: background-color 0.25s;
@@ -798,6 +798,13 @@ ol li {
     font-family: "Lato", sans-serif;
 	text-align:justify;
     line-height:125%;
+}
+
+.rectp2 {
+	font-size:12px;
+    font-family: "Lato", sans-serif;
+	text-align:justify;
+    line-height:115%;
 }
 
 .blue-text {color: deepskyblue;}
