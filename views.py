@@ -35,6 +35,10 @@ def geschiedenis():
 def spirit():
     return render_template("kyokushin/spirit.html")
 
+@app.route('/parallax')
+def parallax():
+    return render_template("parallax.html")
+
 @app.route('/kyokushin/kihon')
 def kihon():
     return render_template("kyokushin/kihon.html")
