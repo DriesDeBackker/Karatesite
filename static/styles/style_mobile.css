@@ -274,7 +274,10 @@ ol li {
 
 #kumite-bovenbanner {background-image:url(../layout/kumite-banner5.jpg);}
 #kumite-tussenbanner {background-image:url(../layout/kumite-banner4.jpg);}
-#kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
+#kumite-box1 {
+    background-image:url(../layout/tameshiwari.jpg);
+    order:2;
+}
 #kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
 #links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
@@ -854,7 +857,7 @@ ol li {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:14px;
+	font-size:13px;
     font-family: "Lato", sans-serif;
     height:30px;
     line-height:30px;

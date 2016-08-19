@@ -1395,18 +1395,18 @@ ol li {
 
 .link-box {display: flex;}
 
-.link-adjuster {width:180px;}
+.link-adjuster {width:0px;}
 
-.link-container2{width:170px}
+.link-container{width:700px}
 
 .link-column1 {
     line-height:225%;
-    width:350px;
+    width:700px;
 }
 
 .link-column2 {
     line-height:225%;
-    width:350px;
+    width:700px;
 }
 
 
