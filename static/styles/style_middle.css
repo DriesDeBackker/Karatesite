@@ -789,7 +789,7 @@ ol li {
 .recth2 {
     text-transform: uppercase;
     text-align: center;
-	font-size:14px;
+	font-size:13px;
     font-family: "Lato", sans-serif;
     letter-spacing:1px;
 }
@@ -875,10 +875,16 @@ ol li {
     font-family: "Lato", sans-serif;
     height:30px;
     line-height:30px;
+    cursor:pointer;
+    transition:all linear 0.20s;
+}
+
+.trainingsuren-head:hover {
+    background-color: #00CFFF;
 }
 
 .trainingsuren-box {
-    background-color: #0099FF;
+    background-color: deepskyblue;
     margin: 10px;
 }
 
@@ -902,6 +908,12 @@ ol li {
 	font-size:18px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px #919191;
+    cursor:pointer;
+    transition: all linear 0.20s;
+}
+
+.trainingsuren-uur:hover {
+    background-color: #E9E9E9;
 }
 
 #trainingsuren-vrijdag-box {
@@ -935,7 +947,7 @@ ol li {
     font-family: "Lato", sans-serif;
     border-top: solid 1px;
     opacity: 0.8;
-    transition: opacity 0.2s;
+    transition: opacity 0.40s;
 }
 .trainingsuren-training:hover {
     opacity:1;
