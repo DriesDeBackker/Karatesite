@@ -23,7 +23,7 @@ body {
 /*-----------Effecten bij het scrollen--------*/
 
 .hidden{
-     opacity:0;
+     opacity:1;
 }
 .visible{
      opacity:1;
@@ -214,10 +214,10 @@ body {
 }
 
 .parallax {
-    height:100vw;
+    height:100vh;
     perspective:100px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: visible;
     margin:0;
     padding:0;
 }
@@ -225,13 +225,24 @@ body {
 .parallax-group {
     position: relative;
     transform-style: preserve-3d;
+    /*transform: translate3d(50px, 0, -500px) rotateY(15deg);*/
 }
 
 .parallax-group1 {
-    z-index:50;
+    z-index:10;
+    height:200px;
+}
+
+.parallax-group2 {
+    height:1000px;
+}
+
+.parallax-group3 {
+    height:4000px;
 }
 
 .parallax-layer {
+    position:absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -241,44 +252,25 @@ body {
 }
 
 .parallax-layer-front {
-    transform: translateZ(50px) translateY(750px) scale(0.5);
-    z-index:100;
+    transform: translateZ(50px)  scale(0.52);
 }
 
 .parallax-layer-base {
   transform: translateZ(0);
 }
 
-.parallax-layer-back {
-    transform: translateZ(-50px) translateY(-700px) scale(2);
+.parallax-layer-back1 {
+    transform: translateZ(-50px) translateY(-400px) scale(1.6);
+    z-index:50;
 }
 
-.debug {
-    position: fixed;
-    top: 0;
-    left: .5em;
-    z-index: 999;
-    background: rgba(0,0,0,.85);
-    color: #fff;
-    padding: .5em;
-    border-radius: 0 0 5px 5px;
+.parallax-layer-back2 {
+    transform: translateZ(-50px) translateY(-1200px) scale(1.6);
+    z-index:50;
 }
-.debug-on .parallax-group {
-    -webkit-transform: translate3d(800px, 0, -800px) rotateY(30deg);
-    transform: translate3d(700px, 0, -800px) rotateY(30deg);
-}
-.debug-on .parallax-layer {
-    box-shadow: 0 0 0 2px #000;
-    opacity: 0.9;
-}
-.parallax-group {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-}
-
 
 .bovenbanner {
-    height: 750px;
+    height: 1000px;
     overflow:hidden;
 }
 
@@ -288,7 +280,7 @@ body {
 }
 .onderbanner {
     background-attachment: fixed;
-    height: 500px;
+    height: 900px;
 }
 
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
