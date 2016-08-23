@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class = "banner bovenbanner" id="index-bovenbanner">
+<div class="banner bovenbanner" data-parallax="scroll" data-speed="0.4" data-image-src="{{ url_for('static', filename='layout/seiza.jpg') }}">
     <div class = "h3-box post1">
         <div class="h3">Volcontact Karate</div>
     </div>
@@ -262,5 +262,5 @@
         </div>
     </div>
 </div>
-<div class = "banner onderbanner post1" id="index-onderbanner"></div>
+<div class="banner onderbanner" data-parallax="scroll" data-speed="0.4" data-image-src="{{ url_for('static', filename='layout/index_onderbanner3.JPG') }}"></div>
 {% endblock %}
