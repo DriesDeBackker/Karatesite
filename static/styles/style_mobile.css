@@ -209,6 +209,15 @@ body {
 .tussenbanner {height: 350px;}
 .onderbanner {height: 350px;}
 
+.nieuwsbanner {
+    max-height:400px;
+    overflow:hidden;
+}
+
+.nieuwsbannerfoto {
+    display:block;
+}
+
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 #index-onderbanner{background-image:url(../layout/index_onderbanner3.JPG);}
 
@@ -953,7 +962,6 @@ ol li {
 
 .nieuws-item {
     width:300px;
-    height:340px;
     margin: 10px;
     border-bottom: solid 1px #727272;
 }
@@ -962,6 +970,8 @@ ol li {
     opacity: 0.7;
     filter: alpha(opacity=40);
     transition: all linear 0.15s;
+    height:165px;
+    overflow:hidden;
 }
 
 .nieuws-foto:hover {
