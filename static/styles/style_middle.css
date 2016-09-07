@@ -1200,14 +1200,15 @@ ol li {
     letter-spacing: 2px;
 }
 .kalender-cel2 {
-    width:115px;
+    width:110px;
     letter-spacing:2px;
 }
 .kalender-cel3 {
-    width:180px;
+    width:170px;
     letter-spacing:2px;
+    padding-right:20px;
 }
-.kalender-cel4 {width:235px;}
+.kalender-cel4 {width:230px;}
 
 /*----------- Algemene Opmaak - Footer -----------*/
 
