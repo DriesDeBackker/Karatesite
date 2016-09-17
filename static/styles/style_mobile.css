@@ -888,7 +888,7 @@ ol li {
     background-color: #CCCCCC;
     width: 14vw;
     max-width:180px;
-    min-width:15px;
+    min-width:20px;
 }
 
 .trainingsuren-uur {
@@ -904,14 +904,14 @@ ol li {
     order:2;
     width: 19vw;
     max-width:250px;
-    min-width:72px;
+    min-width:75px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
     width: 19vw;
     max-width:250px;
-    min-width:72px;
+    min-width:75px;
 }
 
 .trainingsuren-geen-training {

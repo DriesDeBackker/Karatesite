@@ -1,117 +1,117 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Karate Vosselaar</title>
-<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<link rel='stylesheet' media='screen and (max-width: 799px)' href="{{ url_for('static', filename='styles/style_mobile.css') }}" />
-<link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1199px)' href="{{ url_for('static', filename='styles/style_middle.css') }}" />
-<link rel='stylesheet' media='screen and (min-width: 1200px)' href="{{ url_for('static', filename='styles/style_desktop.css') }}" />
-<link href='https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700' rel='stylesheet' type='text/css'>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/animate.css') }}" />
-<script src="{{ url_for('static', filename='scripts/viewportchecker.js') }}"></script>
-<script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
-<script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
-<script src="{{ url_for('static', filename='scripts/fadein.js') }}"></script>
-<script src="{{ url_for('static', filename='scripts/menustick.js') }}"></script>
+    <meta charset="utf-8">
+    <title>Karate Vosselaar</title>
+    <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel='stylesheet' media='screen and (max-width: 799px)' href="{{ url_for('static', filename='styles/style_mobile.css') }}" />
+    <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1199px)' href="{{ url_for('static', filename='styles/style_middle.css') }}" />
+    <link rel='stylesheet' media='screen and (min-width: 1200px)' href="{{ url_for('static', filename='styles/style_desktop.css') }}" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/animate.css') }}" />
+    <script src="{{ url_for('static', filename='scripts/viewportchecker.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/aanmelden.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/mobiel_menu.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/fadein.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/menustick.js') }}"></script>
 </head>
 <body>
-<div id="first-bar"></div>
-<div id="second-bar">
-  <div id="kanku"></div>
-  	<span id="kyokushinkai-karate-vosselaar">
-    	<span class="h1"><a href="{{url_for('index')}}">KYOKUSHINKAI KARATE VOSSELAAR</a></span>
-</span></div>
-<div id="third-bar">
-  <div id="oshi-shinobu-kanji-container">
-    <div id="oshi-shinobu-kanji"></div>
-  </div>
-  <div id="oshi-shinobu-text-container">
-    <div id="oshi-shinobu-text">
-      <span class="h2"><a href="{{url_for('index')}}">OSHI SHINOBU DOJO</a></span>
-  	</div>
-  </div>
-  <div class="menu-wrap">
-    <nav class="menu">
-      <ul class="clearfix">
-        <li><a href="{{url_for('nieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
-        <li> <a href="#"><span class="menu-text">DOJO</span> <span class="arrow">&#9660;</span></a>
-          <ul class="sub-menu">
-            <li><a href="{{url_for('info')}}"><span class="submenu-text">Info</span></a></li>
-            <li><a href="{{url_for('kalender')}}"><span class="submenu-text">Kalender</span></a></li>
-            <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}"><span class="submenu-text">Nieuwsbrief Augustus</span></a></li>
-            <li><a href="{{url_for('static', filename='sheets/syllabus.pdf')}}"><span class="submenu-text">Syllabus</span></a></li>
-            <li><a href="http://picasaweb.google.com/102422423576177608193" target="_blank"><span class="submenu-text">Fotoalbum</span></a></li>
+    <div id="first-bar"></div>
+    <div id="second-bar">
+      <div id="kanku"></div>
+        <span id="kyokushinkai-karate-vosselaar">
+            <span class="h1"><a href="{{url_for('index')}}">KYOKUSHINKAI KARATE VOSSELAAR</a></span>
+    </span></div>
+    <div id="third-bar">
+      <div id="oshi-shinobu-kanji-container">
+        <div id="oshi-shinobu-kanji"></div>
+      </div>
+      <div id="oshi-shinobu-text-container">
+        <div id="oshi-shinobu-text">
+          <span class="h2"><a href="{{url_for('index')}}">OSHI SHINOBU DOJO</a></span>
+        </div>
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <ul class="clearfix">
+            <li><a href="{{url_for('nieuws')}}"><span class="menu-text">NIEUWS</span></a></li>
+            <li> <a href="#"><span class="menu-text">DOJO</span> <span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                <li><a href="{{url_for('info')}}"><span class="submenu-text">Info</span></a></li>
+                <li><a href="{{url_for('kalender')}}"><span class="submenu-text">Kalender</span></a></li>
+                <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}"><span class="submenu-text">Nieuwsbrief Augustus</span></a></li>
+                <li><a href="{{url_for('static', filename='sheets/syllabus.pdf')}}"><span class="submenu-text">Syllabus</span></a></li>
+                <li><a href="http://picasaweb.google.com/102422423576177608193" target="_blank"><span class="submenu-text">Fotoalbum</span></a></li>
+              </ul>
+            </li>
+            <li> <a href="#"><span class="menu-text">KYOKUSHINKAI KARATE</span><span class="arrow">&#9660;</span></a>
+              <ul class="sub-menu">
+                <li><a href="{{url_for('geschiedenis')}}"><span class="submenu-text">Geschiedenis</span></a></li>
+                <li><a href="{{url_for('spirit')}}"><span class="submenu-text">Spirit</span></a></li>
+                <li><a href="{{url_for('kihon')}}"><span class="submenu-text">Kihon</span></a></li>
+                <li><a href="{{url_for('kata')}}"><span class="submenu-text">Kata</span></a></li>
+                <li><a href="{{url_for('kumite')}}"><span class="submenu-text">Kumite</span></a></li>
+              </ul>
+            </li>
+            <li><a href="http://www.kyokushin-kaikan.or.jp/"><span class="menu-text">KYOKUSHIN UNION</span></a></li>
+            <li><a href="{{url_for('links')}}"><span class="menu-text">LINKS</span></a></li>
           </ul>
-        </li>
-        <li> <a href="#"><span class="menu-text">KYOKUSHINKAI KARATE</span><span class="arrow">&#9660;</span></a>
-          <ul class="sub-menu">
-            <li><a href="{{url_for('geschiedenis')}}"><span class="submenu-text">Geschiedenis</span></a></li>
-            <li><a href="{{url_for('spirit')}}"><span class="submenu-text">Spirit</span></a></li>
-            <li><a href="{{url_for('kihon')}}"><span class="submenu-text">Kihon</span></a></li>
-            <li><a href="{{url_for('kata')}}"><span class="submenu-text">Kata</span></a></li>
-            <li><a href="{{url_for('kumite')}}"><span class="submenu-text">Kumite</span></a></li>
+        </nav>
+      </div>
+      <div id="navicon-wrap"><a href="#" id="navicon"><span id="navicon-image"><img src="{{ url_for('static', filename='layout/menu-icon3.png') }}" width="30" height="30" alt=""/></span></a></div>
+    </div>
+    <div id="mobile-menu-wrap">
+        <nav id="mobile-menu">
+            <li><a href="{{url_for('nieuws')}}">NIEUWS</a></li>
+            <li id="submenubutton1"> <a href="#">DOJO</a>
+              <ul class="sub-mobile-menu">
+                <li><a href="{{url_for('info')}}">Info</a></li>
+                <li><a href="{{url_for('kalender')}}">Kalender</a></li>
+                <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}">Nieuwsbrief Augustus</a></li>
+                <li><a href="{{url_for('static', filename='sheets/syllabus.pdf')}}">Syllabus</a></li>
+                <li><a href="http://picasaweb.google.com/102422423576177608193" target="_blank">Fotoalbum</a></li>
+              </ul>
+            </li>
+            <li id="submenubutton2">
+                <a href="#">KYOKUSHINKAI KARATE</a>
+                <ul class="sub-mobile-menu">
+                    <li><a href="{{url_for('geschiedenis')}}">Geschiedenis</a></li>
+                    <li><a href="{{url_for('spirit')}}">Spirit</a></li>
+                    <li><a href="{{url_for('kihon')}}">Kihon</a></li>
+                    <li><a href="{{url_for('kata')}}">Kata</a></li>
+                    <li><a href="{{url_for('kumite')}}">Kumite</a></li>
+                </ul>
+            </li>
+            <li><a href="{{url_for('links')}}">LINKS</a></li>
+            <li><a href="http://www.kyokushin-kaikan.or.jp/">KYOKUSHIN UNION</a></li>
           </ul>
-        </li>
-        <li><a href="http://www.kyokushin-kaikan.or.jp/"><span class="menu-text">KYOKUSHIN UNION</span></a></li>
-        <li><a href="{{url_for('links')}}"><span class="menu-text">LINKS</span></a></li>
-      </ul>
-    </nav>
-  </div>
-  <div id="navicon-wrap"><a href="#" id="navicon"><span id="navicon-image"><img src="{{ url_for('static', filename='layout/menu-icon3.png') }}" width="30" height="30" alt=""/></span></a></div>
-</div>
-<div id="mobile-menu-wrap">
-	<nav id="mobile-menu">
-        <li><a href="{{url_for('nieuws')}}">NIEUWS</a></li>
-        <li id="submenubutton1"> <a href="#">DOJO</a>
-          <ul class="sub-mobile-menu">
-            <li><a href="{{url_for('info')}}">Info</a></li>
-            <li><a href="{{url_for('kalender')}}">Kalender</a></li>
-            <li><a href="{{url_for('static', filename='sheets/nieuwsbrief.pdf')}}">Nieuwsbrief Augustus</a></li>
-            <li><a href="{{url_for('static', filename='sheets/syllabus.pdf')}}">Syllabus</a></li>
-            <li><a href="http://picasaweb.google.com/102422423576177608193" target="_blank">Fotoalbum</a></li>
-          </ul>
-        </li>
-        <li id="submenubutton2">
-            <a href="#">KYOKUSHINKAI KARATE</a>
-            <ul class="sub-mobile-menu">
-                <li><a href="{{url_for('geschiedenis')}}">Geschiedenis</a></li>
-                <li><a href="{{url_for('spirit')}}">Spirit</a></li>
-                <li><a href="{{url_for('kihon')}}">Kihon</a></li>
-                <li><a href="{{url_for('kata')}}">Kata</a></li>
-                <li><a href="{{url_for('kumite')}}">Kumite</a></li>
-            </ul>
-        </li>
-        <li><a href="{{url_for('links')}}">LINKS</a></li>
-        <li><a href="http://www.kyokushin-kaikan.or.jp/">KYOKUSHIN UNION</a></li>
-      </ul>
-	</nav>
-</div>
-{% block content %}{% endblock %}
-<div id="first-bottom">
-  <div id="first-bottom-text-wrapper">
-    <div class="first-bottom-text-left">
-      <p class="bottomtext-title">Contact</p>
-      <p class="bottomtext">tel. 014/61 68 77</p>
-      <p class="bottomtext">koen.de.backker@pandora.com</p>
+        </nav>
     </div>
-    <div class="first-bottom-text-center">
-      <p class="bottomtext-title">Volg ons</p>
-      <p class="bottomtext"><a href="http://www.kyokushinkaikaratevosselaar.be/RSS%20feed.txt"><img src="{{ url_for('static', filename='layout/rss.jpg') }}" width="16" height="16"  alt=""/> RSS feed</a></p>
-      <p class="bottomtext"><a href="https://www.facebook.com/OshiShinobuDojoBelgium"><img src="{{ url_for('static', filename='layout/facebook.png') }}" width="16" height="16"  alt=""/> Facebook</a></p>
+    {% block content %}{% endblock %}
+    <div id="first-bottom">
+      <div id="first-bottom-text-wrapper">
+        <div class="first-bottom-text-left">
+          <p class="bottomtext-title">Contact</p>
+          <p class="bottomtext">tel. 014/61 68 77</p>
+          <p class="bottomtext">koen.de.backker@pandora.com</p>
+        </div>
+        <div class="first-bottom-text-center">
+          <p class="bottomtext-title">Volg ons</p>
+          <p class="bottomtext"><a href="http://www.kyokushinkaikaratevosselaar.be/RSS%20feed.txt"><img src="{{ url_for('static', filename='layout/rss.jpg') }}" width="16" height="16"  alt=""/> RSS feed</a></p>
+          <p class="bottomtext"><a href="https://www.facebook.com/OshiShinobuDojoBelgium"><img src="{{ url_for('static', filename='layout/facebook.png') }}" width="16" height="16"  alt=""/> Facebook</a></p>
+        </div>
+        <div class="first-bottom-text-right">
+          <p class="bottomtext-title">Verbonden met</p>
+          <p class="bottomtext"><a href="http://www.kyokushin-kaikan.or.jp/">Kyokushin Union</a></p>
+          <p class="bottomtext"><a href="https://www.bloso.be/Pages/Home.aspx">BLOSO</a></p>
+          <p class="bottomtext"><a href="http://www.vva.be/">Vlaamse Vechtsport Associatie</a></p>
+          <p class="bottomtext"><a href="http://www.vosselaar.be/">Sportraad Vosselaar</a></p>
+        </div>
+      </div>
     </div>
-    <div class="first-bottom-text-right">
-      <p class="bottomtext-title">Verbonden met</p>
-      <p class="bottomtext"><a href="http://www.kyokushin-kaikan.or.jp/">Kyokushin Union</a></p>
-      <p class="bottomtext"><a href="https://www.bloso.be/Pages/Home.aspx">BLOSO</a></p>
-      <p class="bottomtext"><a href="http://www.vva.be/">Vlaamse Vechtsport Associatie</a></p>
-      <p class="bottomtext"><a href="http://www.vosselaar.be/">Sportraad Vosselaar</a></p>
+    <div id="second-bottom"><span id="second-bottom-text">© 2015 Mas Oyama's Kyokushinkai Karate VZW. Alle rechten voorbehouden. <br>Ontwerp en beheer door D. De Backker</span>
     </div>
-  </div>
-</div>
-<div id="second-bottom"><span id="second-bottom-text">© 2015 Mas Oyama's Kyokushinkai Karate VZW. Alle rechten voorbehouden. <br>Ontwerp en beheer door D. De Backker</span>
-</div>
-<div id="fade"></div>
+    <div id="fade"></div>
 </body>
 </html>
