@@ -688,6 +688,10 @@ ol li {
     line-height: 125%;
 }
 
+.min-width-box {
+    min-width: calc(100px + 22vw);
+}
+
 .first-text-box {color:#666;}
 .second-text-box {color: deepskyblue;}
 .third-text-box {color: #E9E9E9;}
@@ -888,7 +892,7 @@ ol li {
     background-color: #CCCCCC;
     width: 14vw;
     max-width:180px;
-    min-width:20px;
+    min-width:18px;
 }
 
 .trainingsuren-uur {
@@ -904,14 +908,14 @@ ol li {
     order:2;
     width: 19vw;
     max-width:250px;
-    min-width:75px;
+    min-width:71px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
     width: 19vw;
     max-width:250px;
-    min-width:75px;
+    min-width:71px;
 }
 
 .trainingsuren-geen-training {
