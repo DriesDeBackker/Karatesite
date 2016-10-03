@@ -130,7 +130,7 @@
 </div>
 <div class = "content-box second-content-box post1">
     <div class = "second-text-box centered-text-box">
-         <div class = "h6 post2">trainingsuren</div>
+         <span class="h6"><a href="{{url_for('info')}}#trainingsuren">trainingsuren</a></span>
          <br><br><br>
          <div class="trainingsuren-wrap post2">
             <div class="trainingsuren-box" id="trainingsuren-uren-box">
@@ -202,7 +202,7 @@
 </div>
 <div class = "content-box first-content-box post1">
     <div class = "text-box first-text-box centered-text-box">
-        <div class = "h6 post2">Laatste nieuws</div>
+         <span class="h6"><a href="{{url_for('nieuws')}}#trainingsuren">laatste nieuws</a></span>
     </div>
     <br><br>
     <div class = "rectangle-wrap centered-wrap">
@@ -236,27 +236,37 @@
     <div class = "rectangle-wrap centered-wrap post2">
         <div class = "rectangle-wrap centered-wrap post2">
             <div class = "leraar-item1">
-                <div class = "leraar-bol" id="shihan-koen"></div>
+                <a href="{{url_for('info')}}#lesgevers">
+                    <div class = "leraar-bol" id="shihan-koen"></div>
+                </a>
                 <div class = "leraarp leraarp-index">Shihan Koen<br>Vijfde Dan</div>
             </div>
         </div>
         <div class = "rectangle-wrap centered-wrap post2">
             <div class = "leraar-item1">
-                <div class = "leraar-bol" id="senpai-jolein"></div>
+                <a href="{{url_for('info')}}#shihan-koen">
+                    <div class = "leraar-bol" id="senpai-jolein"></div>
+                </a>
                 <div class = "leraarp leraarp-index">Senpai Jolein<br>Eerste Dan</div>
             </div>
             <div class = "leraar-item1">
-                <div class = "leraar-bol" id="senpai-dries"></div>
+                <a href="{{url_for('info')}}#senpai-jolein">
+                    <div class = "leraar-bol" id="senpai-dries"></div>
+                </a>
                 <div class = "leraarp leraarp-index">Senpai Dries<br>Eerste Dan</div>
             </div>
         </div>
         <div class = "rectangle-wrap centered-wrap post2">
             <div class = "leraar-item1">
-                <div class = "leraar-bol" id="senpai-anne"></div>
+                <a href="{{url_for('info')}}#senpai-dries">
+                    <div class = "leraar-bol" id="senpai-anne"></div>
+                </a>
                 <div class = "leraarp leraarp-index">Senpai Anne<br>Eerste Dan</div>
             </div>
             <div class = "leraar-item1">
-                <div class = "leraar-bol" id="senpai-yorian"></div>
+                <a href="{{url_for('info')}}#senpai-anne">
+                    <div class = "leraar-bol" id="senpai-yorian"></div>
+                </a>
                 <div class = "leraarp leraarp-index">Senpai Yorian<br>Tweede Kyu</div>
             </div>
         </div>

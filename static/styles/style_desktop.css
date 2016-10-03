@@ -93,6 +93,11 @@ body {
     letter-spacing:1px;
 }
 
+.h6 a {
+    text-decoration: none;
+    color:inherit;
+}
+
 /*-----------Algemene Opmaak - Layoutbalken ----------*/
 
 #first-bar {
