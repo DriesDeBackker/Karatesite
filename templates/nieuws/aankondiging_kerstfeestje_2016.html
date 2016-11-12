@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class = "nieuwsbanner">
+    <img class="nieuwsbannerfoto" src="{{ url_for('static', filename='nieuws/standaardfoto.jpg') }}" width="100%" alt=""/>
+</div>
+<div class="content-box first-content-box post1">
+    <div class = "text-box first-text-box">
+        <div class="h6 post2">Aankondiging Kerstfeestje 2016</div>
+        <div class = "nieuwsd post2">12 NOVEMBER 2016</div>
+        <br>
+        <div class="p post2">
+            Op 23 december is er naar jaarlijkse gewoonte weer ons Kerstfeestje.
+
+            Op 23 december is er de Kersttraining in de Sporthal met aansluitend etentje in de Cafetaria! We trainen van 18h tot ca.19h en nemen dan rustig de tijd voor een gezellig samenzijn.
+            Traiteur Rob, bekend van het Zomerkamp, is bereid om ook voor deze gelegenheid de maaltijd te verzorgen. De club betaalt de helft van de kosten. Familie en vrienden, jong én oud, zijn hartelijk welkom!
+            Graag een strook van onderstaand sjabloon ingevuld terugbezorgen voor 15 december!
+            <br><br>
+            --------------------------------------------------------------------------------------------------------------------------------------<br>
+            ………………………………… neemt/nemen deel aan het Kerstetentje van Karateclub Vosselaar op 23 december<br>
+            met ……………… personen en betalen hiervoor €8,00 per persoon, in totaal: € ………, over te schrijven op<br>
+            onderstaand rekeningnummer (vermelding Kersttraining).<br>
+            MOKK vzw BIC GEBABEBB / IBAN BE06 0013 3522 6622<br>
+            --------------------------------------------------------------------------------------------------------------------------------------<br>
+        <br><br>
+        </div>
+    </div>
+</div>
+{% endblock %}
