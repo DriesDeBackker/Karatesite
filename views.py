@@ -25,6 +25,10 @@ def info():
 def kalender():
     return render_template("dojo/kalender.html")
 
+@app.route('/dojo/fotoalbum')
+def fotoalbum():
+    return render_template("dojo/fotoalbum.html")
+
 
 @app.route('/kyokushin/geschiedenis')
 def geschiedenis():
