@@ -1000,7 +1000,7 @@ ol li {
 }
 
 .nieuws-foto {
-    opacity: 0.7;
+    opacity: 0.8;
     filter: alpha(opacity=40);
     transition: all linear 0.15s;
     height:190px;
