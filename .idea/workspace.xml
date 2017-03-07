@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nieuws/initiatie_mindfulness_karate_kempen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nieuws.html" afterPath="$PROJECT_DIR$/templates/nieuws.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dojo/kalender.html" afterPath="$PROJECT_DIR$/templates/dojo/kalender.html" />
     </list>
     <ignored path="Karatesite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +49,18 @@
       <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1694" max-vertical-offset="5899">
+            <state vertical-scroll-proportion="-19.192308" vertical-offset="1694" max-vertical-offset="5899">
               <caret line="129" column="85" selection-start-line="129" selection-start-column="85" selection-end-line="129" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kalender.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41856676" vertical-offset="10198" max-vertical-offset="11730">
+              <caret line="615" column="56" selection-start-line="615" selection-start-column="56" selection-end-line="615" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -99,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7387687" vertical-offset="3415" max-vertical-offset="4794">
+            <state vertical-scroll-proportion="-17.076923" vertical-offset="3415" max-vertical-offset="4794">
               <caret line="227" column="14" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
               <folding />
             </state>
@@ -175,7 +182,6 @@
         <option value="$PROJECT_DIR$/templates/nieuws/kerstfeestje_2016.html" />
         <option value="$PROJECT_DIR$/static/styles/style_desktop.css" />
         <option value="$PROJECT_DIR$/templates/nieuws/niji_yama_interclub_2017.html" />
-        <option value="$PROJECT_DIR$/templates/dojo/kalender.html" />
         <option value="$PROJECT_DIR$/templates/dojo/info.html" />
         <option value="$PROJECT_DIR$/static/styles/style_mobile.css" />
         <option value="$PROJECT_DIR$/static/styles/style_middle.css" />
@@ -188,6 +194,7 @@
         <option value="$PROJECT_DIR$/templates/nieuws.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/initiatie_mindfulness_karate_kempen.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/dojo/kalender.html" />
       </list>
     </option>
   </component>
@@ -924,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10839" max-vertical-offset="11730">
-          <caret line="659" column="43" selection-start-line="659" selection-start-column="43" selection-end-line="659" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/styles/style_middle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="16814" max-vertical-offset="24650">
@@ -983,26 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1694" max-vertical-offset="5899">
-          <caret line="129" column="85" selection-start-line="129" selection-start-column="85" selection-end-line="129" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws/aankondiging_belgisch_kyokushin_union_zomerkamp_2017.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="884">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nieuws/kaizen_dojo_winterkamp_2017.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="476">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1023,6 +1007,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.076923" vertical-offset="3415" max-vertical-offset="4794">
+          <caret line="227" column="14" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="3876">
@@ -1031,10 +1023,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/nieuws/kaizen_dojo_winterkamp_2017.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7387687" vertical-offset="3415" max-vertical-offset="4794">
-          <caret line="227" column="14" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="476">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dojo/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.192308" vertical-offset="1694" max-vertical-offset="5899">
+          <caret line="129" column="85" selection-start-line="129" selection-start-column="85" selection-end-line="129" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41856676" vertical-offset="10198" max-vertical-offset="11730">
+          <caret line="615" column="56" selection-start-line="615" selection-start-column="56" selection-end-line="615" selection-end-column="56" />
           <folding />
         </state>
       </provider>
