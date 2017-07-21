@@ -1,12 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class = "banner bovenbanner" id="nieuws-bovenbanner">
+<div class = "banner bovenbanner" id="nieuws-bovenbanner2">
     <div class = "h4-box post1">
         <div align="center" class="h4">Nieuws</div>
     </div>
 </div>
 <div class = "content-box first-content-box post1">
     <div class = "rectangle-wrap centered-wrap">
+        <div class = "nieuws-item post2">
+            <div class = "nieuws-foto"><a href="{{url_for('nieuwsitem', item='trainingen_zomer_2017')}}"><img src="{{ url_for('static', filename='nieuws/standaardfoto.jpg') }}" width="100%" alt=""/></a></div>
+            <div class = "nieuwsbr1"><br></div>
+            <div class = "nieuwsd">21 JULI 2017</div>
+            <div class = "nieuwsbr2"><br></div>
+            <div class = "nieuwsh"><a href="{{url_for('nieuwsitem', item='trainingen_zomer_2017')}}">Trainingen zomer 2017</a></div>
+            <br>
+            <div class = "nieuwsp">Ook in de vakantie blijven we graag in conditie!</div>
+            <div class = "nieuwsm"><a href="{{url_for('nieuwsitem', item='trainingen_zomer_2017')}}">Lees verder</a><br><br></div>
+        </div>
         <div class = "nieuws-item post2">
             <div class = "nieuws-foto"><a href="{{url_for('nieuwsitem', item='roefeldag_2017')}}"><img src="{{ url_for('static', filename='nieuws/roefeldag_2017.jpg') }}" width="100%" alt=""/></a></div>
             <div class = "nieuwsbr1"><br></div>
