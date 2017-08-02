@@ -989,6 +989,8 @@ ol li {
     filter: alpha(opacity=40);
     transition: all linear 0.15s;
     overflow:hidden;
+    height:170px;
+
 }
 
 .nieuws-foto:hover {
@@ -1119,6 +1121,7 @@ ol li {
 #senpai-dries {background-image:url(../layout/senpai_dries2.jpg);}
 #senpai-anne {background-image:url(../layout/senpai_anne.jpg);}
 #senpai-yorian {background-image:url(../layout/senpai_yorian.jpg);}
+#senpai-nina {background-image:url(../layout/senpai_nina.jpg);}
 
 /* ------------ trainingen locaties info ----------- */
 
