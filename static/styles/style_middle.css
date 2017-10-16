@@ -699,9 +699,33 @@ ol li {
 }
 
 .first-text-box {color:#666;}
+.first-text-box a {
+	color:#666;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
 .second-text-box {color: deepskyblue;}
+.second-text-box a {
+	color:deepskyblue;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
+.second-text-box a:hover {
+	color:#09F;
+	text-decoration:none
+}
 .third-text-box {color: #E9E9E9;}
+.third-text-box a {
+	color: #E9E9E9;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
 .fourth-text-box {color: #82CAFF;}
+.fourth-tet-box a {
+    color: #82CAFF;
+	text-decoration:none;
+	transition:all linear 0.15s;
+}
 
 .centered-text-box {text-align: center;}
 
