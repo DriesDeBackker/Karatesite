@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html" />
-      <change type="MOVED" beforePath="C:\Users\Dries\Desktop\Karatesite\templates\nieuws\training_senpai_inken_cara_heurer.html" afterPath="$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html" afterPath="$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
@@ -61,7 +60,7 @@
       <file leaf-file-name="nieuws.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="5814">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="5814">
               <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
               <folding />
             </state>
@@ -71,8 +70,8 @@
       <file leaf-file-name="training_senpai_inken_cara_heuer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13461539" vertical-offset="0" max-vertical-offset="884">
-              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.057692308" vertical-offset="0" max-vertical-offset="884">
+              <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -91,7 +90,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.076923" vertical-offset="3237" max-vertical-offset="4862">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="4862">
               <caret line="215" column="106" selection-start-line="215" selection-start-column="106" selection-end-line="215" selection-end-column="106" />
               <folding />
             </state>
@@ -116,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/kyokushin/kumite.html" />
         <option value="$PROJECT_DIR$/templates/links.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/examen_voorjaar_2016.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/katatoernooi_kapellen.html" />
@@ -167,6 +165,7 @@
         <option value="$PROJECT_DIR$/templates/dojo/fotoalbum.html" />
         <option value="$PROJECT_DIR$/templates/nieuws.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html" />
       </list>
     </option>
   </component>
@@ -201,6 +200,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,7 +321,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -667,6 +666,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/nieuws/kumite_training_kalmthout_2017.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/kyokushin/kumite.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1224">
@@ -1002,7 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.076923" vertical-offset="3237" max-vertical-offset="4862">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="4862">
           <caret line="215" column="106" selection-start-line="215" selection-start-column="106" selection-end-line="215" selection-end-column="106" />
           <folding />
         </state>
@@ -1010,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="5814">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="5814">
           <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
           <folding />
         </state>
@@ -1018,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws/training_senpai_inken_cara_heuer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13461539" vertical-offset="0" max-vertical-offset="884">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.057692308" vertical-offset="0" max-vertical-offset="884">
+          <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
           <folding />
         </state>
       </provider>
