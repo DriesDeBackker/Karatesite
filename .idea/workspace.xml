@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/nieuws/BKKU_algemene_kumitetraning_maart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nieuws.html" afterPath="$PROJECT_DIR$/templates/nieuws.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" afterPath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1521492733818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Karatesite$run.coverage" NAME="run Coverage Results" MODIFIED="1521712283681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state vertical-scroll-proportion="0.050822124" vertical-offset="0" max-vertical-offset="669">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -62,8 +60,8 @@
       <file leaf-file-name="fotoalbum.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dojo/fotoalbum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="255" max-vertical-offset="5814">
-              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="5967">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -72,7 +70,7 @@
       <file leaf-file-name="BKKU_algemene_kumitetraning_maart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nieuws/BKKU_algemene_kumitetraning_maart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="459">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="459">
               <caret line="3" column="110" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="110" />
               <folding />
             </state>
@@ -82,7 +80,7 @@
       <file leaf-file-name="nieuws.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="6018">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="6018">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6698413" vertical-offset="3403" max-vertical-offset="4862">
+            <state vertical-scroll-proportion="-16.23077" vertical-offset="3403" max-vertical-offset="4862">
               <caret line="225" column="14" selection-start-line="225" selection-start-column="14" selection-end-line="225" selection-end-column="14" />
               <folding />
             </state>
@@ -164,10 +162,10 @@
         <option value="$PROJECT_DIR$/templates/nieuws/kaizen_winterkamp_2018.html" />
         <option value="$PROJECT_DIR$/templates/dojo/kalender.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/AED_opleiding.html" />
-        <option value="$PROJECT_DIR$/templates/dojo/fotoalbum.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/BKKU_algemene_kumitetraning_maart.html" />
         <option value="$PROJECT_DIR$/templates/nieuws.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/dojo/fotoalbum.html" />
       </list>
     </option>
   </component>
@@ -962,42 +960,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dojo/fotoalbum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="255" max-vertical-offset="5814">
-          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws/BKKU_algemene_kumitetraning_maart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="459">
           <caret line="3" column="110" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="6018">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6698413" vertical-offset="3403" max-vertical-offset="4862">
+        <state vertical-scroll-proportion="-16.23077" vertical-offset="3403" max-vertical-offset="4862">
           <caret line="225" column="14" selection-start-line="225" selection-start-column="14" selection-end-line="225" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="6018">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dojo/fotoalbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="5967">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050822124" vertical-offset="0" max-vertical-offset="669">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
