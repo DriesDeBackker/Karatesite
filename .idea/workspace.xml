@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dojo/kalender.html" afterPath="$PROJECT_DIR$/templates/dojo/kalender.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Karatesite.iws" />
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3943182" vertical-offset="3206" max-vertical-offset="4862">
+            <state vertical-scroll-proportion="-13.346154" vertical-offset="3206" max-vertical-offset="4862">
               <caret line="209" column="93" selection-start-line="209" selection-start-column="93" selection-end-line="209" selection-end-column="93" />
               <folding />
             </state>
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kalender.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kalender.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5762" max-vertical-offset="13464">
-              <caret line="363" column="60" selection-start-line="363" selection-start-column="60" selection-end-line="363" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.4199328" vertical-offset="5150" max-vertical-offset="13464">
+              <caret line="325" column="21" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,7 @@
       <file leaf-file-name="nieuws.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923" vertical-offset="170" max-vertical-offset="8619">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="8619">
               <caret line="41" column="116" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
               <folding />
             </state>
@@ -171,11 +171,11 @@
         <option value="$PROJECT_DIR$/templates/nieuws/uitreiking_dangraden.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/uitreiking_obis_en_certificaten.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/yokoso_cup_2018.html" />
-        <option value="$PROJECT_DIR$/templates/dojo/kalender.html" />
         <option value="$PROJECT_DIR$/templates/dojo/fotoalbum.html" />
         <option value="$PROJECT_DIR$/templates/nieuws/female_fighting_seminar.html" />
         <option value="$PROJECT_DIR$/templates/nieuws.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/dojo/kalender.html" />
       </list>
     </option>
   </component>
@@ -259,6 +259,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nieuws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Karatesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Karatesite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dojo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -957,14 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5762" max-vertical-offset="13464">
-          <caret line="363" column="60" selection-start-line="363" selection-start-column="60" selection-end-line="363" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws/female_fighting_seminar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="442">
@@ -998,7 +1008,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuws.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923" vertical-offset="170" max-vertical-offset="8619">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="8619">
           <caret line="41" column="116" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
           <folding />
         </state>
@@ -1006,8 +1016,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3943182" vertical-offset="3206" max-vertical-offset="4862">
+        <state vertical-scroll-proportion="-13.346154" vertical-offset="3206" max-vertical-offset="4862">
           <caret line="209" column="93" selection-start-line="209" selection-start-column="93" selection-end-line="209" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dojo/kalender.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4199328" vertical-offset="5150" max-vertical-offset="13464">
+          <caret line="325" column="21" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
           <folding />
         </state>
       </provider>
