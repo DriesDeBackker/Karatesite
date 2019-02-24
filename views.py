@@ -53,6 +53,9 @@ def kata():
 def kumite():
     return render_template("kyokushin/kumite.html")
 
+@app.route('/sponsors')
+def sponsors():
+    return render_template("sponsors.html")
 
 @app.route('/links')
 def links():

@@ -292,6 +292,8 @@ ol li {
 #kumite-box1 {background-image:url(../layout/tameshiwari.jpg);}
 #kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
+#sponsors-bovenbanner {background-image:url(../layout/standaardbanner.jpg);}
+
 #links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
 
 /* ---------------- Opmaak onderkant pagina -------------- */
@@ -589,7 +591,7 @@ ol li {
  
 .menu .arrow {
 	position:relative;
-    font-size:15px;
+    font-size:14px;
     line-height:0%;
     left:2px;
 }
@@ -604,7 +606,7 @@ ol li {
     float:left;
     display:inline-block;
     position:relative;
-    font-size:16px;
+    font-size:15px;
 }
  
 .menu > ul > li > a {
@@ -776,6 +778,8 @@ ol li {
 #BKKU {background-image:url(../layout/bkku_logo.jpg);}
 #positieve-club {background-image:url(../layout/positieve_club.jpg);}
 #AGV {background-image:url(../layout/agv.jpg);}
+
+#car-diagnostics-support {background-image:url(../layout/cds_logo.jpg);}
 
 .grey-rectangle {
     cursor: pointer;

@@ -226,8 +226,7 @@ body {
 #index-bovenbanner{background-image:url(../layout/seiza.jpg);}
 #index-onderbanner{background-image:url(../layout/index_onderbanner4.jpg);}
 
-#nieuws-bovenbanner{background-image:url(../layout/nieuws-banner.jpg);}
-#nieuws-bovenbanner2{background-image:url(../layout/nieuws-banner2.jpg);}
+#nieuws-bovenbanner{background-image:url(../layout/nieuws-banner2.jpg);}
 
 #info-bovenbanner{background-image:url(../layout/info-banner2.jpg);}
 
@@ -302,6 +301,9 @@ ol li {
 }
 #kumite-onderbanner {background-image:url(../layout/hokusai_mishima.jpg);}
 
+#sponsors-bovenbanner {background-image:url(../layout/standaardbanner.jpg);}
+
+#links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
 #links-bovenbanner {background-image:url(../layout/links_banner.jpg);}
 
 /* ---------------- Opmaak onderkant pagina -------------- */
@@ -784,6 +786,8 @@ ol li {
 #BKKU {background-image:url(../layout/bkku_logo.jpg);}
 #positieve-club {background-image:url(../layout/positieve_club.jpg);}
 #AGV {background-image:url(../layout/agv.jpg);}
+
+#car-diagnostics-support {background-image:url(../layout/cds_logo.jpg);}
 
 
 .grey-rectangle {
