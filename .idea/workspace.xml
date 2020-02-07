@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/nieuws/kerstfeestje_2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dojo/kalender.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dojo/kalender.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/nieuws.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nieuws.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
