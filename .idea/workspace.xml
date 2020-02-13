@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b396630f-0473-48d5-861b-0f7428821046" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/nieuws/europees_kampioenschap_deurne_2020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/nieuws/belgisch_kampioenschap_shinkyokushin_averbode_2020.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dojo/fotoalbum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/nieuws.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nieuws.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,15 +54,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dries\Desktop\Karatesite\static\scripts" />
-      <recent name="C:\Users\Dries\Desktop\Karatesite\static\styles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documenten\Webdesign\Karatesite\templates\nieuws" />
       <recent name="D:\Documenten\Webdesign\Karatesite\templates" />
       <recent name="C:\Users\Dries\Desktop\Karatesite\templates\nieuws" />
       <recent name="C:\Users\Dries\Desktop\Karatesite\templates\nl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dries\Desktop\Karatesite\static\scripts" />
+      <recent name="C:\Users\Dries\Desktop\Karatesite\static\styles" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -337,9 +336,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580982999917" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580982979827">
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581602524023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580982979827" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581602524023" />
   </component>
 </project>
