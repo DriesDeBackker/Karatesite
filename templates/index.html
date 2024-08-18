@@ -150,6 +150,28 @@
                 <div class = "trainingsuren-uur">22:00</div>
             </div>
             <div class="trainingsuren-box" id="trainingsuren-vrijdag-box">
+                <div class = "trainingsuren-head">woensdag</div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-training trainingsuren-training-woensdag">
+                    <a href="{{url_for('kalender')}}">
+                        <div class = "trainingsuren-text-box">
+                            Gevorderden<br>19.00-20:00
+                        </div>
+                    </a>
+                </div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+                <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
+            </div>
+            <div class="trainingsuren-box" id="trainingsuren-vrijdag-box">
                 <div class = "trainingsuren-head">vrijdag</div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
@@ -162,14 +184,18 @@
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
                 <div class = "trainingsuren-training trainingsuren-training-vrijdag1">
-                    <div class = "trainingsuren-text-box">
-                        Beginners<br>19.30-20:30
-                    </div>
+                    <a href="{{url_for('kalender')}}">
+                        <div class = "trainingsuren-text-box">
+                            Beginners<br>19.30-20:30
+                        </div>
+                    </a>
                 </div>
                 <div class = "trainingsuren-training trainingsuren-training-vrijdag2">
-                    <div class = "trainingsuren-text-box">
-                        Gevorderden<br>20:30-22:00
-                    </div>
+                    <a href="{{url_for('kalender')}}">
+                        <div class = "trainingsuren-text-box">
+                            Gevorderden<br>20:30-22:00
+                        </div>
+                    </a>
                 </div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
             </div>
@@ -177,14 +203,18 @@
                 <div class = "trainingsuren-head">zaterdag</div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                 <div class = "trainingsuren-training trainingsuren-training-zaterdag1">
-                    <div class = "trainingsuren-text-box">
-                        Beginners<br>10:00-11:00
-                    </div>
+                    <a href="{{url_for('kalender')}}">
+                        <div class = "trainingsuren-text-box">
+                            Beginners<br>10:00-11:00
+                        </div>
+                    </a>
                 </div>
                 <div class = "trainingsuren-training trainingsuren-training-zaterdag2">
-                    <div class = "trainingsuren-text-box">
-                        Gevorderden<br>11:00-12:30
-                    </div>
+                    <a href="{{url_for('kalender')}}">
+                        <div class = "trainingsuren-text-box">
+                            Gevorderden<br>11:00-12:30
+                        </div>
+                    </a>
                 </div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
                 <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
@@ -214,10 +244,18 @@
                 <div class = "leraarp leraarp-index">Shihan Koen<br>Zesde Dan</div>
             </div>
             <div class = "leraar-item1">
-                <a href="{{url_for('info')}}#shihan-koen">
+                <a href="{{url_for('info')}}#senpai-jolein">
                     <div class = "leraar-bol" id="senpai-jolein"></div>
                 </a>
                 <div class = "leraarp leraarp-index">Senpai Jolein<br>Tweede Dan</div>
+            </div>
+        </div>
+        <div class = "rectangle-wrap centered-wrap post2">
+            <div class = "leraar-item1">
+                <a href="{{url_for('info')}}#senpai-kim">
+                    <div class = "leraar-bol" id="senpai-kim"></div>
+                </a>
+                <div class = "leraarp leraarp-index">Senpai Kim<br>Tweede Dan</div>
             </div>
             <div class = "leraar-item1">
                 <a href="{{url_for('info')}}#senpai-yorian">
@@ -226,26 +264,37 @@
                 <div class = "leraarp leraarp-index">Senpai Yorian<br>Tweede Dan</div>
             </div>
         </div>
+    </div>
+    <div class = "rectangle-wrap centered-wrap post2">
         <div class = "rectangle-wrap centered-wrap post2">
             <div class = "leraar-item1">
-                <a href="{{url_for('info')}}#senpai-anne">
+                <a href="{{url_for('info')}}#senpai-tim">
                     <div class = "leraar-bol" id="senpai-tim"></div>
                 </a>
-                <div class = "leraarp leraarp-index">Senpai Tim<br>Tweede Kyu</div>
+                <div class = "leraarp leraarp-index">Senpai Tim<br>Eerste Dan</div>
             </div>
             <div class = "leraar-item1">
                 <a href="{{url_for('info')}}#senpai-nina">
                     <div class = "leraar-bol" id="senpai-nina"></div>
                 </a>
-                <div class = "leraarp leraarp-index">Senpai Nina<br>Tweede Kyu</div>
+                <div class = "leraarp leraarp-index">Senpai Nina<br>Eerste Dan</div>
             </div>
+        </div>
+        <div class = "rectangle-wrap centered-wrap post2">
             <div class = "leraar-item1">
                 <a href="{{url_for('info')}}#senpai-felix">
                     <div class = "leraar-bol" id="senpai-felix"></div>
                 </a>
-                <div class = "leraarp leraarp-index">Senpai Felix<br>Vierde Kyu</div>
+                <div class = "leraarp leraarp-index">Senpai Felix<br>Tweede Kyu</div>
+            </div>
+            <div class = "leraar-item1">
+                <a href="{{url_for('info')}}#senpai-ben">
+                    <div class = "leraar-bol" id="senpai-ben"></div>
+                </a>
+                <div class = "leraarp leraarp-index">Senpai Ben<br>Derde Kyu</div>
             </div>
         </div>
+        
     </div>
 </div>
 <div class = "banner onderbanner post1" id="index-onderbanner"></div>

@@ -760,7 +760,6 @@ ol li {
     margin: 25px 15px 20px 15px;
     background-size:cover;
     opacity:0.6;
-    cursor: pointer;
     transition: all linear 0.18s;
 }
 
@@ -785,14 +784,12 @@ ol li {
 
 
 .grey-rectangle {
-    cursor: pointer;
     background-color: #3e3436;
     color: #E9E9E9;
 }
 .grey-rectangle:hover {background-color: #585858;}
 
 .white-rectangle {
-    cursor: pointer;
     background-color: #CCCCCC;
     color: #3e3436;
     transition: all linear 0.20s;
@@ -803,7 +800,6 @@ ol li {
 }
 
 .blue-rectangle {
-    cursor: pointer;
     background-color: deepskyblue;
     color: #ffffff;
     transition: all linear 0.20s;
@@ -814,7 +810,6 @@ ol li {
 }
 
 .transparant-rectangle1 {
-    cursor: pointer;
     border: solid 1px deepskyblue;
     transition: all linear 0.20s;
 }
@@ -823,7 +818,6 @@ ol li {
 }
 
 .transparant-rectangle2 {
-    cursor: pointer;
     border: solid 1px white;
     transition: all linear 0.20s;
 }
@@ -921,6 +915,12 @@ ol li {
     justify-content: center;
 }
 
+.trainingsuren-wrap2 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
 .trainingsuren-head {
     color: lavender;
     text-transform: uppercase;
@@ -929,7 +929,6 @@ ol li {
     font-family: "Lato", sans-serif;
     height:30px;
     line-height:30px;
-    cursor:pointer;
     transition:all linear 0.20s;
 }
 
@@ -939,20 +938,21 @@ ol li {
 
 .trainingsuren-box {
     background-color: deepskyblue;
-    margin: 10px;
+    margin: 8px;
 }
 
 .trainingsuren-text-box {
     position: relative;
+    color: black !important;
     top: 15%;
 }
 
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 23vw;
+    width: 10vw;
     max-width:180px;
-    min-width:180px;
+    min-width:140px;
 }
 
 .trainingsuren-uur {
@@ -962,7 +962,6 @@ ol li {
 	font-size:18px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px #919191;
-    cursor:pointer;
     transition: all linear 0.20s;
 }
 
@@ -972,16 +971,16 @@ ol li {
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 26vw;
+    width: 20vw;
     max-width:290px;
-    min-width:200px;
+    min-width:140px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 26vw;
+    width: 20vw;
     max-width:290px;
-    min-width:200px;
+    min-width:140px;
 }
 
 .trainingsuren-geen-training {
@@ -999,13 +998,19 @@ ol li {
     text-align: center;
     font-size: 14px;
     font-family: "Lato", sans-serif;
+    font-weight: bold;
     border-top: solid 1px;
     opacity: 0.8;
     transition: opacity 0.40s;
 }
 .trainingsuren-training:hover {
     opacity:1;
-    cursor:pointer;
+    cursor: pointer;
+}
+.trainingsuren-training-woensdag {
+    height: 30px;
+    background-color: forestgreen;
+    line-height:12px;
 }
 .trainingsuren-training-vrijdag1 {
     height: 30px;
