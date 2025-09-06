@@ -925,10 +925,10 @@ ol li {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:17px;
+	font-size:15px;
     font-family: "Lato", sans-serif;
-    height:30px;
-    line-height:30px;
+    height:45px;
+    line-height:45px;
     transition:all linear 0.20s;
 }
 
@@ -956,10 +956,10 @@ ol li {
 }
 
 .trainingsuren-uur {
-    height:30px;
+    height:45px;
     color: #222222;
     text-align: center;
-	font-size:18px;
+	font-size:15px;
     font-family: "Lato", sans-serif;
     border-top: solid 1px #919191;
     transition: all linear 0.20s;
@@ -967,6 +967,14 @@ ol li {
 
 .trainingsuren-uur:hover {
     background-color: #E9E9E9;
+}
+
+.trainingsuren-opsplitsing{
+    display: flex;
+}
+
+.trainingsuren-kolom {
+    width: 50%;
 }
 
 #trainingsuren-vrijdag-box {
@@ -988,15 +996,15 @@ ol li {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 30px}
-.trainingsuren-geen-training2 {height: 15px}
-.trainingsuren-geen-training3 {height: 30px}
-.trainingsuren-geen-training3 {height: 240px}
+.trainingsuren-geen-training1 {height: 45px}
+.trainingsuren-geen-training2 {height: 22.5px}
+.trainingsuren-geen-training3 {height: 67.5px}
+.trainingsuren-geen-training3 {height: 360px}
 
 .trainingsuren-training {
     color: #222222;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     border-top: solid 1px;
@@ -1008,27 +1016,37 @@ ol li {
     cursor: pointer;
 }
 .trainingsuren-training-woensdag {
-    height: 30px;
+    height: 45px;
     background-color: forestgreen;
     line-height:12px;
 }
+.trainingsuren-training-vrijdag50{
+    height: 45px;
+    background-color: #3385ff;
+    line-height:12px;
+}
 .trainingsuren-training-vrijdag1 {
-    height: 30px;
+    height: 45px;
     background-color: #ff3333;
     line-height:12px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 45px;
+    height: 67.5px;
     background-color: forestgreen;
     line-height:16px;
 }
 .trainingsuren-training-zaterdag1 {
-    height: 30px;
+    height: 45px;
     background-color: #ff3333;
     line-height:12px;
 }
+.trainingsuren-training-zaterdag50 {
+    height: 67.5px;
+    background-color: #3385ff;
+    line-height:16px;
+}
 .trainingsuren-training-zaterdag2 {
-    height: 45px;
+    height: 67.5px;
     background-color: forestgreen;
     line-height:16px;
 }

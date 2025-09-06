@@ -950,8 +950,8 @@ ol li {
     text-align: center;
 	font-size:18px;
     font-family: "Lato", sans-serif;
-    height:40px;
-    line-height:40px;
+    height:60px;
+    line-height:60px;
     transition:all linear 0.20s;
 }
 
@@ -980,7 +980,7 @@ ol li {
 }
 
 .trainingsuren-uur {
-    height:40px;
+    height:60px;
     color: #222222;
     text-align: center;
 	font-size:18px;
@@ -1012,10 +1012,10 @@ ol li {
     border-top: solid 1px;
 }
 
-.trainingsuren-geen-training1 {height: 40px}
-.trainingsuren-geen-training2 {height: 20px}
-.trainingsuren-geen-training3 {height: 40px}
-.trainingsuren-geen-training3 {height: 320px}
+.trainingsuren-geen-training1 {height: 60px}
+.trainingsuren-geen-training2 {height: 30px}
+.trainingsuren-geen-training3 {height: 60px}
+.trainingsuren-geen-training3 {height: 480px}
 
 .trainingsuren-training {
     color: #222222;
@@ -1031,28 +1031,49 @@ ol li {
     opacity:1;
     cursor: pointer;
 }
+
+.trainingsuren-opsplitsing{
+    display: flex;
+}
+
+.trainingsuren-kolom {
+    width: 50%;
+}
+
 .trainingsuren-training-woensdag {
-    height: 40px;
+    height: 60px;
     background-color: forestgreen;
     line-height:14px;
 }
+
+.trainingsuren-training-vrijdag50{
+    height: 60px;
+    background-color: #3385ff;
+    line-height:14px;
+}
+
 .trainingsuren-training-vrijdag1 {
-    height: 40px;
+    height: 60px;
     background-color: #ff3333;
     line-height:14px;
 }
 .trainingsuren-training-vrijdag2 {
-    height: 60px;
+    height: 90px;
     background-color: forestgreen;
     line-height:18px;
 }
 .trainingsuren-training-zaterdag1 {
-    height: 40px;
+    height: 60px;
     background-color: #ff3333;
     line-height:14px;
 }
+.trainingsuren-training-zaterdag50 {
+    height: 90px;
+    background-color: #3385ff;
+    line-height:18px;
+}
 .trainingsuren-training-zaterdag2 {
-    height: 60px;
+    height: 90px;
     background-color: forestgreen;
     line-height:18px;
 }

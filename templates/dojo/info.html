@@ -226,8 +226,8 @@
             Onze karateclub traint op de volgende tijdstippen:
         </div>
         <br />
-        <div>
-            <div class="trainingsuren-wrap2 post2">
+        <div>    
+            <div class="trainingsuren-wrap post2">
                 <div class="trainingsuren-box" id="trainingsuren-uren-box">
                     <div class = "trainingsuren-uur"><br></div>
                     <div class = "trainingsuren-uur">09:00</div>
@@ -257,9 +257,9 @@
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                     <div class = "trainingsuren-training trainingsuren-training-woensdag">
-                        <a href="{{url_for('kalender')}}">
+                        <a>
                             <div class = "trainingsuren-text-box">
-                                Gevorderden<br>19.30-20:30
+                                Weerbaarheid<br>19.30-20:30<br>Diepvenneke
                             </div>
                         </a>
                     </div>
@@ -277,39 +277,66 @@
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
-                    <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
-                    <div class = "trainingsuren-training trainingsuren-training-vrijdag1">
-                        <a href="{{url_for('kalender')}}">
-                            <div class = "trainingsuren-text-box">
-                                Beginners<br>19.30-20:30
+                    <div class = "trainingsuren-opsplitsing">
+                        <div class = "trainingsuren-kolom">
+                            <div class = "trainingsuren-training trainingsuren-training-vrijdag50">
+                                <a>
+                                    <div class = "trainingsuren-text-box">
+                                        50+<br>19.00-20:00<br>Diepvenneke
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
+                        </div>
+                        <div class = "trainingsuren-kolom">
+                            <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
+                            <div class = "trainingsuren-training trainingsuren-training-vrijdag1">
+                                <a>
+                                    <div class = "trainingsuren-text-box">
+                                        Kinderen<br>19.30-20:30<br>School
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class = "trainingsuren-training trainingsuren-training-vrijdag2">
-                        <a href="{{url_for('kalender')}}">
-                            <div class = "trainingsuren-text-box">
-                                Gevorderden<br>20:30-22:00
-                            </div>
-                        </a>
-                    </div>
+                            <a>
+                                <div class = "trainingsuren-text-box">
+                                    Volwassenen<br>20:30-22:00<br>School
+                                </div>
+                            </a>
+                        </div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                 </div>
                 <div class="trainingsuren-box" id="trainingsuren-zaterdag-box">
                     <div class = "trainingsuren-head">zaterdag</div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
                     <div class = "trainingsuren-training trainingsuren-training-zaterdag1">
-                        <a href="{{url_for('kalender')}}">
+                        <a>
                             <div class = "trainingsuren-text-box">
-                                Beginners<br>10:00-11:00
+                                Kinderen<br>10:00-11:00<br>Diepvenneke
                             </div>
                         </a>
                     </div>
-                    <div class = "trainingsuren-training trainingsuren-training-zaterdag2">
-                        <a href="{{url_for('kalender')}}">
-                            <div class = "trainingsuren-text-box">
-                                Gevorderden<br>11:00-12:30
+                    <div class = "trainingsuren-opsplitsing">
+                        <div class = "trainingsuren-kolom">
+                            <div class = "trainingsuren-training trainingsuren-training-zaterdag50">
+                                <a>
+                                    <div class = "trainingsuren-text-box">
+                                        50+<br>11:00-12:30<br>Diepvenneke
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
+                        <div class = "trainingsuren-kolom">
+                            <div class = "trainingsuren-training trainingsuren-training-zaterdag2">
+                                <a>
+                                    <div class = "trainingsuren-text-box">
+                                        Volwassenen<br>11:00-12:30<br>Diepvenneke
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training2"></div>
                     <div class = "trainingsuren-geen-training trainingsuren-geen-training1"></div>
@@ -325,41 +352,6 @@
             </div>
         </div>
         <br />
-        <div class = "p post2">
-            Het eerste uur op vrijdag & zaterdag is steeds gereserveerd voor de beginners. Daarna of op woensdag is het aan de gevorderden.
-            Afhankelijk van het soort training zijn deze groepen anders.
-            Voor de gevechtstrainingen beschouwen we iedereen onder de twaalf jaar als een beginner.
-            Bij de technische trainingen (Kihon en Kata) zijn de beginners de kyu-graden tot en met achtste kyu (blauwe band zonder streep).
-            Hogere banden kunnen meedoen met de gevorderden, ook als ze nog geen twaalf jaar zijn.
-            Het is dus mogelijk dat je niet steeds in dezelfde groep of op hetzelfde uur wordt ingedeeld.
-            We maken deze opdeling om een hogere kwaliteit van onze lessen te kunnen garanderen.
-            Kinderen moet minstens zes jaar oud zijn en in het eerste leerjaar zitten om aan de trainingen te mogen deelnemen.
-        </div>
-        <br />
-        <div class = "rectangle-wrap centered-wrap">
-            <a href="{{url_for('kalender')}}">
-                <div class="rectangle blue-rectangle post2" >
-                    <div class="recth">Kumite<br>Gevechtstraining</div>
-                    <div class = "rectbreak"><br><br></div>
-                    <div class="recth2">
-                        Beginners: 6-12 jaar.
-                        <br>
-                        Gevorderden: +12 jaar.
-                    </div>
-                </div>
-            </a>
-            <a href="{{url_for('kalender')}}">
-                <div class="rectangle blue-rectangle post2">
-                    <div class="recth">Kihon/Kata<br>Technische Training</div>
-                    <div class = "rectbreak"><br><br></div>
-                    <div class="recth2">
-                        Beginners: tot en met 8e kyu
-                        <br>
-                        Gevorderden: vanaf 7e kyu
-                    </div>
-                </div>
-            </a>
-        </div>
      </div>
     </div>
 </div>
@@ -369,7 +361,6 @@
         <br>
         <div class = "p post2">
             We trainen drie keer in de week. Onze trainingen gaan afwisselend door in de mattenzaal van Sportcentrum Diepvenneke en in de turnzaal van de Gemeentelijke Basisschool Centrum.
-            Op woensdag & vrijdag gebruiken we de turnzaal en op zaterdag de mattenzaal.
             <br><br>
         </div>
     </div>
