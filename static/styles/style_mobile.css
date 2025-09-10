@@ -683,12 +683,17 @@ ol li {
 }
 
 .narrow-content-box {
-    padding: 45px 50px 35px;
+    padding: 45px px 35px;
     flex:1;
 }
 
 .content-box {
     padding: 45px 40px 35px;
+    flex:1;
+}
+
+.minimal-content-box {
+    padding: 45px 2px;
     flex:1;
 }
 
@@ -925,7 +930,7 @@ ol li {
     color: lavender;
     text-transform: uppercase;
     text-align: center;
-	font-size:13px;
+	font-size:calc(7px + 1vw);
     font-family: "Lato", sans-serif;
     height:45px;
     line-height:30px;
@@ -933,11 +938,11 @@ ol li {
 
 .trainingsuren-box {
     background-color: #0099FF;
-    margin: 10px 0.8vw;
+    margin: 1px 0.4vw;
 }
 
 .trainingsuren-text-box {
-    font-size:7px;
+    font-size:calc(4px + 1vw);
     color: black !important;
     position: relative;
     top: 15%;
@@ -946,7 +951,7 @@ ol li {
 #trainingsuren-uren-box {
     order:1;
     background-color: #CCCCCC;
-    width: 14vw;
+    padding:0.2vw;
     max-width:180px;
     min-width:18px;
 }
@@ -966,19 +971,18 @@ ol li {
 
 .trainingsuren-kolom {
     width: 50%;
-    font-size:8px !important;
 }
 
 #trainingsuren-vrijdag-box {
     order:2;
-    width: 19vw;
+    width: 25vw;
     max-width:250px;
     min-width:71px;
 }
 
 #trainingsuren-zaterdag-box {
     order:3;
-    width: 19vw;
+    width: 25vw;
     max-width:250px;
     min-width:71px;
 }
@@ -996,7 +1000,7 @@ ol li {
 .trainingsuren-training {
     color: #222222;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     border-top: solid 1px;
