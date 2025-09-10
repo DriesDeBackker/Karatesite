@@ -706,6 +706,11 @@ ol li {
     flex:1;
 }
 
+.minimal-content-box {
+    padding: 75px 8%;
+    flex:1;
+}
+
 .first-content-box {background-color: #E9E9E9;}
 .second-content-box {background-color: #585858;}
 .third-content-box {background-color: deepskyblue;}
